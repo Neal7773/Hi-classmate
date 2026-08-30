@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#7656ff">
+  <meta name="description" content="Take this quick quiz and discover what type of classmate you are.">
+  <link rel="canonical" href="https://hiclassmate.com/quiz/classmate/">
+  <meta property="og:title" content="What Type of Classmate Are You?">
+  <meta property="og:description" content="Answer 8 quick questions and reveal your classroom personality.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hiclassmate.com/quiz/classmate/">
+  <meta property="og:site_name" content="Hi Classmate">
+  <meta property="og:image" content="https://hiclassmate.com/og-classmate-quiz.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="What Type of Classmate Are You? Take the 8-question quiz.">
+  <title>What Type of Classmate Are You?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Hi Classmate home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Barkada Break</span>
+      </a>
+      <span class="header-pill">QUIZ</span>
+    </header>
+
+    <main>
+      <section id="start-screen" class="screen active" aria-labelledby="quiz-title">
+        <div class="hero-card">
+          <div class="sticker sticker-one" aria-hidden="true">✦</div>
+          <div class="sticker sticker-two" aria-hidden="true">✎</div>
+          <p class="eyebrow">8 questions · less than 2 minutes</p>
+          <div class="hero-emoji" aria-hidden="true">🎒</div>
+          <h1 id="quiz-title">What Type of<br><span>Classmate</span> Are You?</h1>
+          <p class="hero-copy">Every classroom has a main character. Find out which one you are—and send the result to your barkada.</p>
+          <button id="start-button" class="primary-button" type="button">Start the quiz <span aria-hidden="true">→</span></button>
+          <p class="privacy-note">No sign-up. Just good vibes.</p>
+        </div>
+      </section>
+
+      <aside class="ad-slot" aria-label="Advertisement placeholder">
+        <span>ADVERTISEMENT</span>
+        <strong>Ad space</strong>
+      </aside>
+
+      <section id="question-screen" class="screen" aria-live="polite" aria-labelledby="question-text">
+        <div class="quiz-topline">
+          <button id="back-button" class="icon-button" type="button" aria-label="Go to previous question">←</button>
+          <span id="progress-label">Question 1 of 8</span>
+          <span class="progress-percent" id="progress-percent">13%</span>
+        </div>
+        <div class="progress-track" role="progressbar" aria-valuemin="1" aria-valuemax="8" aria-valuenow="1">
+          <span id="progress-bar"></span>
+        </div>
+        <article class="question-card">
+          <div id="question-icon" class="question-icon" aria-hidden="true">⏰</div>
+          <p id="question-kicker" class="question-kicker">Morning check</p>
+          <h2 id="question-text"></h2>
+          <div id="answers" class="answers"></div>
+        </article>
+      </section>
+
+      <section id="result-screen" class="screen" aria-live="polite" aria-labelledby="result-title">
+        <article class="result-card">
+          <p class="result-overline">YOUR CLASSROOM TYPE IS</p>
+          <div id="result-avatar" class="result-avatar" aria-hidden="true"></div>
+          <h2 id="result-title"></h2>
+          <p id="result-tagline" class="result-tagline"></p>
+          <div class="result-note">
+            <span aria-hidden="true">“</span>
+            <p id="result-description"></p>
+          </div>
+          <div id="result-traits" class="trait-list" aria-label="Your top traits"></div>
+          <button id="share-button" class="facebook-button" type="button">
+            <span class="facebook-icon" aria-hidden="true">f</span>
+            Share on Facebook
+          </button>
+          <button id="restart-button" class="secondary-button" type="button">↻ Take it again</button>
+          <p id="share-status" class="share-status" role="status"></p>
+        </article>
+        <p class="result-prompt">Tag the classmate who matches your result 👀</p>
+      </section>
+
+      <aside class="ad-slot ad-slot-bottom" aria-label="Advertisement placeholder">
+        <span>ADVERTISEMENT</span>
+        <strong>Ad space</strong>
+      </aside>
+    </main>
+
+    <footer>Made for every barkada, seatmate, and classroom legend.</footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

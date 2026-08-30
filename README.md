@@ -45,4 +45,4 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `og-classmate-quiz.jpg` — 1200 × 630 Facebook sharing image
 - `games/reaction-speed/` — five-round reaction game, results, information, and its social sharing image
 - `games/memory-challenge/` — six-round visual memory game, results, learning tips, and its social sharing image
-- `games/guess-the-photo/` — eight-round zoomed-object game, reveal feedback, visual tips, and its social sharing image
+- `games/would-you-rather/` — ten classroom choices, four personality results, and its social sharing image

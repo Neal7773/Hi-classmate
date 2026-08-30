@@ -1,6 +1,6 @@
 # What Type of Classmate Are You?
 
-A mobile-first entertainment hub with a personality quiz and reaction-speed game. The homepage lives at `/`, the quiz at `/quiz/classmate/`, and the game at `/games/reaction-speed/`.
+A mobile-first entertainment hub with a personality quiz and quick classroom games. The homepage lives at `/`, the quiz at `/quiz/classmate/`, and games live under `/games/`.
 
 Ad placeholders are hidden by default. After ad approval, add the `ads-enabled` class to the `<body>` element in `index.html` to display the reserved ad positions.
 
@@ -44,3 +44,4 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `app.js` — quiz data, scoring, navigation, sharing, and restart logic
 - `og-classmate-quiz.jpg` — 1200 × 630 Facebook sharing image
 - `games/reaction-speed/` — five-round reaction game, results, information, and its social sharing image
+- `games/memory-challenge/` — six-round visual memory game, results, learning tips, and its social sharing image

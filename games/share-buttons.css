@@ -1,0 +1,58 @@
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.quick-share {
+  min-height: 36px;
+  padding: 0 13px;
+  border: 1.5px solid var(--ink);
+  border-radius: 11px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.start-actions,
+.action-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.facebook-game-button {
+  min-height: 46px;
+  padding: 0 18px;
+  border: 2px solid var(--ink);
+  border-radius: 13px;
+  background: #1877f2;
+  color: #fff;
+  font: inherit;
+  font-weight: 900;
+  box-shadow: 4px 4px 0 var(--ink);
+  cursor: pointer;
+}
+
+.facebook-game-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+@media (max-width: 650px) {
+  .start-actions,
+  .action-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .start-actions button,
+  .action-row button {
+    width: min(300px, 100%);
+  }
+}

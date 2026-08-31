@@ -45,4 +45,5 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `og-classmate-quiz.jpg` — 1200 × 630 Facebook sharing image
 - `games/reaction-speed/` — five-round reaction game, results, information, and its social sharing image
 - `games/memory-challenge/` — six-round visual memory game, results, learning tips, and its social sharing image
-- `games/would-you-rather/` — ten classroom choices, four personality results, and its social sharing image
+- `games/would-you-rather/` — ten classroom choices, eight personality results, and result-specific sharing cards
+- `games/how-pinoy-are-you/` — ten Filipino everyday choices, eight Pinoy character results, and result-specific sharing cards

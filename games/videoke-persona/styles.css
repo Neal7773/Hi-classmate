@@ -1,0 +1,11 @@
+@import url("../would-you-rather/styles.css");
+
+:root{--purple:#7b2cff;--yellow:#ffe14f;--pink:#ff3f91}
+.videoke-icons{display:flex;gap:10px}
+.videoke-icons span{display:grid;place-items:center;width:68px;height:68px;border:2px solid var(--ink);border-radius:20px;background:#fff;box-shadow:4px 4px 0 var(--ink);font-size:34px}
+.videoke-icons span:nth-child(1){background:#ffbbdf}.videoke-icons span:nth-child(2){background:#fff19a}.videoke-icons span:nth-child(3){background:#bcecff}
+.start-actions{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
+.facebook-game-button{min-height:46px;padding:0 18px;border:2px solid var(--ink);border-radius:13px;background:#1877f2;color:#fff;font:inherit;font-weight:900;box-shadow:4px 4px 0 var(--ink);cursor:pointer}
+.facebook-game-button:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+.choice-a{background:linear-gradient(145deg,#ead8ff,#b27aff)}.choice-b{background:linear-gradient(145deg,#ffd3e6,#ff6ba9)}
+@media(max-width:650px){.videoke-icons span{width:55px;height:55px;font-size:28px}.start-actions{flex-direction:column;width:100%}.start-actions button{width:min(290px,100%)}}

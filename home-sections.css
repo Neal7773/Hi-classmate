@@ -1,1 +1,23 @@
-.hero-game-art{display:block;align-self:center;overflow:hidden;border:3px solid var(--ink);border-radius:28px;background:#fff;box-shadow:9px 9px 0 var(--ink);transform:rotate(1.5deg);transition:transform .2s ease}.hero-game-art:hover{transform:rotate(0) translateY(-4px)}.hero-game-art img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}.trending-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.trend-card{display:flex;min-width:0;overflow:hidden;flex-direction:column;color:var(--ink);text-decoration:none;border:2px solid var(--ink);border-radius:24px;background:#fff;box-shadow:6px 6px 0 var(--ink);transition:transform .18s ease}.trend-card:hover{transform:translateY(-5px)}.trend-card img{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-bottom:2px solid var(--ink)}.trend-card .card-body{display:flex;flex:1;flex-direction:column;padding:20px}.trend-card h3{margin:10px 0 8px;font-size:clamp(1.25rem,2vw,1.7rem);line-height:1.05}.trend-card p{margin:0 0 18px;line-height:1.55}.trend-card strong{margin-top:auto;color:var(--purple)}.category-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.category-grid>div{padding:25px;border:2px solid var(--ink);border-radius:24px;background:#fff;box-shadow:6px 6px 0 var(--ink)}.category-grid>div>span{font-size:36px}.category-grid h3{margin:10px 0 5px;font-size:1.4rem}.category-grid p{margin:0 0 16px;line-height:1.5}.category-grid nav{display:flex;flex-wrap:wrap;gap:9px}.category-grid a{padding:8px 12px;color:var(--ink);text-decoration:none;border:2px solid var(--ink);border-radius:999px;background:var(--yellow);font-size:.84rem;font-weight:800}.category-grid a:hover{background:var(--purple);color:#fff}.home-about{max-width:760px;margin:20px auto 76px;padding:34px;text-align:center;border-radius:28px;background:#f1edff}.home-about h2{margin:5px 0 12px;font-size:clamp(1.8rem,4vw,2.7rem)}.home-about>p:last-child{margin:0;line-height:1.7}@media(max-width:760px){.hero-game-art{margin-top:12px;box-shadow:6px 6px 0 var(--ink)}.trending-grid,.category-grid{grid-template-columns:1fr}.trend-card .card-body{padding:18px}.home-about{margin:10px 18px 54px;padding:26px 20px}}
+.hero-game-art{display:block;align-self:center;overflow:hidden;border:3px solid var(--ink);border-radius:28px;background:#fff;box-shadow:9px 9px 0 var(--ink);transform:rotate(1.5deg);transition:transform .2s ease}
+.hero-game-art:hover{transform:rotate(0) translateY(-4px)}
+.hero-game-art img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover}
+.trending-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.trend-card{display:flex;min-width:0;overflow:hidden;flex-direction:column;color:var(--ink);text-decoration:none;border:2px solid var(--ink);border-radius:24px;background:#fff;box-shadow:6px 6px 0 var(--ink);transition:transform .18s ease}
+.trend-card:hover{transform:translateY(-5px)}
+.trend-card img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-bottom:2px solid var(--ink)}
+.trend-card .card-body{display:flex;flex:1;flex-direction:column;padding:20px}
+.trend-card h3{margin:10px 0 8px;font-size:clamp(1.25rem,2vw,1.7rem);line-height:1.05}
+.trend-card p{margin:0 0 18px;line-height:1.55}
+.trend-card strong{margin-top:auto;color:var(--purple)}
+.category-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.category-grid>div{padding:25px;border:2px solid var(--ink);border-radius:24px;background:#fff;box-shadow:6px 6px 0 var(--ink)}
+.category-grid>div>span{font-size:36px}
+.category-grid h3{margin:10px 0 5px;font-size:1.4rem}
+.category-grid p{margin:0 0 16px;line-height:1.5}
+.category-grid nav{display:flex;flex-wrap:wrap;gap:9px}
+.category-grid a{padding:8px 12px;color:var(--ink);text-decoration:none;border:2px solid var(--ink);border-radius:999px;background:var(--yellow);font-size:.84rem;font-weight:800}
+.category-grid a:hover{background:var(--purple);color:#fff}
+.home-about{max-width:760px;margin:20px auto 76px;padding:34px;text-align:center;border-radius:28px;background:#f1edff}
+.home-about h2{margin:5px 0 12px;font-size:clamp(1.8rem,4vw,2.7rem)}
+.home-about>p:last-child{margin:0;line-height:1.7}
+@media(max-width:760px){.hero-game-art{margin-top:12px;box-shadow:6px 6px 0 var(--ink)}.trending-grid,.category-grid{grid-template-columns:1fr}.trend-card .card-body{padding:18px}.home-about{margin:10px 18px 54px;padding:26px 20px}}

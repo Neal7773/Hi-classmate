@@ -22,7 +22,6 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [ ] Follow `SEO-PUBLISHING-CHECKLIST.md` for every new game and update Homepage New Games, category links, homepage ItemList data, and `sitemap.xml` in the same change.
 - [ ] Confirm Google Search Console ownership/indexing and request indexing for main game pages where needed.
 - [ ] Use GA4 completed-play and share data to replace manually curated Trending order once enough reliable data exists.
-- [ ] Refresh `README.md` so its catalog and operational notes match the current site.
 
 ## P2 — Quality and maintainability
 

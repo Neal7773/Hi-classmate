@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-03  
-Repository state reviewed at commit: `81f6d2b` on `main`
+Functional baseline before the current change: `81f6d2b` on `main`; state-document commits are local pending remote publication.
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Repository state reviewed at commit: `81f6d2b` on `main`
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, seven main games, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, eight main games, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -31,6 +31,7 @@ Repository state reviewed at commit: `81f6d2b` on `main`
 | `/games/how-pinoy-are-you/` | Filipino personality quiz | 10 two-choice questions, 8 Pinoy results and comparisons, game sharing, result-specific sharing routes/cards, restart. |
 | `/games/videoke-persona/` | Filipino personality quiz | 8 two-choice questions, 8 videoke personas, game/result sharing, restart, GA4 funnel events. |
 | `/games/barkada-role/` | Filipino personality quiz | 8 two-choice questions, 8 barkada roles, game/result sharing, restart, GA4 funnel events. |
+| `/games/pinoy-merienda/` | Filipino personality quiz | 8 two-choice questions, 8 merienda personalities, game/result sharing, restart, standardized GA4 funnel events. |
 
 ## Important files
 
@@ -48,22 +49,24 @@ Repository state reviewed at commit: `81f6d2b` on `main`
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- Would You Rather, How Pinoy, Videoke Persona, and Barkada Role have 32 static result pages in total.
-- All 32 result pages currently have `noindex,follow` and a canonical link to their main game.
+- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, and Pinoy Merienda have 40 static result pages in total.
+- All 40 result pages currently have `noindex,follow` and a canonical link to their main game.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
 
 ## Analytics state
 
 - Measurement ID: `G-77QM94C66P`.
-- Loader present on homepage, Videoke Persona, and Barkada Role.
+- Loader present on homepage, Videoke Persona, Barkada Role, and Pinoy Merienda.
 - Videoke and Barkada track start, answers, completion, result view, Facebook share clicks, and retry; Videoke also tracks return/home navigation.
+- Pinoy Merienda uses the standardized `game_start`, `question_answer`, `game_complete`, `result_view`, `share_game`, `share_result`, and `replay` events.
 - Classmate, Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
 
 ## Verification status
 
-- 2026-09-03: all 9 JavaScript files passed syntax checking.
-- 2026-09-03: all 32 static result pages passed the `noindex,follow` and canonical metadata check.
+- 2026-09-03: all 10 JavaScript files passed syntax checking.
+- 2026-09-03: all 40 static result pages passed the `noindex,follow` and canonical metadata check.
+- 2026-09-03: Pinoy Merienda's 14 representative local routes/assets returned HTTP 200, its JavaScript passed syntax checking, all 8 result routes passed metadata checks, and its required game/share/analytics metadata was present. Its optimized social image is 1200 × 630.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.
@@ -73,6 +76,6 @@ Repository state reviewed at commit: `81f6d2b` on `main`
 - GA4 coverage is incomplete across the game catalog, and event names do not yet fully match the newer checklist vocabulary.
 - The original Classmate quiz does not offer pre-game sharing and does not have result-specific static share pages.
 - Videoke and Barkada result pages do not yet have unique result-specific images.
-- README describes only the earlier project state and says the original quiz has six results; the result count is accurate, but its catalog/file list is incomplete.
+- README's game catalog is updated through Pinoy Merienda; its introductory focus remains the original Classmate quiz.
 - Trending is editorially curated because sufficient comparative GA4 data has not been confirmed.
 - Live Search Console indexing status, AdSense approval status, live GA4 receipt, and Facebook cache state are external and were not confirmed from repository files.

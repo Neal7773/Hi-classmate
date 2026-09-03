@@ -1,0 +1,14 @@
+@import url("../would-you-rather/styles.css");
+:root{--purple:#f05a3c;--yellow:#ffd33d;--pink:#9a45d6}
+body{background:radial-gradient(circle at 8% 7%,rgba(255,211,61,.38),transparent 25rem),radial-gradient(circle at 94% 24%,rgba(43,199,190,.25),transparent 28rem),#fff5e6}
+.snack-icons{display:flex;gap:10px}
+.snack-icons span{display:grid;place-items:center;width:68px;height:68px;border:2px solid var(--ink);border-radius:20px;background:#fff;box-shadow:4px 4px 0 var(--ink);font-size:34px}
+.snack-icons span:nth-child(1){background:#b8eee9}.snack-icons span:nth-child(2){background:#ffd56f}.snack-icons span:nth-child(3){background:#e0c3ff}
+.start-actions{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
+.facebook-game-button{min-height:46px;padding:0 18px;border:2px solid var(--ink);border-radius:13px;background:#1877f2;color:#fff;font:inherit;font-weight:900;box-shadow:4px 4px 0 var(--ink);cursor:pointer}
+.choice-a{background:linear-gradient(145deg,#ffe8a6,#ffc73a)}.choice-b{background:linear-gradient(145deg,#d9c2ff,#ad6ae3)}
+.tag-prompt{margin:5px 0 10px!important;padding:7px 12px;border-radius:11px;background:#c8f3ee;color:var(--ink)!important;font-size:11px!important;font-weight:900}
+.info{width:min(920px,calc(100% - 30px));display:grid;grid-template-columns:minmax(250px,.85fr) 1.15fr;gap:28px;align-items:center}
+.info img{display:block;width:100%;height:auto;border:2px solid var(--ink);border-radius:18px;box-shadow:5px 5px 0 var(--ink)}
+.info nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.info nav a{color:var(--purple);font-size:12px;font-weight:900;text-decoration:none}
+@media(max-width:650px){.snack-icons span{width:55px;height:55px;font-size:28px}.start-actions{flex-direction:column;width:100%}.start-actions button{width:min(290px,100%)}.info{grid-template-columns:1fr}.info img{max-width:420px;margin:auto}}

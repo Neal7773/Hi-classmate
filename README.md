@@ -47,3 +47,6 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/memory-challenge/` — six-round visual memory game, results, learning tips, and its social sharing image
 - `games/would-you-rather/` — ten classroom choices, eight personality results, and result-specific sharing cards
 - `games/how-pinoy-are-you/` — ten Filipino everyday choices, eight Pinoy character results, and result-specific sharing cards
+- `games/videoke-persona/` — eight Filipino videoke choices and eight shareable singing personas
+- `games/barkada-role/` — eight barkada situations and eight funny friend-group roles
+- `games/pinoy-merienda/` — eight Filipino snack choices and eight merienda personalities

@@ -21,6 +21,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-02 | Organize the homepage as Featured, Trending, New Games, and category/mood discovery. | Implemented | Featured is Barkada Role; Trending is manually curated pending enough GA4 data. |
 | 2026-09-02 | Treat SEO as part of every new-game publishing workflow. Result variants use `noindex,follow` and canonicalize to the main game. | Implemented | Detailed rules are in `SEO-PUBLISHING-CHECKLIST.md`; all 32 current static result pages follow this policy. |
 | 2026-09-03 | Use this Work thread for implementation/testing and the four root state files as the official Chat↔Work handoff record. | Implemented | State system initialized; future work must synchronize it after changes. |
+| 2026-09-03 | After every completed implementation, synchronize the state files and automatically finish with a paste-ready `[CHAT_HANDOFF]`. | Implemented | The handoff must cover actual changes, tests, current state, remaining TODO, and next Chat decisions. |
 
 ## Change rule
 

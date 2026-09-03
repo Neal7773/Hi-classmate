@@ -44,3 +44,13 @@ The production site is `https://hiclassmate.com/`.
 ## Documentation workflow
 
 Before implementation, read this file, `DECISIONS.md`, `CURRENT_STATE.md`, `TODO.md`, and the relevant code. After implementation and testing, update the state files so they match reality. Update this specification only when a long-term rule actually changes.
+
+Every completed implementation response must end with a self-contained `[CHAT_HANDOFF]` after the state files have been synchronized. The handoff must be ready to paste into the project's existing Chat thread and must include:
+
+- what was actually implemented;
+- tests performed and their results;
+- the resulting current state;
+- remaining TODO items; and
+- matters Chat should discuss or decide next.
+
+Do not describe planned work as implemented, and explicitly distinguish untested or externally unverified items. This handoff is required even when the user does not ask for it separately.

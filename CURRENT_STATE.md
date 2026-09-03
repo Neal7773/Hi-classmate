@@ -10,6 +10,7 @@ Repository state reviewed at commit: `81f6d2b` on `main`
 - Static site with no dependency installation or build step.
 - `wrangler.jsonc` publishes the project root as static assets.
 - Git working tree was clean before this documentation initialization.
+- Work completion protocol now requires synchronized state files followed by a self-contained `[CHAT_HANDOFF]` for the existing Chat thread.
 
 ## Implemented site areas
 

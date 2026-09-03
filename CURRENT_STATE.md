@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-03  
-Functional baseline before the current change: `81f6d2b` on `main`; state-document commits are local pending remote publication.
+Latest implemented release: `9c58b72` on `main`; state documents and game source are published to the GitHub remote.
 
 ## Production and architecture
 
@@ -67,6 +67,7 @@ Functional baseline before the current change: `81f6d2b` on `main`; state-docume
 - 2026-09-03: all 10 JavaScript files passed syntax checking.
 - 2026-09-03: all 40 static result pages passed the `noindex,follow` and canonical metadata check.
 - 2026-09-03: Pinoy Merienda's 14 representative local routes/assets returned HTTP 200, its JavaScript passed syntax checking, all 8 result routes passed metadata checks, and its required game/share/analytics metadata was present. Its optimized social image is 1200 × 630.
+- 2026-09-03: production verification returned HTTP 200 for `/games/pinoy-merienda/`; the live page contains the correct title and GA4 loader, and the live homepage links to the new game.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

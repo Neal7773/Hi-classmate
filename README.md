@@ -51,3 +51,4 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/barkada-role/` — eight barkada situations and eight funny friend-group roles
 - `games/pinoy-merienda/` — eight Filipino snack choices and eight merienda personalities
 - `games/pinoy-emoji-challenge/` — ten Filipino emoji clues, timed scoring, and five shareable ranks
+- `games/hidden-love-language/` — eight Filipino kilig choices and eight playful hidden-care styles

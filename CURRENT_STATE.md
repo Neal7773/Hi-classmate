@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-04  
-Latest implemented release: `e3f2320` on `main`; Pinoy Emoji Challenge and its synchronized state documentation are published to the GitHub remote.
+Latest implemented release: working tree includes the completed Hidden Love Language game; production deployment is pending the release push.
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest implemented release: `e3f2320` on `main`; Pinoy Emoji Challenge and its s
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, nine main games, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, ten main games, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -33,6 +33,7 @@ Latest implemented release: `e3f2320` on `main`; Pinoy Emoji Challenge and its s
 | `/games/barkada-role/` | Filipino personality quiz | 8 two-choice questions, 8 barkada roles, game/result sharing, restart, GA4 funnel events. |
 | `/games/pinoy-merienda/` | Filipino personality quiz | 8 two-choice questions, 8 merienda personalities, game/result sharing, restart, standardized GA4 funnel events. |
 | `/games/pinoy-emoji-challenge/` | Filipino knowledge game | 10 three-choice emoji clues, accuracy and completion time, 5 result ranks with playful top-percent comparisons, game/result sharing, restart, standardized GA4 events. |
+| `/games/hidden-love-language/` | Filipino relationship-style personality quiz | 8 two-choice kilig/chat/date situations, 8 playful caring styles, explicit entertainment disclaimer, game/result sharing, restart, standardized GA4 events. |
 
 ## Important files
 
@@ -50,18 +51,19 @@ Latest implemented release: `e3f2320` on `main`; Pinoy Emoji Challenge and its s
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, Pinoy Merienda, and Pinoy Emoji Challenge have 45 static result pages in total.
-- All 45 result pages currently have `noindex,follow` and a canonical link to their main game.
+- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, Pinoy Merienda, Pinoy Emoji Challenge, and Hidden Love Language have 53 static result pages in total.
+- All 53 result pages currently have `noindex,follow` and a canonical link to their main game.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
 
 ## Analytics state
 
 - Measurement ID: `G-77QM94C66P`.
-- Loader present on homepage, Videoke Persona, Barkada Role, Pinoy Merienda, and Pinoy Emoji Challenge.
+- Loader present on homepage, Videoke Persona, Barkada Role, Pinoy Merienda, Pinoy Emoji Challenge, and Hidden Love Language.
 - Videoke and Barkada track start, answers, completion, result view, Facebook share clicks, and retry; Videoke also tracks return/home navigation.
 - Pinoy Merienda uses the standardized `game_start`, `question_answer`, `game_complete`, `result_view`, `share_game`, `share_result`, and `replay` events.
 - Pinoy Emoji Challenge uses the same standardized events and additionally records correctness, score, time, result rank, and playful top-percent values.
+- Hidden Love Language uses the standardized events and records the resulting care style and playful comparison percentage.
 - Classmate, Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
 
 ## Verification status
@@ -73,6 +75,8 @@ Latest implemented release: `e3f2320` on `main`; Pinoy Emoji Challenge and its s
 - 2026-09-04: all 11 JavaScript files passed syntax checking; Pinoy Emoji Challenge data contains 10 valid three-choice clues and 5 ordered result bands.
 - 2026-09-04: 11 representative Pinoy Emoji routes/assets returned local HTTP 200; all 45 result pages passed `noindex,follow` and canonical checks; required game/share/analytics metadata and homepage JSON-LD passed validation; the optimized social image is 1200 × 630.
 - 2026-09-04: production verification returned HTTP 200 for `/games/pinoy-emoji-challenge/`; the live page contains the expected game title and GA4 loader, and the live homepage links to it.
+- 2026-09-04: all 12 JavaScript files passed syntax checking; Hidden Love Language contains 8 valid two-choice questions and 8 result styles.
+- 2026-09-04: 14 representative Hidden Love Language routes/assets returned local HTTP 200; all 53 result pages passed `noindex,follow` and canonical checks; its share controls, disclaimer, GA4 loader, homepage links, ten-item JSON-LD list, and 1200 × 630 social image passed validation.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

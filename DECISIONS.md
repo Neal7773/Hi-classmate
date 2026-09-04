@@ -24,6 +24,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-03 | After every completed implementation, synchronize the state files and automatically finish with a paste-ready `[CHAT_HANDOFF]`. | Implemented | The handoff must cover actual changes, tests, current state, remaining TODO, and next Chat decisions. |
 | 2026-09-03 | Add “What’s Your Pinoy Merienda?” as the next Filipino-first, highly shareable personality game. | Implemented | Eight questions map to eight iconic merienda personalities; it includes pre-game sharing, result sharing, GA4, SEO, homepage discovery, and static result routes. |
 | 2026-09-04 | Add “Pinoy Emoji Challenge” as a different, competitive game format. | Implemented | Ten three-choice Filipino emoji clues produce an accuracy score, completion time, five playful ranks, and a top-percent comparison; sharing, GA4, SEO, homepage discovery, and static result routes are included. |
+| 2026-09-04 | Test a light psychological-style format with “What’s Your Hidden Love Language?” for Filipino teens and young adults. | Implemented | Eight kilig/chat/date choices map to eight playful caring styles; the game explicitly states it is entertainment rather than a psychological or relationship assessment. |
 
 ## Change rule
 

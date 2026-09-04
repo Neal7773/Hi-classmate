@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-03  
-Latest implemented release: `9c58b72` on `main`; state documents and game source are published to the GitHub remote.
+Snapshot date: 2026-09-04  
+Pinoy Emoji Challenge is implemented locally on `main`; production publication and verification are pending at this snapshot.
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest implemented release: `9c58b72` on `main`; state documents and game source
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, eight main games, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, nine main games, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -32,6 +32,7 @@ Latest implemented release: `9c58b72` on `main`; state documents and game source
 | `/games/videoke-persona/` | Filipino personality quiz | 8 two-choice questions, 8 videoke personas, game/result sharing, restart, GA4 funnel events. |
 | `/games/barkada-role/` | Filipino personality quiz | 8 two-choice questions, 8 barkada roles, game/result sharing, restart, GA4 funnel events. |
 | `/games/pinoy-merienda/` | Filipino personality quiz | 8 two-choice questions, 8 merienda personalities, game/result sharing, restart, standardized GA4 funnel events. |
+| `/games/pinoy-emoji-challenge/` | Filipino knowledge game | 10 three-choice emoji clues, accuracy and completion time, 5 result ranks with playful top-percent comparisons, game/result sharing, restart, standardized GA4 events. |
 
 ## Important files
 
@@ -49,17 +50,18 @@ Latest implemented release: `9c58b72` on `main`; state documents and game source
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, and Pinoy Merienda have 40 static result pages in total.
-- All 40 result pages currently have `noindex,follow` and a canonical link to their main game.
+- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, Pinoy Merienda, and Pinoy Emoji Challenge have 45 static result pages in total.
+- All 45 result pages currently have `noindex,follow` and a canonical link to their main game.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
 
 ## Analytics state
 
 - Measurement ID: `G-77QM94C66P`.
-- Loader present on homepage, Videoke Persona, Barkada Role, and Pinoy Merienda.
+- Loader present on homepage, Videoke Persona, Barkada Role, Pinoy Merienda, and Pinoy Emoji Challenge.
 - Videoke and Barkada track start, answers, completion, result view, Facebook share clicks, and retry; Videoke also tracks return/home navigation.
 - Pinoy Merienda uses the standardized `game_start`, `question_answer`, `game_complete`, `result_view`, `share_game`, `share_result`, and `replay` events.
+- Pinoy Emoji Challenge uses the same standardized events and additionally records correctness, score, time, result rank, and playful top-percent values.
 - Classmate, Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
 
 ## Verification status
@@ -68,6 +70,8 @@ Latest implemented release: `9c58b72` on `main`; state documents and game source
 - 2026-09-03: all 40 static result pages passed the `noindex,follow` and canonical metadata check.
 - 2026-09-03: Pinoy Merienda's 14 representative local routes/assets returned HTTP 200, its JavaScript passed syntax checking, all 8 result routes passed metadata checks, and its required game/share/analytics metadata was present. Its optimized social image is 1200 × 630.
 - 2026-09-03: production verification returned HTTP 200 for `/games/pinoy-merienda/`; the live page contains the correct title and GA4 loader, and the live homepage links to the new game.
+- 2026-09-04: all 11 JavaScript files passed syntax checking; Pinoy Emoji Challenge data contains 10 valid three-choice clues and 5 ordered result bands.
+- 2026-09-04: 11 representative Pinoy Emoji routes/assets returned local HTTP 200; all 45 result pages passed `noindex,follow` and canonical checks; required game/share/analytics metadata and homepage JSON-LD passed validation; the optimized social image is 1200 × 630.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

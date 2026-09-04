@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-04  
-Latest implemented release: working tree includes the completed Hidden Love Language game; production deployment is pending the release push.
+Latest implemented release: `b32147d` on `main`; Hidden Love Language is published through the GitHub/Cloudflare deployment flow.
 
 ## Production and architecture
 
@@ -77,6 +77,7 @@ Latest implemented release: working tree includes the completed Hidden Love Lang
 - 2026-09-04: production verification returned HTTP 200 for `/games/pinoy-emoji-challenge/`; the live page contains the expected game title and GA4 loader, and the live homepage links to it.
 - 2026-09-04: all 12 JavaScript files passed syntax checking; Hidden Love Language contains 8 valid two-choice questions and 8 result styles.
 - 2026-09-04: 14 representative Hidden Love Language routes/assets returned local HTTP 200; all 53 result pages passed `noindex,follow` and canonical checks; its share controls, disclaimer, GA4 loader, homepage links, ten-item JSON-LD list, and 1200 × 630 social image passed validation.
+- 2026-09-04: production verification returned HTTP 200 for `/games/hidden-love-language/`; the live page contains the expected title and GA4 loader, and the live homepage links to the game.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-04  
-Pinoy Emoji Challenge is implemented locally on `main`; production publication and verification are pending at this snapshot.
+Latest implemented release: `e3f2320` on `main`; Pinoy Emoji Challenge and its synchronized state documentation are published to the GitHub remote.
 
 ## Production and architecture
 
@@ -72,6 +72,7 @@ Pinoy Emoji Challenge is implemented locally on `main`; production publication a
 - 2026-09-03: production verification returned HTTP 200 for `/games/pinoy-merienda/`; the live page contains the correct title and GA4 loader, and the live homepage links to the new game.
 - 2026-09-04: all 11 JavaScript files passed syntax checking; Pinoy Emoji Challenge data contains 10 valid three-choice clues and 5 ordered result bands.
 - 2026-09-04: 11 representative Pinoy Emoji routes/assets returned local HTTP 200; all 45 result pages passed `noindex,follow` and canonical checks; required game/share/analytics metadata and homepage JSON-LD passed validation; the optimized social image is 1200 × 630.
+- 2026-09-04: production verification returned HTTP 200 for `/games/pinoy-emoji-challenge/`; the live page contains the expected game title and GA4 loader, and the live homepage links to it.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

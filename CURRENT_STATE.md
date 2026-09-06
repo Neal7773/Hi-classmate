@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-06  
-Latest implemented release: `c627f91` on `main`; the final How Delulu Are You question layout is published through the GitHub/Cloudflare deployment flow.
+Snapshot date: 2026-09-07
+Latest implemented release: Pinoy Commute Persona is complete locally and awaiting publication; the final How Delulu question layout remains live.
 
 ## Production and architecture
 
@@ -35,6 +35,7 @@ Latest implemented release: `c627f91` on `main`; the final How Delulu Are You qu
 | `/games/pinoy-emoji-challenge/` | Filipino knowledge game | 10 three-choice emoji clues, accuracy and completion time, 5 result ranks with playful top-percent comparisons, game/result sharing, restart, standardized GA4 events. |
 | `/games/hidden-love-language/` | Filipino relationship-style personality quiz | 8 two-choice kilig/chat/date situations, 8 playful caring styles, explicit entertainment disclaimer, game/result sharing, restart, standardized GA4 events. |
 | `/games/how-delulu-are-you/` | Filipino crush/SNS personality test | 8 two-choice situations, 6 delulu ranks, playful comparison percentages, explicit entertainment disclaimer, game/result sharing, restart, standardized GA4 events. |
+| `/games/pinoy-commute-persona/` | Filipino daily-life personality quiz | 8 two-choice jeepney, train, rain, and barkada commute situations; 8 playful personas, comparison percentages, game/result sharing, restart, standardized GA4 events, and fixed mobile question/answer zones. |
 
 ## Important files
 
@@ -52,8 +53,8 @@ Latest implemented release: `c627f91` on `main`; the final How Delulu Are You qu
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, Pinoy Merienda, Pinoy Emoji Challenge, Hidden Love Language, and How Delulu Are You have 59 static result pages in total.
-- All 59 result pages currently have `noindex,follow` and a canonical link to their main game.
+- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, Pinoy Merienda, Pinoy Emoji Challenge, Hidden Love Language, How Delulu Are You, and Pinoy Commute Persona have 67 static result pages in total.
+- All 67 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -67,6 +68,7 @@ Latest implemented release: `c627f91` on `main`; the final How Delulu Are You qu
 - Pinoy Emoji Challenge uses the same standardized events and additionally records correctness, score, time, result rank, and playful top-percent values.
 - Hidden Love Language uses the standardized events and records the resulting care style and playful comparison percentage.
 - How Delulu Are You uses the standardized events and records answer points, total score, result rank, and playful comparison percentage.
+- Pinoy Commute Persona uses the standardized events and records answer type, result persona, and playful comparison percentage.
 - Classmate, Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
 
 ## Verification status
@@ -93,6 +95,7 @@ Latest implemented release: `c627f91` on `main`; the final How Delulu Are You qu
 - 2026-09-06: How Delulu Are You now divides its question card into a flexible upper question zone and a fixed 28svh lower answer zone. Question copy is vertically centered in the upper zone, so all questions keep the answer buttons at the same vertical position regardless of text length.
 - 2026-09-06: the fixed-zone update passed syntax checks for all 13 JavaScript files, required HTML/CSS layout-marker checks, local HTTP 200, and `git diff --check`.
 - 2026-09-06: production verification returned HTTP 200 for the How Delulu page and stylesheet and confirmed the live `question-copy` wrapper plus fixed mobile answer-row rule after commit `27e7ce0` deployed.
+- 2026-09-07: Pinoy Commute Persona passed syntax checks for all 14 JavaScript files, metadata checks across all 67 static result pages, homepage ItemList validation with 12 games, sitemap XML parsing, representative local game/result HTTP 200 checks, and `git diff --check`. Its inspected social image is 1200 × 630 and visibly presents the question, two choices, and quiz CTA.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

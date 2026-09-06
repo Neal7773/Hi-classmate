@@ -53,3 +53,4 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/pinoy-emoji-challenge/` — ten Filipino emoji clues, timed scoring, and five shareable ranks
 - `games/hidden-love-language/` — eight Filipino kilig choices and eight playful hidden-care styles
 - `games/how-delulu-are-you/` — eight Pinoy crush situations and six shareable delulu ranks
+- `games/pinoy-commute-persona/` — eight familiar Filipino commute choices and eight shareable ride personas

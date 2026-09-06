@@ -42,6 +42,7 @@ The production site is `https://hiclassmate.com/`.
 - Result pages are intended for social previews, not as independent search landing pages. They must point canonically to the main game.
 - Keep policy/trust pages (`about`, `contact`, `privacy`, `terms`) accessible from the footer.
 - Do not change the domain, GitHub repository/branch, Cloudflare deployment relationship, analytics ID, legal copy, or canonical URL policy casually.
+- After a completed implementation passes its relevant checks, publish it to the established public GitHub repository `Neal7773/Hi-classmate` on `main` and verify the Cloudflare production result without asking for a separate deployment confirmation each time. This standing authorization applies only to this project and established deployment destination.
 
 ## Documentation workflow
 

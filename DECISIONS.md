@@ -29,6 +29,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-06 | Add “How Delulu Are You?” as a playful Filipino crush and social-media test. | Implemented | Eight binary situations produce six ranks from Certified Realist to Delulu CEO, with comparison percentages, sharing, GA4, SEO, and static result routes. |
 | 2026-09-06 | Make mobile question and result screens more glanceable: larger questions, answer controls around half the viewport, and results led by a large percentage and keywords rather than paragraphs. | Implemented | Applied to How Delulu Are You. Its result-card disclaimer was removed; the entertainment context remains in the supporting page copy. This becomes the default for future games. |
 | 2026-09-06 | Reduce the mobile answer area further after device testing showed that half-viewport controls still looked oversized. | Implemented | How Delulu Are You now uses content-sized question cards and a combined answer area around 28% of the viewport. This refines and supersedes the “around half” sizing in the preceding decision. |
+| 2026-09-06 | Preserve the original full game-card footprint while keeping the smaller answer controls; use larger, heavier question and answer text to improve readability. | Implemented | Device review showed that shrinking the outer card changed the intended composition. This supersedes only the content-sized-card portion of the preceding decision; the 28svh answer limit remains. |
 
 ## Change rule
 

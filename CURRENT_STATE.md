@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-06  
-Latest implemented release: working tree includes the completed How Delulu Are You game; production deployment is pending the release push.
+Latest implemented release: `a232a56` on `main`; How Delulu Are You is published through the GitHub/Cloudflare deployment flow.
 
 ## Production and architecture
 
@@ -83,6 +83,7 @@ Latest implemented release: working tree includes the completed How Delulu Are Y
 - 2026-09-04: production verification returned HTTP 200 for `/games/hidden-love-language/`; the live page contains the expected title and GA4 loader, and the live homepage links to the game.
 - 2026-09-06: all 13 JavaScript files passed syntax checking; How Delulu Are You contains 8 valid two-choice questions, a complete 0–16 scoring range, and 6 ordered result ranks.
 - 2026-09-06: 12 representative How Delulu Are You routes/assets returned local HTTP 200; all 59 result pages passed `noindex,follow` and canonical checks; share controls, disclaimer, GA4 loader, homepage links, eleven-item JSON-LD, and the 1200 × 630 interactive-style social image passed validation.
+- 2026-09-06: production verification returned HTTP 200 for `/games/how-delulu-are-you/`; the live page contains the expected title and GA4 loader, and the live homepage links to the game.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

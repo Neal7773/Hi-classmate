@@ -90,6 +90,8 @@ Latest implemented release: `c627f91` on `main`; the final How Delulu Are You qu
 - 2026-09-06: production verification returned HTTP 200 and confirmed the content-sized question card, 28svh answer-area cap, and explicit question state on the live assets.
 - 2026-09-06: follow-up device review requested the original game-card size. The full viewport-height card was restored while the 28svh answer area remained; mobile question text now scales to 44px and answer text to 22px at heavy weight. All 13 JavaScript files passed syntax checking; required CSS markers, local HTTP 200, and `git diff --check` passed.
 - 2026-09-06: production verification returned HTTP 200 and confirmed the restored full-height game card, 44px mobile question maximum, 22px mobile answer maximum, and retained 28svh answer-area limit on the live stylesheet.
+- 2026-09-06: How Delulu Are You now divides its question card into a flexible upper question zone and a fixed 28svh lower answer zone. Question copy is vertically centered in the upper zone, so all questions keep the answer buttons at the same vertical position regardless of text length.
+- 2026-09-06: the fixed-zone update passed syntax checks for all 13 JavaScript files, required HTML/CSS layout-marker checks, local HTTP 200, and `git diff --check`.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

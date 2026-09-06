@@ -54,3 +54,4 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/hidden-love-language/` — eight Filipino kilig choices and eight playful hidden-care styles
 - `games/how-delulu-are-you/` — eight Pinoy crush situations and six shareable delulu ranks
 - `games/pinoy-commute-persona/` — eight familiar Filipino commute choices and eight shareable ride personas
+- `games/family-gc-role/` — eight Filipino family group-chat situations and eight shareable roles

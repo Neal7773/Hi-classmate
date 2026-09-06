@@ -36,6 +36,7 @@ Latest implemented release: `85ceacc` on `main`; Pinoy Commute Persona and the s
 | `/games/hidden-love-language/` | Filipino relationship-style personality quiz | 8 two-choice kilig/chat/date situations, 8 playful caring styles, explicit entertainment disclaimer, game/result sharing, restart, standardized GA4 events. |
 | `/games/how-delulu-are-you/` | Filipino crush/SNS personality test | 8 two-choice situations, 6 delulu ranks, playful comparison percentages, explicit entertainment disclaimer, game/result sharing, restart, standardized GA4 events. |
 | `/games/pinoy-commute-persona/` | Filipino daily-life personality quiz | 8 two-choice jeepney, train, rain, and barkada commute situations; 8 playful personas, comparison percentages, game/result sharing, restart, standardized GA4 events, and fixed mobile question/answer zones. |
+| `/games/family-gc-role/` | Filipino family-chat personality quiz | 8 two-choice family GC situations, 8 playful roles, comparison percentages, game/result sharing, GA4, and fixed mobile question/answer zones. |
 
 ## Important files
 
@@ -53,8 +54,8 @@ Latest implemented release: `85ceacc` on `main`; Pinoy Commute Persona and the s
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- Would You Rather, How Pinoy, Videoke Persona, Barkada Role, Pinoy Merienda, Pinoy Emoji Challenge, Hidden Love Language, How Delulu Are You, and Pinoy Commute Persona have 67 static result pages in total.
-- All 67 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 75 static result pages in total.
+- All 75 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.

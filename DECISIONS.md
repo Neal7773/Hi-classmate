@@ -33,6 +33,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-06 | Keep answer controls in a fixed lower zone and vertically center each question in the remaining upper zone so copy length cannot move the controls. | Implemented | Applied to How Delulu Are You and adopted as the default layout rule for future question-based games. |
 | 2026-09-07 | Add “What’s Your Pinoy Commute Persona?” as a Filipino daily-life personality game. | Implemented | Eight commute choices map to eight playful personas; the fixed question/answer layout, pre-game and result sharing, GA4, SEO, homepage discovery, static result routes, and interactive social artwork are included. |
 | 2026-09-07 | Automatically publish completed, tested implementation work to `Neal7773/Hi-classmate` `main` without requesting separate deployment approval each time. | Implemented | Standing authorization is limited to this existing Hi Classmate project and its established GitHub/Cloudflare production flow. |
+| 2026-09-07 | Add “What’s Your Role in the Family GC?” as a Filipino family-chat personality game. | Implemented | Eight familiar chat situations map to eight shareable roles with fixed mobile layout, GA4, SEO, and result pages. |
 
 ## Change rule
 

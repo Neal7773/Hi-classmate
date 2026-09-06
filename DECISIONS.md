@@ -27,6 +27,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-04 | Test a light psychological-style format with “What’s Your Hidden Love Language?” for Filipino teens and young adults. | Implemented | Eight kilig/chat/date choices map to eight playful caring styles; the game explicitly states it is entertainment rather than a psychological or relationship assessment. |
 | 2026-09-06 | Make new game thumbnails look unmistakably interactive using a large question, visible choices, and a strong play CTA; characters remain optional. | Implemented | First applied to “How Delulu Are You?” with Real Talk/Delulu Mode choices and a Play Now button in its social card. |
 | 2026-09-06 | Add “How Delulu Are You?” as a playful Filipino crush and social-media test. | Implemented | Eight binary situations produce six ranks from Certified Realist to Delulu CEO, with comparison percentages, sharing, GA4, SEO, and static result routes. |
+| 2026-09-06 | Make mobile question and result screens more glanceable: larger questions, answer controls around half the viewport, and results led by a large percentage and keywords rather than paragraphs. | Implemented | Applied to How Delulu Are You. Its result-card disclaimer was removed; the entertainment context remains in the supporting page copy. This becomes the default for future games. |
 
 ## Change rule
 

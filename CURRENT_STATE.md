@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-06  
-Latest implemented release: working tree includes the second How Delulu Are You question-screen refinement based on a real mobile screenshot; production deployment is pending the release push.
+Latest implemented release: `74029bf` on `main`; the second How Delulu Are You question-screen refinement is published through the GitHub/Cloudflare deployment flow.
 
 ## Production and architecture
 
@@ -87,6 +87,7 @@ Latest implemented release: working tree includes the second How Delulu Are You 
 - 2026-09-06: How Delulu Are You was locally updated to use a larger active question, answer controls capped near half the viewport, a prominent percentage score block, shorter descriptions and keyword chips, and no footer disclaimer inside the interactive result card. All 13 JavaScript files passed syntax checking, the local route returned HTTP 200, and layout/content markers plus `git diff --check` passed.
 - 2026-09-06: production verification returned HTTP 200 and confirmed the new result score block, removed result-card disclaimer, and updated half-viewport answer styling on the live How Delulu Are You page.
 - 2026-09-06: real-device screenshot review showed the half-viewport answer area remained oversized. The question state now has an explicit body state, a content-sized game card, and a combined answer area capped around 28svh. All 13 JavaScript files passed syntax checking; state/CSS markers, local HTTP 200, and `git diff --check` passed.
+- 2026-09-06: production verification returned HTTP 200 and confirmed the content-sized question card, 28svh answer-area cap, and explicit question state on the live assets.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

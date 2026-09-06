@@ -55,3 +55,4 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/how-delulu-are-you/` — eight Pinoy crush situations and six shareable delulu ranks
 - `games/pinoy-commute-persona/` — eight familiar Filipino commute choices and eight shareable ride personas
 - `games/family-gc-role/` — eight Filipino family group-chat situations and eight shareable roles
+- `games/pinoy-rainy-day-persona/` — eight familiar Filipino rainy-day situations and eight shareable personas

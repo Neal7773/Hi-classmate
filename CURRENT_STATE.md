@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-07
-Latest implemented release: Pinoy Commute Persona is complete locally and awaiting publication; the final How Delulu question layout remains live.
+Latest implemented release: `85ceacc` on `main`; Pinoy Commute Persona and the standing deployment workflow are published through GitHub/Cloudflare.
 
 ## Production and architecture
 
@@ -96,6 +96,7 @@ Latest implemented release: Pinoy Commute Persona is complete locally and awaiti
 - 2026-09-06: the fixed-zone update passed syntax checks for all 13 JavaScript files, required HTML/CSS layout-marker checks, local HTTP 200, and `git diff --check`.
 - 2026-09-06: production verification returned HTTP 200 for the How Delulu page and stylesheet and confirmed the live `question-copy` wrapper plus fixed mobile answer-row rule after commit `27e7ce0` deployed.
 - 2026-09-07: Pinoy Commute Persona passed syntax checks for all 14 JavaScript files, metadata checks across all 67 static result pages, homepage ItemList validation with 12 games, sitemap XML parsing, representative local game/result HTTP 200 checks, and `git diff --check`. Its inspected social image is 1200 × 630 and visibly presents the question, two choices, and quiz CTA.
+- 2026-09-07: production verification returned HTTP 200 for Pinoy Commute Persona, the homepage, Barkada Ride Captain result route, and the 1200 × 630 social image. The live game includes the GA4 loader and the homepage links to the new route.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
 - The local server was not running during this snapshot, so full route HTTP checks were not repeated on 2026-09-03.

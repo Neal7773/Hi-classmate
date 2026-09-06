@@ -19,7 +19,6 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## P1 — Publishing and SEO operations
 
-- [ ] Verify the live Pinoy Commute Persona page, homepage link, analytics loader, and representative result route after deployment.
 - [ ] Follow `SEO-PUBLISHING-CHECKLIST.md` for every new game and update Homepage New Games, category links, homepage ItemList data, and `sitemap.xml` in the same change.
 - [ ] Confirm Google Search Console ownership/indexing and request indexing for main game pages where needed.
 - [ ] Use GA4 completed-play and share data to replace manually curated Trending order once enough reliable data exists.

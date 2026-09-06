@@ -1,6 +1,6 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-04
+Last reviewed: 2026-09-06
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
 

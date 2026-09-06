@@ -31,6 +31,7 @@ The production site is `https://hiclassmate.com/`.
 9. GA4 measurement ID `G-77QM94C66P` is the current analytics property. Do not change it without an explicit decision.
 10. New releases must follow `SEO-PUBLISHING-CHECKLIST.md`: unique metadata/copy/social image, crawlable internal links, sitemap inclusion, and `noindex,follow` on thin result-share pages.
 11. Homepage editorial roles remain distinct: Featured is the current promotion or strongest game; Trending is curated until reliable GA4 data exists; New Games is reverse chronological; categories aid discovery.
+12. New social thumbnails should read immediately as playable content: prioritize a large question title, visible answer-choice cards, and a strong play/take-the-quiz button or equivalent interaction cue. Characters are optional. Keep essential text inside the 1200 × 630 safe area.
 
 ## Technical assumptions and protected items
 

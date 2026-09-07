@@ -40,6 +40,7 @@ Latest implemented release: `6cedf3e` on `main`; the AdSense-ready Privacy Polic
 | `/games/pinoy-rainy-day-persona/` | Filipino rainy-day personality quiz | 8 two-choice rain, baha, commute, and brownout situations with 8 playful personas, comparison results, sharing, GA4, and fixed mobile zones. |
 | `/games/pinoy-fiesta-persona/` | Filipino fiesta personality quiz | 8 two-choice food, videoke, palaro, photo, hosting, and takeout situations with 8 playful personas, comparison results, sharing, GA4, and fixed mobile zones. |
 | `/games/how-marites-are-you/` | Filipino chika personality quiz | 8 two-choice secret, screenshot, verification, and group-chat situations with 8 playful levels, comparison results, sharing, GA4, and fixed mobile zones. |
+| `/games/what-kind-of-overthinker/` | Relatable psychological-style personality test | 10 two-choice chat, waiting, memory, planning, and late-night-thought situations with 11 distinct types, comparisons, sharing, GA4, and fixed mobile zones. |
 
 ## Important files
 
@@ -57,8 +58,8 @@ Latest implemented release: `6cedf3e` on `main`; the AdSense-ready Privacy Polic
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 99 static result pages in total.
-- All 99 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 110 static result pages in total.
+- All 110 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.

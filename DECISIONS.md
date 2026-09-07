@@ -37,6 +37,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-07 | Add “What’s Your Pinoy Rainy-Day Persona?” as a Filipino weather-life personality game. | Implemented | Eight rain, baha, commute, and brownout situations map to eight shareable personas with GA4, SEO, and fixed mobile layout. |
 | 2026-09-08 | Add “What’s Your Pinoy Fiesta Persona?” as a Filipino celebration personality game. | Implemented | Eight food, videoke, palaro, photo, hosting, and takeout situations map to eight shareable personas. |
 | 2026-09-08 | Add “How Marites Are You?” as a playful, non-mean Filipino information-style test. | Implemented | Eight secret, screenshot, verification, and GC situations map to eight shareable levels from Peaceful Listener to Marites Supreme. |
+| 2026-09-08 | Prepare the Privacy Policy for future Google AdSense advertising before enabling live ads. | Implemented | Added advertising cookies, data uses, personalization/non-personalized ads, Google privacy links, user controls, and regional consent disclosures. No ad code was enabled. |
 
 ## Change rule
 

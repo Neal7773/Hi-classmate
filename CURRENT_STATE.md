@@ -117,3 +117,4 @@ Latest implemented release: `3a737b7` on `main`; How Marites Are You is publishe
 - README's game catalog is updated through Pinoy Merienda; its introductory focus remains the original Classmate quiz.
 - Trending is editorially curated because sufficient comparative GA4 data has not been confirmed.
 - Live Search Console indexing status, AdSense approval status, live GA4 receipt, and Facebook cache state are external and were not confirmed from repository files.
+- The Privacy Policy is prepared for AdSense advertising cookies, but live AdSense code remains disabled. A Google-certified CMP/privacy message must still be configured where required before serving personalized ads in the EEA, UK, or Switzerland.

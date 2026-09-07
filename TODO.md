@@ -32,4 +32,5 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 ## Pending external confirmation
 
 - [ ] Confirm current AdSense approval state before enabling any advertising code or space.
+- [ ] Before live ads, configure and publish the appropriate AdSense Privacy & messaging consent flow (including a Google-certified CMP where required) and verify that users can manage or revoke consent.
 - [ ] Confirm Cloudflare production deployment health when deployment behavior changes; repository history indicates automatic deployment, but external settings are not versioned here.

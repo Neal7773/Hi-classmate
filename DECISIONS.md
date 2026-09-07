@@ -36,6 +36,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-07 | Add “What’s Your Role in the Family GC?” as a Filipino family-chat personality game. | Implemented | Eight familiar chat situations map to eight shareable roles with fixed mobile layout, GA4, SEO, and result pages. |
 | 2026-09-07 | Add “What’s Your Pinoy Rainy-Day Persona?” as a Filipino weather-life personality game. | Implemented | Eight rain, baha, commute, and brownout situations map to eight shareable personas with GA4, SEO, and fixed mobile layout. |
 | 2026-09-08 | Add “What’s Your Pinoy Fiesta Persona?” as a Filipino celebration personality game. | Implemented | Eight food, videoke, palaro, photo, hosting, and takeout situations map to eight shareable personas. |
+| 2026-09-08 | Add “How Marites Are You?” as a playful, non-mean Filipino information-style test. | Implemented | Eight secret, screenshot, verification, and GC situations map to eight shareable levels from Peaceful Listener to Marites Supreme. |
 
 ## Change rule
 

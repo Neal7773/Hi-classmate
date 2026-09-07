@@ -35,6 +35,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-07 | Automatically publish completed, tested implementation work to `Neal7773/Hi-classmate` `main` without requesting separate deployment approval each time. | Implemented | Standing authorization is limited to this existing Hi Classmate project and its established GitHub/Cloudflare production flow. |
 | 2026-09-07 | Add “What’s Your Role in the Family GC?” as a Filipino family-chat personality game. | Implemented | Eight familiar chat situations map to eight shareable roles with fixed mobile layout, GA4, SEO, and result pages. |
 | 2026-09-07 | Add “What’s Your Pinoy Rainy-Day Persona?” as a Filipino weather-life personality game. | Implemented | Eight rain, baha, commute, and brownout situations map to eight shareable personas with GA4, SEO, and fixed mobile layout. |
+| 2026-09-08 | Add “What’s Your Pinoy Fiesta Persona?” as a Filipino celebration personality game. | Implemented | Eight food, videoke, palaro, photo, hosting, and takeout situations map to eight shareable personas. |
 
 ## Change rule
 

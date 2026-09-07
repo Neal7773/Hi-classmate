@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-08
-Latest implemented release: pending publication; What’s Your Selos Level is implemented locally and awaiting final verification/deployment.
+Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is published through GitHub/Cloudflare.
 
 ## Production and architecture
 
@@ -109,6 +109,7 @@ Latest implemented release: pending publication; What’s Your Selos Level is im
 - 2026-09-08: the AdSense-ready Privacy Policy passed required-content, no-live-ad-code, official-link, and diff checks. Production returned HTTP 200 and exposed the new advertising and regional consent sections.
 - 2026-09-08: What Kind of Overthinker Are You passed 19 JavaScript syntax checks, logic markers for 10 questions and 11 outcomes, and metadata checks across 110 result pages. Production returned HTTP 200 for the game and representative result, loaded GA4, and the homepage linked to it.
 - 2026-09-08: What’s Your Selos Level passed 20 JavaScript syntax checks, logic markers for 10 questions and 8 reachable result bands, metadata checks across all 118 result pages, sequential 18-item homepage structured data, sitemap XML parsing, unwanted-disclaimer checks, and `git diff --check`. The 1200 × 630 social image and representative local game, asset, result, and homepage routes returned HTTP 200.
+- 2026-09-08: production verification returned HTTP 200 for Selos Level, its Silent Observer result page, the 1200 × 630 social image, and the homepage. The live game title and homepage discovery link were confirmed after release `03498b8` deployed.
 - 2026-09-07: Family GC Role passed all 15 JavaScript syntax checks, metadata checks across 75 result pages, homepage and sitemap checks, and production verification for the live game plus homepage link.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.

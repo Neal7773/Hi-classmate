@@ -39,6 +39,8 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-08 | Add “How Marites Are You?” as a playful, non-mean Filipino information-style test. | Implemented | Eight secret, screenshot, verification, and GC situations map to eight shareable levels from Peaceful Listener to Marites Supreme. |
 | 2026-09-08 | Prepare the Privacy Policy for future Google AdSense advertising before enabling live ads. | Implemented | Added advertising cookies, data uses, personalization/non-personalized ads, Google privacy links, user controls, and regional consent disclosures. No ad code was enabled. |
 | 2026-09-08 | Add “What Kind of Overthinker Are You?” with unusually diverse outcomes. | Implemented | Ten relatable situations produce eleven distinct styles covering chats, emojis, waiting, future scenarios, memories, planning, perfectionism, humor, and empathy. |
+| 2026-09-08 | Add “What’s Your Selos Level?” as a Filipino relationship and social-media score test. | Implemented | Ten binary situations produce an exact 0–100% selos score and eight shareable types, with fixed mobile zones, GA4, SEO, homepage discovery, and result pages. |
+| 2026-09-08 | Omit “just for fun,” non-diagnostic, and similar mood-breaking disclaimers from Selos Level and future entertainment tests unless a confirmed requirement makes one necessary. | Implemented | This changes the earlier blanket UI-disclosure assumption. Selos Level contains no such disclaimer in either the game card or supporting copy. |
 
 ## Change rule
 

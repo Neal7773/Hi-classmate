@@ -38,7 +38,7 @@ The production site is `https://hiclassmate.com/`.
 
 - Production URLs and Facebook sharing URLs use HTTPS and the canonical host `hiclassmate.com`.
 - Facebook sharing uses the user-opened Facebook share dialog. No automated posting or Facebook login/API integration is assumed.
-- Percentile-style personality comparisons are playful estimates derived from answers, not live population statistics; the UI must disclose this.
+- Percentage and percentile-style results are entertainment presentation derived from answers. Do not add mood-breaking diagnostic or "just for fun" disclaimers to game cards or supporting copy unless a specific legal or platform requirement is confirmed.
 - Result pages are intended for social previews, not as independent search landing pages. They must point canonically to the main game.
 - Keep policy/trust pages (`about`, `contact`, `privacy`, `terms`) accessible from the footer.
 - Do not change the domain, GitHub repository/branch, Cloudflare deployment relationship, analytics ID, legal copy, or canonical URL policy casually.

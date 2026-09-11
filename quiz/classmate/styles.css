@@ -82,6 +82,8 @@ h1 span::after { content: ""; position: absolute; left: 3%; right: 3%; bottom: -
 .facebook-button { display: flex; align-items: center; justify-content: center; gap: 10px; color: white; background: #1877f2; box-shadow: 4px 4px 0 var(--ink); }
 .facebook-icon { display: grid; place-items: end center; width: 23px; height: 23px; border-radius: 50%; background: white; color: #1877f2; font-family: Arial, sans-serif; font-size: 21px; font-weight: 900; line-height: 21px; }
 .secondary-button { min-height: 48px; margin-top: 12px; background: white; }
+.next-quiz-link { display: inline-block; margin-top: 15px; color: var(--purple); font-size: 15px; font-weight: 900; text-decoration: none; }
+.next-quiz-link:hover { text-decoration: underline; }
 .share-status { min-height: 17px; margin: 10px 0 0; color: var(--muted); font-size: 11px; }
 .result-prompt { margin: 21px auto 4px; color: var(--muted); text-align: center; font-size: 13px; font-weight: 700; }
 .ad-slot-bottom { margin-bottom: 6px; }

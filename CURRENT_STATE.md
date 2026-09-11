@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-08
-Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is published through GitHub/Cloudflare.
+Snapshot date: 2026-09-12
+Latest implemented release: pending publication; Red Flag or Green Flag is implemented locally and awaiting final verification/deployment.
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is pu
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, eighteen game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, nineteen game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -42,6 +42,7 @@ Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is pu
 | `/games/how-marites-are-you/` | Filipino chika personality quiz | 8 two-choice secret, screenshot, verification, and group-chat situations with 8 playful levels, comparison results, sharing, GA4, and fixed mobile zones. |
 | `/games/what-kind-of-overthinker/` | Relatable psychological-style personality test | 10 two-choice chat, waiting, memory, planning, and late-night-thought situations with 11 distinct types, comparisons, sharing, GA4, and fixed mobile zones. |
 | `/games/selos-level/` | Filipino relationship score/personality test | 10 two-choice relationship and social-media situations produce an exact 0–100% selos score and 8 playful types, with sharing, GA4, SEO, and fixed mobile zones. |
+| `/games/red-flag-green-flag/` | Filipino dating-radar judgment game | 10 fast Red/Green judgments produce a 0–100 radar score and 4 shareable levels, with pre-game/result sharing, restart, Classmate cross-links, GA4 comparison events, SEO, and fixed mobile zones. |
 
 ## Important files
 
@@ -59,8 +60,8 @@ Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is pu
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 118 static result pages in total.
-- All 118 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 122 static result pages in total.
+- All 122 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -75,7 +76,8 @@ Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is pu
 - Hidden Love Language uses the standardized events and records the resulting care style and playful comparison percentage.
 - How Delulu Are You uses the standardized events and records answer points, total score, result rank, and playful comparison percentage.
 - Pinoy Commute Persona uses the standardized events and records answer type, result persona, and playful comparison percentage.
-- Classmate, Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
+- The original Classmate quiz now loads the shared GA4 script and tracks its start, answers, completion, result view, result share, replay, and next-game click using both legacy comparison events and standardized game events where applicable.
+- Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
 
 ## Verification status
 
@@ -110,6 +112,7 @@ Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is pu
 - 2026-09-08: What Kind of Overthinker Are You passed 19 JavaScript syntax checks, logic markers for 10 questions and 11 outcomes, and metadata checks across 110 result pages. Production returned HTTP 200 for the game and representative result, loaded GA4, and the homepage linked to it.
 - 2026-09-08: What’s Your Selos Level passed 20 JavaScript syntax checks, logic markers for 10 questions and 8 reachable result bands, metadata checks across all 118 result pages, sequential 18-item homepage structured data, sitemap XML parsing, unwanted-disclaimer checks, and `git diff --check`. The 1200 × 630 social image and representative local game, asset, result, and homepage routes returned HTTP 200.
 - 2026-09-08: production verification returned HTTP 200 for Selos Level, its Silent Observer result page, the 1200 × 630 social image, and the homepage. The live game title and homepage discovery link were confirmed after release `03498b8` deployed.
+- 2026-09-12: Red Flag or Green Flag passed 21 JavaScript syntax checks, all 0–10 scoring thresholds, perfect/opposite/all-Red/all-Green paths, metadata checks across all 122 result pages, sequential 19-item homepage structured data, sitemap XML parsing, analytics marker checks, and `git diff --check`. Chrome checks at 1365 × 900 and emulated 390 × 844 confirmed no horizontal overflow, a fixed question/answer layout, the 100% result path, replay, direct entry, and the Classmate cross-link/first-question regression. Its social image is 1200 × 630.
 - 2026-09-07: Family GC Role passed all 15 JavaScript syntax checks, metadata checks across 75 result pages, homepage and sitemap checks, and production verification for the live game plus homepage link.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
@@ -118,7 +121,7 @@ Latest implemented release: `03498b8` on `main`; What’s Your Selos Level is pu
 ## Known issues and inconsistencies
 
 - GA4 coverage is incomplete across the game catalog, and event names do not yet fully match the newer checklist vocabulary.
-- The original Classmate quiz does not offer pre-game sharing and does not have result-specific static share pages.
+- The original Classmate quiz now links to Red Flag or Green Flag from its result screen, but it still does not offer pre-game sharing or result-specific static share pages.
 - Videoke and Barkada result pages do not yet have unique result-specific images.
 - README's game catalog is updated through Pinoy Merienda; its introductory focus remains the original Classmate quiz.
 - Trending is editorially curated because sufficient comparative GA4 data has not been confirmed.

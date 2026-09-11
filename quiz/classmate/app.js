@@ -128,6 +128,7 @@ const QUIZ_DATA = {
 };
 
 const state = { current: 0, answers: [] };
+const track = (name, parameters = {}) => window.hcTrack?.(name, { quiz_id: "classmate_type", game_id: "classmate_type", ...parameters });
 const screens = {
   start: document.querySelector("#start-screen"),
   question: document.querySelector("#question-screen"),
@@ -166,6 +167,7 @@ function renderQuestion() {
 
 function chooseAnswer(answerIndex) {
   state.answers[state.current] = answerIndex;
+  track("question_answer", { question_id: `classmate_${state.current + 1}`, question_number: state.current + 1, answer: answerIndex });
   if (state.current < QUIZ_DATA.questions.length - 1) {
     state.current += 1;
     renderQuestion();
@@ -197,11 +199,16 @@ function renderResult() {
     return item;
   }));
   $("#share-button").dataset.resultKey = resultKey;
+  track("quiz_complete", { result_type: resultKey });
+  track("game_complete", { result_type: resultKey });
+  track("result_view", { result_type: resultKey });
   showScreen("result");
 }
 
 function shareOnFacebook() {
   const result = QUIZ_DATA.results[$("#share-button").dataset.resultKey];
+  track("facebook_share_click", { share_type: "result", result_type: $("#share-button").dataset.resultKey });
+  track("share_result", { platform: "facebook", result_type: $("#share-button").dataset.resultKey });
   const pageUrl = /^https?:/.test(window.location.href) ? window.location.href.split("#")[0] : "";
   const shareText = `I'm ${result.name}! What type of classmate are you?`;
   if (!pageUrl) {
@@ -215,6 +222,8 @@ function shareOnFacebook() {
 }
 
 function restartQuiz() {
+  track("retry_click", { result_type: $("#share-button").dataset.resultKey || "unknown" });
+  track("replay", { result_type: $("#share-button").dataset.resultKey || "unknown" });
   state.current = 0;
   state.answers = [];
   $("#share-status").textContent = "";
@@ -222,7 +231,8 @@ function restartQuiz() {
   showScreen("start");
 }
 
-$("#start-button").addEventListener("click", () => { renderQuestion(); showScreen("question"); });
+$("#start-button").addEventListener("click", () => { track("quiz_start", { question_count: QUIZ_DATA.questions.length }); track("game_start", { question_count: QUIZ_DATA.questions.length }); renderQuestion(); showScreen("question"); });
 $("#back-button").addEventListener("click", () => { if (state.current > 0) { state.current -= 1; renderQuestion(); } });
 $("#restart-button").addEventListener("click", restartQuiz);
 $("#share-button").addEventListener("click", shareOnFacebook);
+$("#next-quiz-link").addEventListener("click", () => track("next_game_click", { destination_game_id: "red_flag_green_flag" }));

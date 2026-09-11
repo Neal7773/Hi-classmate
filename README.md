@@ -60,3 +60,5 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/how-marites-are-you/` — eight playful Filipino chika situations and eight shareable information styles
 - `games/what-kind-of-overthinker/` — ten relatable thought situations and eleven shareable overthinker types
 - `games/selos-level/` — ten Pinoy relationship situations, a selos percentage, and eight shareable types
+- `games/red-flag-green-flag/` — ten fast dating judgments, a radar score, and four shareable result levels
+- `games/red-flag-green-flag/` — ten fast dating judgments, a radar score, and four shareable result levels

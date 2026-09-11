@@ -41,6 +41,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-08 | Add “What Kind of Overthinker Are You?” with unusually diverse outcomes. | Implemented | Ten relatable situations produce eleven distinct styles covering chats, emojis, waiting, future scenarios, memories, planning, perfectionism, humor, and empathy. |
 | 2026-09-08 | Add “What’s Your Selos Level?” as a Filipino relationship and social-media score test. | Implemented | Ten binary situations produce an exact 0–100% selos score and eight shareable types, with fixed mobile zones, GA4, SEO, homepage discovery, and result pages. |
 | 2026-09-08 | Omit “just for fun,” non-diagnostic, and similar mood-breaking disclaimers from Selos Level and future entertainment tests unless a confirmed requirement makes one necessary. | Implemented | This changes the earlier blanket UI-disclosure assumption. Selos Level contains no such disclaimer in either the game card or supporting copy. |
+| 2026-09-12 | Add “Red Flag or Green Flag? 🚩💚” as a fast Filipino dating-radar comparison game while preserving the original Classmate quiz. | Implemented | Ten Red/Green judgments produce a 0–100 radar score and four shareable result levels. It includes bidirectional game discovery, GA4 comparison events, SEO, and result-share routes. |
 
 ## Change rule
 

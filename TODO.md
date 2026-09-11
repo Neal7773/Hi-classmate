@@ -6,7 +6,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## P0 — Before relying on analytics
 
-- [ ] Extend `analytics.js` and consistent funnel events to Classmate, Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy.
+- [ ] Extend `analytics.js` and consistent funnel events to Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy.
 - [ ] Standardize event names and parameters across all games; reconcile current `quiz_*` / `facebook_share_click` events with the SEO checklist's `game_*`, `share_game`, `share_result`, and `replay` vocabulary.
 - [ ] Verify live GA4 receipt in Realtime/DebugView after the deployed pages are instrumented.
 
@@ -28,6 +28,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [ ] Introduce a small automated smoke test for all public routes, required metadata, internal links, and JavaScript syntax.
 - [ ] Evaluate moving repeated personality-game rendering/scoring/share logic into a common engine plus per-game data files without changing current URLs or behavior.
 - [ ] Perform representative mobile and Facebook in-app-browser testing for each new interaction pattern.
+- [ ] Consider `Can You Survive a Filipino School Day?` as the next game candidate; do not implement until selected in Chat.
 
 ## Pending external confirmation
 

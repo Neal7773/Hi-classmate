@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-12
-Latest implemented release: pending publication; Red Flag or Green Flag is implemented locally and awaiting final verification/deployment.
+Latest implemented release: `b537e07` on `main`; Red Flag or Green Flag is published through GitHub/Cloudflare.
 
 ## Production and architecture
 
@@ -112,6 +112,9 @@ Latest implemented release: pending publication; Red Flag or Green Flag is imple
 - 2026-09-08: What Kind of Overthinker Are You passed 19 JavaScript syntax checks, logic markers for 10 questions and 11 outcomes, and metadata checks across 110 result pages. Production returned HTTP 200 for the game and representative result, loaded GA4, and the homepage linked to it.
 - 2026-09-08: What’s Your Selos Level passed 20 JavaScript syntax checks, logic markers for 10 questions and 8 reachable result bands, metadata checks across all 118 result pages, sequential 18-item homepage structured data, sitemap XML parsing, unwanted-disclaimer checks, and `git diff --check`. The 1200 × 630 social image and representative local game, asset, result, and homepage routes returned HTTP 200.
 - 2026-09-08: production verification returned HTTP 200 for Selos Level, its Silent Observer result page, the 1200 × 630 social image, and the homepage. The live game title and homepage discovery link were confirmed after release `03498b8` deployed.
+- 2026-09-12: Red Flag or Green Flag passed scoring tests for perfect, opposite, all-Red, all-Green, and every 0–10 threshold; all 21 JavaScript files passed syntax checks; all 122 result pages passed metadata checks; the homepage ItemList contained 19 sequential games; the required legacy and standardized GA4 event markers were present; and `git diff --check` passed.
+- 2026-09-12: Chrome testing passed at desktop and emulated 390 × 844 mobile sizes. The mobile page had no horizontal overflow, kept the question and fixed Red/Green buttons within one viewport, completed all ten choices to the expected 100% result, restarted successfully, and opened the original Classmate quiz, whose first question and reverse cross-link also worked. A real Facebook in-app-browser session was not directly available.
+- 2026-09-12: production verification returned HTTP 200 for Red Flag or Green Flag, its Mixed Signals result route, the 1200 × 630 social image, the homepage, and the original Classmate quiz. Live homepage discovery and bidirectional Classmate linkage were confirmed after release `b537e07` deployed.
 - 2026-09-12: Red Flag or Green Flag passed 21 JavaScript syntax checks, all 0–10 scoring thresholds, perfect/opposite/all-Red/all-Green paths, metadata checks across all 122 result pages, sequential 19-item homepage structured data, sitemap XML parsing, analytics marker checks, and `git diff --check`. Chrome checks at 1365 × 900 and emulated 390 × 844 confirmed no horizontal overflow, a fixed question/answer layout, the 100% result path, replay, direct entry, and the Classmate cross-link/first-question regression. Its social image is 1200 × 630.
 - 2026-09-07: Family GC Role passed all 15 JavaScript syntax checks, metadata checks across 75 result pages, homepage and sitemap checks, and production verification for the live game plus homepage link.
 - Previous work verified key local pages and homepage markup before deployment.

@@ -221,6 +221,16 @@ function shareOnFacebook() {
   if (!popup) window.location.href = shareUrl;
 }
 
+function shareGameOnFacebook() {
+  track("facebook_share_click", { share_type: "game" });
+  track("share_game", { platform: "facebook" });
+  const pageUrl = "https://hiclassmate.com/quiz/classmate/";
+  const shareText = "What type of classmate are you? Take the 8-question quiz!";
+  const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}&quote=${encodeURIComponent(shareText)}`;
+  const popup = window.open(shareUrl, "facebook-share-dialog", "width=640,height=520,noopener,noreferrer");
+  if (!popup) window.location.href = shareUrl;
+}
+
 function restartQuiz() {
   track("retry_click", { result_type: $("#share-button").dataset.resultKey || "unknown" });
   track("replay", { result_type: $("#share-button").dataset.resultKey || "unknown" });
@@ -235,4 +245,5 @@ $("#start-button").addEventListener("click", () => { track("quiz_start", { quest
 $("#back-button").addEventListener("click", () => { if (state.current > 0) { state.current -= 1; renderQuestion(); } });
 $("#restart-button").addEventListener("click", restartQuiz);
 $("#share-button").addEventListener("click", shareOnFacebook);
+$("#share-game-button").addEventListener("click", shareGameOnFacebook);
 $("#next-quiz-link").addEventListener("click", () => track("next_game_click", { destination_game_id: "red_flag_green_flag" }));

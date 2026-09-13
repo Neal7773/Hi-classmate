@@ -1,10 +1,17 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-07
+Last reviewed: 2026-09-13
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
 
-## P0 — Before relying on analytics
+## AdSense application next steps
+
+- [ ] Add `hiclassmate.com` in AdSense and request site review.
+- [ ] If AdSense supplies a site-verification script or meta tag, provide the exact value for installation; do not invent a publisher ID.
+- [ ] Confirm the real AdSense Publisher ID, then add the exact Google-authorized seller line to `/ads.txt`.
+- [ ] Before serving ads where required, configure and publish the appropriate AdSense Privacy & messaging flow, including a Google-certified CMP for EEA, UK, and Switzerland traffic.
+
+## P2 — Analytics follow-up
 
 - [ ] Extend `analytics.js` and consistent funnel events to Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy.
 - [ ] Standardize event names and parameters across all games; reconcile current `quiz_*` / `facebook_share_click` events with the SEO checklist's `game_*`, `share_game`, `share_result`, and `replay` vocabulary.
@@ -12,7 +19,6 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## P1 — Sharing consistency
 
-- [ ] Add an always-visible pre-game “Share this game” action to the original Classmate quiz.
 - [ ] Decide whether the original Classmate quiz should receive result-specific static pages/cards.
 - [ ] Create result-specific social images for Videoke Persona and Barkada Role if Facebook testing confirms the shared main-game image is not compelling enough.
 - [ ] Test representative game and result URLs with Facebook Sharing Debugger and refresh stale cached previews.
@@ -28,10 +34,12 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [ ] Introduce a small automated smoke test for all public routes, required metadata, internal links, and JavaScript syntax.
 - [ ] Evaluate moving repeated personality-game rendering/scoring/share logic into a common engine plus per-game data files without changing current URLs or behavior.
 - [ ] Perform representative mobile and Facebook in-app-browser testing for each new interaction pattern.
+- [ ] Enable Cloudflare “Always Use HTTPS” so `http://hiclassmate.com/` redirects to the canonical HTTPS origin.
+- [ ] Add and redirect `www.hiclassmate.com` only if the `www` hostname will be used or promoted; the current canonical host is non-www.
 - [ ] Consider `Can You Survive a Filipino School Day?` as the next game candidate; do not implement until selected in Chat.
 
 ## Pending external confirmation
 
-- [ ] Confirm current AdSense approval state before enabling any advertising code or space.
-- [ ] Before live ads, configure and publish the appropriate AdSense Privacy & messaging consent flow (including a Google-certified CMP where required) and verify that users can manage or revoke consent.
+- [ ] Confirm AdSense review/approval status before enabling any advertising code or space.
+- [ ] After CMP setup, verify that users can manage or revoke consent where required.
 - [ ] Confirm Cloudflare production deployment health when deployment behavior changes; repository history indicates automatic deployment, but external settings are not versioned here.

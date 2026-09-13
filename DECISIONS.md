@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-03
+Last reviewed: 2026-09-13
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -14,12 +14,12 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-08-31 | Remove the photo-guessing game because the graphics and gameplay were not engaging; replace it with a compact classroom-choice game. | Superseded | The replacement became Would You Rather; no Guess the Photo route remains. |
 | 2026-08-31 | Keep choice games within one interactive viewport and avoid vertically expanding answer flows. | Implemented | Applied to Would You Rather and later personality games. |
 | 2026-08-31 | Make personality results fun, varied, and socially comparable using result types and playful percentile-style wording. | Implemented | Percentages are explicitly disclosed as non-population estimates. |
-| 2026-08-31 | Provide an always-available pre-game Facebook share action, and make the post-game action share the player's result. | Partial | Implemented across games under `/games/`; the original `/quiz/classmate/` still lacks pre-game sharing and result-specific static share pages. |
+| 2026-08-31 | Provide an always-available pre-game Facebook share action, and make the post-game action share the player's result. | Partial | Pre-game sharing is implemented across all 19 games, including `/quiz/classmate/`. The original Classmate quiz still lacks result-specific static share pages. |
 | 2026-08-31 | Prefer result-first Facebook cards where the result is the main visual/message. | Partial | Would You Rather and How Pinoy use result-specific image assets; Videoke and Barkada result routes currently reference the main game artwork. |
-| 2026-09-01 | Add GA4 using measurement ID `G-77QM94C66P` and track the Facebook quiz funnel. | Partial | Shared loader is active on the homepage, Videoke Persona, and Barkada Role. Other games are not yet instrumented. |
+| 2026-09-01 | Add GA4 using measurement ID `G-77QM94C66P` and track the Facebook quiz funnel. | Partial | Shared loader is active on the homepage, the original Classmate quiz, and 14 of 18 `/games/` pages. Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy remain uninstrumented. |
 | 2026-09-02 | Prioritize Filipino-specific game concepts, situations, humor, and language rather than generic games. | Implemented | How Pinoy, Videoke Persona, and Barkada Role establish the current direction. |
 | 2026-09-02 | Organize the homepage as Featured, Trending, New Games, and category/mood discovery. | Implemented | Featured is Barkada Role; Trending is manually curated pending enough GA4 data. |
-| 2026-09-02 | Treat SEO as part of every new-game publishing workflow. Result variants use `noindex,follow` and canonicalize to the main game. | Implemented | Detailed rules are in `SEO-PUBLISHING-CHECKLIST.md`; all 32 current static result pages follow this policy. |
+| 2026-09-02 | Treat SEO as part of every new-game publishing workflow. Result variants use `noindex,follow` and canonicalize to the main game. | Implemented | Detailed rules are in `SEO-PUBLISHING-CHECKLIST.md`; all 122 current static result pages follow this policy. |
 | 2026-09-03 | Use this Work thread for implementation/testing and the four root state files as the official Chat↔Work handoff record. | Implemented | State system initialized; future work must synchronize it after changes. |
 | 2026-09-03 | After every completed implementation, synchronize the state files and automatically finish with a paste-ready `[CHAT_HANDOFF]`. | Implemented | The handoff must cover actual changes, tests, current state, remaining TODO, and next Chat decisions. |
 | 2026-09-03 | Add “What’s Your Pinoy Merienda?” as the next Filipino-first, highly shareable personality game. | Implemented | Eight questions map to eight iconic merienda personalities; it includes pre-game sharing, result sharing, GA4, SEO, homepage discovery, and static result routes. |

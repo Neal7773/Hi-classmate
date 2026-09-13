@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-12
-Latest implemented release: `b537e07` on `main`; Red Flag or Green Flag is published through GitHub/Cloudflare.
+Snapshot date: 2026-09-13
+Latest implemented release: `b0fa6b6` on `main`; the AdSense application preflight fixes are published through GitHub/Cloudflare.
 
 ## Production and architecture
 
@@ -24,7 +24,7 @@ Latest implemented release: `b537e07` on `main`; Red Flag or Green Flag is publi
 
 | Route | Type | Current behavior |
 |---|---|---|
-| `/quiz/classmate/` | Personality quiz | 8 questions, 6 classmate results, answer-weighted scoring, result sharing, restart. Data is in `QUIZ_DATA`. |
+| `/quiz/classmate/` | Personality quiz | 8 questions, 6 classmate results, answer-weighted scoring, always-visible game sharing, result sharing, and restart. Data is in `QUIZ_DATA`. |
 | `/games/reaction-speed/` | Skill game | 5 timed rounds, average/fastest/round scores, 5 descriptive result bands, game and result sharing, restart. |
 | `/games/memory-challenge/` | Skill game | 6 visual-memory rounds, score/accuracy/answer speed, 4 result bands, game and result sharing, restart. |
 | `/games/would-you-rather/` | Personality choice game | 10 two-choice questions, 8 results with playful comparisons, game sharing, result-specific sharing routes/cards, restart. |
@@ -116,6 +116,10 @@ Latest implemented release: `b537e07` on `main`; Red Flag or Green Flag is publi
 - 2026-09-12: Chrome testing passed at desktop and emulated 390 × 844 mobile sizes. The mobile page had no horizontal overflow, kept the question and fixed Red/Green buttons within one viewport, completed all ten choices to the expected 100% result, restarted successfully, and opened the original Classmate quiz, whose first question and reverse cross-link also worked. A real Facebook in-app-browser session was not directly available.
 - 2026-09-12: production verification returned HTTP 200 for Red Flag or Green Flag, its Mixed Signals result route, the 1200 × 630 social image, the homepage, and the original Classmate quiz. Live homepage discovery and bidirectional Classmate linkage were confirmed after release `b537e07` deployed.
 - 2026-09-12: Red Flag or Green Flag passed 21 JavaScript syntax checks, all 0–10 scoring thresholds, perfect/opposite/all-Red/all-Green paths, metadata checks across all 122 result pages, sequential 19-item homepage structured data, sitemap XML parsing, analytics marker checks, and `git diff --check`. Chrome checks at 1365 × 900 and emulated 390 × 844 confirmed no horizontal overflow, a fixed question/answer layout, the 100% result path, replay, direct entry, and the Classmate cross-link/first-question regression. Its social image is 1200 × 630.
+- 2026-09-13: AdSense application preflight completed against the repository and production. All 24 sitemap URLs (homepage, 19 games, and four trust pages) returned HTTP 200. A broader production crawl checked 226 page and asset URLs with zero failures after deployment. HTTPS, canonical URLs, robots.txt, sitemap XML, all 21 JavaScript files, homepage WebSite/19-item ItemList data, 146 local HTML files, and all 122 result-page `noindex,follow`/main-game canonical pairs passed.
+- 2026-09-13: two P1 broken social/content image references were fixed on How Marites Are You and What Kind of Overthinker Are You. Their titles, structured data, question/result counts, and supporting copy were also corrected where they did not match the actual games. The original Classmate quiz now has an always-visible pre-game Facebook share action and consistent Hi Classmate branding.
+- 2026-09-13: browser checks passed at 390 × 844 and 360 × 740. Complete start/play/result/replay flows were exercised for Classmate, Red Flag or Green Flag, How Marites, Overthinker, Delulu, Reaction Speed, and Memory Challenge; no horizontal overflow or captured console errors were found. Actual Facebook in-app-browser and Facebook Sharing Debugger tests remain external.
+- 2026-09-13: no live AdSense code, publisher ID, enabled ad container, or ad-click encouragement was found. The original hidden placeholders remain `display:none` unless the unused `ads-enabled` class is deliberately added. `ads.txt` is absent because no verified Publisher ID exists in the project.
 - 2026-09-07: Family GC Role passed all 15 JavaScript syntax checks, metadata checks across 75 result pages, homepage and sitemap checks, and production verification for the live game plus homepage link.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.
@@ -124,9 +128,11 @@ Latest implemented release: `b537e07` on `main`; Red Flag or Green Flag is publi
 ## Known issues and inconsistencies
 
 - GA4 coverage is incomplete across the game catalog, and event names do not yet fully match the newer checklist vocabulary.
-- The original Classmate quiz now links to Red Flag or Green Flag from its result screen, but it still does not offer pre-game sharing or result-specific static share pages.
+- The original Classmate quiz now links to Red Flag or Green Flag and offers pre-game sharing, but it still does not have result-specific static share pages.
 - Videoke and Barkada result pages do not yet have unique result-specific images.
 - README's game catalog is updated through Pinoy Merienda; its introductory focus remains the original Classmate quiz.
 - Trending is editorially curated because sufficient comparative GA4 data has not been confirmed.
 - Live Search Console indexing status, AdSense approval status, live GA4 receipt, and Facebook cache state are external and were not confirmed from repository files.
 - The Privacy Policy is prepared for AdSense advertising cookies, but live AdSense code remains disabled. A Google-certified CMP/privacy message must still be configured where required before serving personalized ads in the EEA, UK, or Switzerland.
+- `http://hiclassmate.com/` currently returns the site with HTTP 200 instead of redirecting to HTTPS. All canonical, Open Graph, sitemap, and internal URLs use HTTPS, so this is a non-blocking hardening item rather than an AdSense application blocker.
+- The `www.hiclassmate.com` hostname currently has no DNS record. The site consistently uses the non-www canonical host, so this is not an AdSense application blocker; add and redirect `www` only if that hostname will be promoted.

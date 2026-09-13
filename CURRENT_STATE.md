@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-13
-Latest implemented release: `b0fa6b6` on `main`; the AdSense application preflight fixes are published through GitHub/Cloudflare.
+Latest implemented release: `104edf0` on `main`; the AdSense ownership verification tag and root `ads.txt` are published through GitHub/Cloudflare.
 
 ## Production and architecture
 
@@ -79,6 +79,13 @@ Latest implemented release: `b0fa6b6` on `main`; the AdSense application preflig
 - The original Classmate quiz now loads the shared GA4 script and tracks its start, answers, completion, result view, result share, replay, and next-game click using both legacy comparison events and standardized game events where applicable.
 - Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy do not currently load the shared GA4 script.
 
+## AdSense ownership state
+
+- Verified Publisher ID: `ca-pub-5544502803818999`.
+- The Google-provided ownership tag is present exactly once inside `<head>` on all 24 main/search-visible pages: the homepage, all 19 game routes, and About, Contact, Privacy, and Terms.
+- Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
+- No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
+
 ## Verification status
 
 - 2026-09-03: all 10 JavaScript files passed syntax checking.
@@ -119,7 +126,9 @@ Latest implemented release: `b0fa6b6` on `main`; the AdSense application preflig
 - 2026-09-13: AdSense application preflight completed against the repository and production. All 24 sitemap URLs (homepage, 19 games, and four trust pages) returned HTTP 200. A broader production crawl checked 226 page and asset URLs with zero failures after deployment. HTTPS, canonical URLs, robots.txt, sitemap XML, all 21 JavaScript files, homepage WebSite/19-item ItemList data, 146 local HTML files, and all 122 result-page `noindex,follow`/main-game canonical pairs passed.
 - 2026-09-13: two P1 broken social/content image references were fixed on How Marites Are You and What Kind of Overthinker Are You. Their titles, structured data, question/result counts, and supporting copy were also corrected where they did not match the actual games. The original Classmate quiz now has an always-visible pre-game Facebook share action and consistent Hi Classmate branding.
 - 2026-09-13: browser checks passed at 390 × 844 and 360 × 740. Complete start/play/result/replay flows were exercised for Classmate, Red Flag or Green Flag, How Marites, Overthinker, Delulu, Reaction Speed, and Memory Challenge; no horizontal overflow or captured console errors were found. Actual Facebook in-app-browser and Facebook Sharing Debugger tests remain external.
-- 2026-09-13: no live AdSense code, publisher ID, enabled ad container, or ad-click encouragement was found. The original hidden placeholders remain `display:none` unless the unused `ads-enabled` class is deliberately added. `ads.txt` is absent because no verified Publisher ID exists in the project.
+- 2026-09-13: during the application preflight, no live AdSense code, publisher ID, enabled ad container, or ad-click encouragement was found. The original hidden placeholders remain `display:none` unless the unused `ads-enabled` class is deliberately added; at that preflight snapshot, `ads.txt` was absent because no verified Publisher ID had yet been supplied.
+- 2026-09-13: Publisher ID `ca-pub-5544502803818999` was subsequently confirmed. Release `104edf0` added the exact ownership meta tag to all 24 main/search-visible pages and published the exact authorized seller line in root `ads.txt` without enabling any ad-serving code.
+- 2026-09-13: production verification checked all 24 tagged routes: all returned HTTP 200, contained exactly one ownership tag inside `<head>`, and retained canonical metadata. The homepage and representative game pages retained Open Graph, GA4, and valid structured data where previously present. Production `ads.txt` returned HTTP 200 as `text/plain` with the exact authorized line. Local regression checks passed all 21 JavaScript syntax checks, 146 HTML internal-reference checks, and both homepage JSON-LD blocks.
 - 2026-09-07: Family GC Role passed all 15 JavaScript syntax checks, metadata checks across 75 result pages, homepage and sitemap checks, and production verification for the live game plus homepage link.
 - Previous work verified key local pages and homepage markup before deployment.
 - No automated browser/end-to-end test suite exists.

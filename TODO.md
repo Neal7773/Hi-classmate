@@ -6,9 +6,11 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## AdSense application next steps
 
-- [ ] Add `hiclassmate.com` in AdSense and request site review.
-- [ ] If AdSense supplies a site-verification script or meta tag, provide the exact value for installation; do not invent a publisher ID.
-- [ ] Confirm the real AdSense Publisher ID, then add the exact Google-authorized seller line to `/ads.txt`.
+- [x] Confirm Publisher ID `ca-pub-5544502803818999` and publish the exact Google ownership meta tag across all main/search-visible pages.
+- [x] Publish the exact Google-authorized seller line at `/ads.txt` and verify the live plain-text response.
+- [ ] In AdSense, check “HTML `<meta>` tag를 삽입했습니다” and click **확인**.
+- [ ] After ownership verification succeeds, submit `hiclassmate.com` for site review.
+- [ ] After AdSense approval, separately plan and implement actual ad placement; do not enable Auto Ads or ad units as part of ownership verification.
 - [ ] Before serving ads where required, configure and publish the appropriate AdSense Privacy & messaging flow, including a Google-certified CMP for EEA, UK, and Switzerland traffic.
 
 ## P2 — Analytics follow-up
@@ -40,6 +42,6 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## Pending external confirmation
 
-- [ ] Confirm AdSense review/approval status before enabling any advertising code or space.
+- [ ] Confirm AdSense ownership verification, review submission, and eventual approval status before enabling any advertising code or space.
 - [ ] After CMP setup, verify that users can manage or revoke consent where required.
 - [ ] Confirm Cloudflare production deployment health when deployment behavior changes; repository history indicates automatic deployment, but external settings are not versioned here.

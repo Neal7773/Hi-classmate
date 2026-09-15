@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-15
-Latest local implementation: Villain Era (2026-09-15); release and production verification are pending. Previous production implementation: `104edf0`; previous state commit: `1c20fb0`. AdSense remains ownership verification only.
+Latest local implementation: Villain Era, commit `113cbc9` (2026-09-15). All local checks passed; GitHub publication and production verification await explicit user approval after automatic approval review rejected the push. Previous production implementation: `104edf0`; previous state commit: `1c20fb0`. AdSense remains ownership verification only.
 
 ## Production and architecture
 
@@ -87,6 +87,13 @@ Latest local implementation: Villain Era (2026-09-15); release and production ve
 - The Google-provided ownership tag is present exactly once inside `<head>` on all 25 main/search-visible pages: the homepage, all 20 game routes, and About, Contact, Privacy, and Terms.
 - Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
 - No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
+
+## Deployment status — 2026-09-15
+
+- Remote `main` was read and confirmed at `1c20fb0aadc4db89c5e15773614961635157b586` before attempted publication.
+- Automatic approval review rejected pushing `113cbc9` to the public `Neal7773/Hi-classmate` `main` branch. Its stated concern was lack of explicit current authorization for that exact destination, exposure of source/internal documentation and triggering production deployment.
+- No push occurred and the new route must not be described as live. Local implementation and verification are complete.
+- User approval for the exact public destination is the remaining publishing prerequisite.
 
 ## Villain Era continuation — 2026-09-15
 

@@ -45,7 +45,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
 ## Villain Era — 2026-09-15
 
-**Implemented locally; release verification pending.** User selected “What Would Trigger Your Villain Era?” after reviewing eight revealing questions and six proposed result archetypes. Use four answer choices, six types with trigger/excuse/way-back detail, deterministic normalized scoring and an answer-derived type-match percentage. Keep existing games, URLs, homepage Featured/Trending, GA4 property and ad-disabled state. Provide game and result sharing, six unique result cards, SEO/discovery updates and mobile fixed answer positions. This introduces no changes to existing games’ scoring.
+**Implemented and verified locally (`113cbc9`); publication awaits explicit approval after automatic approval review rejected the push.** User selected “What Would Trigger Your Villain Era?” after reviewing eight revealing questions and six proposed result archetypes. Use four answer choices, six types with trigger/excuse/way-back detail, deterministic normalized scoring and an answer-derived type-match percentage. Keep existing games, URLs, homepage Featured/Trending, GA4 property and ad-disabled state. Provide game and result sharing, six unique result cards, SEO/discovery updates and mobile fixed answer positions. This introduces no changes to existing games’ scoring.
 
 ## Change rule
 

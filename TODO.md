@@ -9,7 +9,8 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Implement the selected 8-question/6-result quiz with fixed answer zones, back/replay, deterministic scoring and type match.
 - [x] Add main artwork, six result-specific cards/pages, GA4 and homepage/sitemap discovery.
 - [x] Finish browser, scoring, keyboard, sharing and existing-game regression checks.
-- [ ] Obtain explicit approval for publishing commit `113cbc9` to the public `Neal7773/Hi-classmate` `main` branch, then push and verify Cloudflare production. Automatic approval review rejected the first push; no publication occurred.
+- [x] Obtain explicit approval for publishing the game and documents to public `Neal7773/Hi-classmate` `main` and the existing Cloudflare production site.
+- [ ] Complete GitHub authentication on this PC, push the verified commits, and verify production. Authentication—not approval—is the remaining blocker.
 - [ ] Verify Facebook preview caches and live GA4 receipt for the new route.
 
 ## AdSense application next steps

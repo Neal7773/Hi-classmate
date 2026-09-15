@@ -45,7 +45,11 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
 ## Villain Era — 2026-09-15
 
-**Implemented and verified locally (`113cbc9`); publication awaits explicit approval after automatic approval review rejected the push.** User selected “What Would Trigger Your Villain Era?” after reviewing eight revealing questions and six proposed result archetypes. Use four answer choices, six types with trigger/excuse/way-back detail, deterministic normalized scoring and an answer-derived type-match percentage. Keep existing games, URLs, homepage Featured/Trending, GA4 property and ad-disabled state. Provide game and result sharing, six unique result cards, SEO/discovery updates and mobile fixed answer positions. This introduces no changes to existing games’ scoring.
+**Implemented and verified locally (`113cbc9`); the user explicitly approved publication; GitHub authentication on this PC is pending.** User selected “What Would Trigger Your Villain Era?” after reviewing eight revealing questions and six proposed result archetypes. Use four answer choices, six types with trigger/excuse/way-back detail, deterministic normalized scoring and an answer-derived type-match percentage. Keep existing games, URLs, homepage Featured/Trending, GA4 property and ad-disabled state. Provide game and result sharing, six unique result cards, SEO/discovery updates and mobile fixed answer positions. This introduces no changes to existing games’ scoring.
+
+## Exact publication authorization — 2026-09-15
+
+After automatic approval review rejected the initial push, the user explicitly answered “승인 — 기존 사이트에 공개 배포” to publishing the completed game and changed documents to the public `Neal7773/Hi-classmate` `main` branch and deploying through the existing Cloudflare flow to `hiclassmate.com`. Do not ask for this same publication approval again. Authentication must be completed before retrying the push.
 
 ## Change rule
 

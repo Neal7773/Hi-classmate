@@ -62,3 +62,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 - `games/selos-level/` — ten Pinoy relationship situations, a selos percentage, and eight shareable types
 - `games/red-flag-green-flag/` — ten fast dating judgments, a radar score, and four shareable result levels
 - `games/red-flag-green-flag/` — ten fast dating judgments, a radar score, and four shareable result levels
+
+## Villain Era (2026-09-15)
+
+`/games/villain-era/` adds eight four-choice questions and six results. `data.js` owns content and weights, `engine.js` computes a deterministic normalized type match, and `app.js` handles interaction, sharing, and GA4. All six results have dedicated 1200 × 630 share cards and static pages. Serve the project root to test root-relative navigation.

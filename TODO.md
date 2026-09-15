@@ -1,8 +1,16 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-13
+Last reviewed: 2026-09-15
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## Villain Era release
+
+- [x] Implement the selected 8-question/6-result quiz with fixed answer zones, back/replay, deterministic scoring and type match.
+- [x] Add main artwork, six result-specific cards/pages, GA4 and homepage/sitemap discovery.
+- [x] Finish browser, scoring, keyboard, sharing and existing-game regression checks.
+- [ ] Publish via the established GitHub/Cloudflare flow and verify production.
+- [ ] Verify Facebook preview caches and live GA4 receipt for the new route.
 
 ## AdSense application next steps
 

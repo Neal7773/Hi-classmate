@@ -1,6 +1,6 @@
 # PROJECT_SPEC — Hi Classmate
 
-Last reviewed: 2026-09-03
+Last reviewed: 2026-09-15
 
 ## Purpose
 
@@ -43,6 +43,10 @@ The production site is `https://hiclassmate.com/`.
 - Keep policy/trust pages (`about`, `contact`, `privacy`, `terms`) accessible from the footer.
 - Do not change the domain, GitHub repository/branch, Cloudflare deployment relationship, analytics ID, legal copy, or canonical URL policy casually.
 - After a completed implementation passes its relevant checks, publish it to the established public GitHub repository `Neal7773/Hi-classmate` on `main` and verify the Cloudflare production result without asking for a separate deployment confirmation each time. This standing authorization applies only to this project and established deployment destination.
+
+## Villain Era implementation note (2026-09-15)
+
+The selected Villain Era quiz uses eight four-choice questions and six result archetypes. Its displayed type match is calculated from answers, not a percentile against other players. Keep content, scoring and display separate and preserve deterministic results for identical answers. This game adds no new site-wide deployment, analytics or advertising policy.
 
 ## Documentation workflow
 

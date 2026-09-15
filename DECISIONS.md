@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-13
+Last reviewed: 2026-09-15
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -42,6 +42,10 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-09-08 | Add “What’s Your Selos Level?” as a Filipino relationship and social-media score test. | Implemented | Ten binary situations produce an exact 0–100% selos score and eight shareable types, with fixed mobile zones, GA4, SEO, homepage discovery, and result pages. |
 | 2026-09-08 | Omit “just for fun,” non-diagnostic, and similar mood-breaking disclaimers from Selos Level and future entertainment tests unless a confirmed requirement makes one necessary. | Implemented | This changes the earlier blanket UI-disclosure assumption. Selos Level contains no such disclaimer in either the game card or supporting copy. |
 | 2026-09-12 | Add “Red Flag or Green Flag? 🚩💚” as a fast Filipino dating-radar comparison game while preserving the original Classmate quiz. | Implemented | Ten Red/Green judgments produce a 0–100 radar score and four shareable result levels. It includes bidirectional game discovery, GA4 comparison events, SEO, and result-share routes. |
+
+## Villain Era — 2026-09-15
+
+**Implemented locally; release verification pending.** User selected “What Would Trigger Your Villain Era?” after reviewing eight revealing questions and six proposed result archetypes. Use four answer choices, six types with trigger/excuse/way-back detail, deterministic normalized scoring and an answer-derived type-match percentage. Keep existing games, URLs, homepage Featured/Trending, GA4 property and ad-disabled state. Provide game and result sharing, six unique result cards, SEO/discovery updates and mobile fixed answer positions. This introduces no changes to existing games’ scoring.
 
 ## Change rule
 

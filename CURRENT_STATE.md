@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-13
-Latest implemented release: `104edf0` on `main`; the AdSense ownership verification tag and root `ads.txt` are published through GitHub/Cloudflare.
+Snapshot date: 2026-09-15
+Latest local implementation: Villain Era (2026-09-15); release and production verification are pending. Previous production implementation: `104edf0`; previous state commit: `1c20fb0`. AdSense remains ownership verification only.
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest implemented release: `104edf0` on `main`; the AdSense ownership verificat
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, nineteen game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -44,6 +44,8 @@ Latest implemented release: `104edf0` on `main`; the AdSense ownership verificat
 | `/games/selos-level/` | Filipino relationship score/personality test | 10 two-choice relationship and social-media situations produce an exact 0–100% selos score and 8 playful types, with sharing, GA4, SEO, and fixed mobile zones. |
 | `/games/red-flag-green-flag/` | Filipino dating-radar judgment game | 10 fast Red/Green judgments produce a 0–100 radar score and 4 shareable levels, with pre-game/result sharing, restart, Classmate cross-links, GA4 comparison events, SEO, and fixed mobile zones. |
 
+| `/games/villain-era/` | Filipino social personality quiz | 8 four-choice questions, 6 villain-era types, deterministic normalized type match, trigger/excuse/way-back detail, fixed mobile answer zone, back/replay, GA4, and six dedicated result-share cards/pages. |
+
 ## Important files
 
 - `index.html`: homepage content, homepage metadata, and structured data.
@@ -60,8 +62,8 @@ Latest implemented release: `104edf0` on `main`; the AdSense ownership verificat
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 122 static result pages in total.
-- All 122 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 128 static result pages in total.
+- All 128 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -82,11 +84,26 @@ Latest implemented release: `104edf0` on `main`; the AdSense ownership verificat
 ## AdSense ownership state
 
 - Verified Publisher ID: `ca-pub-5544502803818999`.
-- The Google-provided ownership tag is present exactly once inside `<head>` on all 24 main/search-visible pages: the homepage, all 19 game routes, and About, Contact, Privacy, and Terms.
+- The Google-provided ownership tag is present exactly once inside `<head>` on all 25 main/search-visible pages: the homepage, all 20 game routes, and About, Contact, Privacy, and Terms.
 - Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
 - No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
 
+## Villain Era continuation — 2026-09-15
+
+- Work continues from `1c20fb0` in this task’s `outputs/classmate-quiz` copy; original laptop-transfer files are preserved. The copied Git remote points to the established `Neal7773/Hi-classmate` repository.
+- `games/villain-era/data.js` contains content, `engine.js` handles scoring, and `app.js` handles display, navigation, Facebook sharing and analytics. No existing game engine or styling was changed.
+- Six results: The Applause Addict, The Beautiful Revenge, The Puppet Master, The Untouchable, The Main Character, The Fallen Angel.
+- Match is earned points divided by the maximum available for that type; it is not a population percentile. Equal normalized scores use the latest relevant answer, then stable content order.
+- Homepage New Games, Personality category and 20-item ItemList include the game. Featured and curated Trending remain unchanged. Sitemap contains 25 main pages; result-share pages remain excluded.
+- New main page has the existing AdSense ownership tag and GA4 ID. New game records `game_view`, `game_start`, `question_answer`, `game_complete`, `result_view`, `share_game`, `share_result`, `replay` and next-game navigation with `game_id`/`quiz_id` = `villain_era`.
+- The main 1200 × 630 social image uses built-in ImageGen; six dedicated result cards use deterministic typography/layout.
+- New static result pages have unique image/title/description, `noindex,follow`, and canonical links to the main game.
+- Markdown state/history files are excluded from Cloudflare static assets.
+- Actual Facebook in-app-browser behavior, Facebook cache previews and live GA4 receipt remain external checks.
+
 ## Verification status
+
+- 2026-09-15: Villain Era passed all 65,536 answer combinations, including 3,346 tied combinations and reachability of all six results. All 24 JavaScript files passed syntax checks; 153 HTML files passed internal-reference and JSON-LD parsing checks; all 128 result pages passed noindex/main-game-canonical checks; the homepage has 20 unique sequential entries and 25 sitemap routes returned local HTTP 200 with ownership tags. Seven social cards are 1200 × 630. Chrome at 390 × 844, 360 × 740 and 1365 × 900 passed all six result paths, expected match scores, fixed answer positions, no horizontal overflow, result visibility, back navigation and replay, with zero page errors. Additional checks passed keyboard operation, rapid double-click protection, isolated Facebook popup and canonical share URL, homepage entry, and the original Classmate complete/replay flow. Facebook in-app-browser/cache previews and GA4 server receipt were not directly tested.
 
 - 2026-09-03: all 10 JavaScript files passed syntax checking.
 - 2026-09-03: all 40 static result pages passed the `noindex,follow` and canonical metadata check.

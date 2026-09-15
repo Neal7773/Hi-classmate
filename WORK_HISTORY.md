@@ -16,3 +16,10 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 
 - The user subsequently explicitly approved publication of the game and documents to the exact public repository, branch and production destination. The approval is persistent; do not ask again for this release.
 - The authorized push could not authenticate on this PC. Git Credential Manager had no usable credential; noninteractive retry failed with username/prompting errors. GitHub login and production verification remain pending.
+
+## 2026-09-15 — Publication completed
+
+- User opened GitHub in Chrome and requested continuation. Official Git Credential Manager browser authentication completed successfully with the user.
+- Published the approved code/documents to `Neal7773/Hi-classmate` `main` (`1c20fb0` → `2d563c6`).
+- Cloudflare production contains Villain Era and homepage discovery. All 21 checked routes returned HTTP 200 and matched the verified source/artwork (text line-ending normalization only).
+- The earlier approval/authentication blockers are resolved. Facebook cache/in-app-browser tests and live GA4 receipt remain external follow-ups.

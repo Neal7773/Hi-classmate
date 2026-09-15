@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-15
-Latest local implementation: Villain Era, commit `113cbc9` (2026-09-15). All local checks passed. The user explicitly approved publishing source and documents to public `Neal7773/Hi-classmate` `main` and the existing Cloudflare production site. Publication now awaits GitHub authentication on this PC; production verification is pending. Previous production implementation: `104edf0`; previous state commit: `1c20fb0`. AdSense remains ownership verification only.
+Latest implemented release: Villain Era, implementation commit `113cbc9`, published to GitHub `main` and verified on Cloudflare production on 2026-09-15. All local checks and 21 production route/content checks passed. AdSense remains ownership verification only.
 
 ## Production and architecture
 
@@ -90,11 +90,10 @@ Latest local implementation: Villain Era, commit `113cbc9` (2026-09-15). All loc
 
 ## Deployment status — 2026-09-15
 
-- Remote `main` was read and confirmed at `1c20fb0aadc4db89c5e15773614961635157b586` before attempted publication.
-- Automatic approval review rejected pushing `113cbc9` to the public `Neal7773/Hi-classmate` `main` branch. Its stated concern was lack of explicit current authorization for that exact destination, exposure of source/internal documentation and triggering production deployment.
-- No push occurred and the new route must not be described as live. Local implementation and verification are complete.
-- The user subsequently explicitly approved that exact repository, branch, document publication and production destination. This resolves the approval prerequisite.
-- The authorized retry waited in Git Credential Manager. A noninteractive retry with the prior DPAPI store failed because no usable GitHub credential was available (`could not read Username`; prompting disabled). GitHub authentication is now the blocker. No successful push has occurred.
+- The user explicitly approved source/document publication to public `Neal7773/Hi-classmate` `main` and the existing Cloudflare deployment to `hiclassmate.com`.
+- The user completed GitHub browser authentication. The authorized push succeeded (`1c20fb0` → `2d563c6`, including implementation `113cbc9`). The earlier approval and authentication blockers are resolved.
+- Production verification at 2026-09-15 13:57 UTC checked 21 routes: homepage, game, three scripts, stylesheet, main social image, six result pages and six result images, sitemap and ads.txt. All returned HTTP 200 and matched the local verified files (text normalized only for CRLF/LF; JPEGs matched byte-for-byte).
+- Live game: `https://hiclassmate.com/games/villain-era/`. Homepage discovery and sitemap entry are live.
 
 ## Villain Era continuation — 2026-09-15
 

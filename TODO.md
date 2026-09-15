@@ -10,7 +10,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Add main artwork, six result-specific cards/pages, GA4 and homepage/sitemap discovery.
 - [x] Finish browser, scoring, keyboard, sharing and existing-game regression checks.
 - [x] Obtain explicit approval for publishing the game and documents to public `Neal7773/Hi-classmate` `main` and the existing Cloudflare production site.
-- [ ] Complete GitHub authentication on this PC, push the verified commits, and verify production. Authentication—not approval—is the remaining blocker.
+- [x] Complete GitHub authentication, push verified commits to `main`, and verify production: 21 route/content checks passed on 2026-09-15.
 - [ ] Verify Facebook preview caches and live GA4 receipt for the new route.
 
 ## AdSense application next steps

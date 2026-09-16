@@ -57,7 +57,7 @@ After automatic approval review rejected the initial push, the user explicitly a
 
 ## Would You Date Yourself? — 2026-09-16
 
-**Implemented and verified locally; publication pending.** User chose the mirror-profile concept. Use eight questions (four actual habits and four receiving preferences), a profile composed strictly from chosen habits, an explicit date/pass choice, then the self reveal. Compare the four pairs transparently and provide answer-grounded upsides/friction. The final yes/no choice and alignment band produce six shareable outcomes. Preserve existing routes and publish through the established project flow after relevant checks. No long-term site rule or existing game behavior changes.
+**Implemented, published and verified in production (`027a234`, 2026-09-16).** User chose the mirror-profile concept. Use eight questions (four actual habits and four receiving preferences), a profile composed strictly from chosen habits, an explicit date/pass choice, then the self reveal. Compare the four pairs transparently and provide answer-grounded upsides/friction. The final yes/no choice and alignment band produce six shareable outcomes. Preserve existing routes and publish through the established project flow after relevant checks. No long-term site rule or existing game behavior changes.
 
 ## Change rule
 

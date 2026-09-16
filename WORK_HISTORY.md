@@ -46,3 +46,9 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - 2026-09-16: Would You Date Yourself passed all 6,561 question combinations and 13,122 yes/no result paths. Profile statements exactly reference the four selected action records; independently recomputed match counts and all six result bands passed. Thirty JavaScript files passed syntax checks; 167 HTML files passed internal-reference and JSON-LD parsing checks; 140 result pages passed noindex/canonical checks. Homepage has 22 unique sequential entries; all 27 local main routes returned HTTP 200 with ownership tags. Seven social images are 1200 × 630. At 390 × 844, 360 × 740 and 1365 × 900, all six result paths, explicit decision-before-completion, exact profile and answer breakdown, fixed answer positions, visible controls, back and replay passed without page errors or horizontal overflow. Keyboard, popup URL/opener isolation, rapid double click, homepage entry and original Classmate completion/replay passed. A scroll-restoration defect after reading expanded evidence was fixed and targeted checks confirmed scroll returns to 0 with the original card footprint restored.
 - New game added to homepage/sitemap; existing game files, Featured/Trending, GA4 ID and ad-disabled state unchanged. PROJECT_SPEC.md unchanged because no long-term rule changed.
 - Publication pending following completed local checks.
+
+## 2026-09-16 — Would You Date Yourself published
+
+- Published implementation `027a234` to existing GitHub main and Cloudflare. Live: https://hiclassmate.com/games/date-yourself/
+- Production checked at 2026-09-16T13:38:47.599Z: all 21 routes returned HTTP 200 and matched local verified files; seven images matched byte-for-byte.
+- Earlier publication-pending entry is resolved. Actual Facebook cache/in-app and live GA4 receipt remain external follow-ups.

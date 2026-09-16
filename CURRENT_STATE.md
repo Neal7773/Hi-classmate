@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-16
-Latest local implementation: Would You Date Yourself? (2026-09-16), locally verified and ready for publication. Previous production implementation: Toxic Dating Habit `96a34a9` (state commit `ef31d06`).
+Latest production implementation: Would You Date Yourself? `027a234` (2026-09-16), published and verified. Previous production implementation: Toxic Dating Habit `96a34a9` (state commit `ef31d06`).
 
 ## Production and architecture
 
@@ -128,6 +128,9 @@ Latest local implementation: Would You Date Yourself? (2026-09-16), locally veri
 - Standard funnel/share/replay/navigation events use `game_id` and `quiz_id` = `toxic_dating_habit`.
 
 ## Would You Date Yourself? — 2026-09-16
+
+- Published implementation `027a234` through existing GitHub main → Cloudflare. Live: https://hiclassmate.com/games/date-yourself/
+- Production verified at 2026-09-16T13:38:47.599Z: all 21 checked routes returned HTTP 200 and matched local files (text line endings normalized; images byte-for-byte).
 
 - User selected the previously proposed mirror concept and requested implementation.
 - `/games/date-yourself/` asks four action/preference pairs covering replies, conflict, closeness and plans. Three choices per question, eight questions total.

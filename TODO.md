@@ -9,7 +9,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Implement 8 questions, exact answer-derived profile, explicit date/pass reveal, comparison evidence, sharing and GA4.
 - [x] Add main artwork, six result cards/pages and homepage/sitemap discovery.
 - [x] Pass exhaustive logic, mobile/desktop and existing-game checks; fix evidence/replay scroll restoration.
-- [ ] Publish to the established GitHub/Cloudflare destination and verify production.
+- [x] Publish to the established GitHub/Cloudflare destination and verify production: all 21 route/content checks passed.
 - [ ] Confirm Facebook cache/in-app behavior and live GA4 receipt.
 
 ## Toxic Dating Habit release

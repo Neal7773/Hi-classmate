@@ -55,6 +55,10 @@ After automatic approval review rejected the initial push, the user explicitly a
 
 **Implemented, published and verified in production (`96a34a9`, 2026-09-16).** User accepted the recommended dating-habit quiz and said “좋아 만들어서 배포해줘”. Build eight four-choice questions and the six proposed habit types, with habit/partner-impact/repair-sentence result details, normalized deterministic type match, fixed mobile zones and game/result sharing. Use the existing `Neal7773/Hi-classmate` main → Cloudflare production flow. No site-wide rule changed and no existing game scoring changed.
 
+## Would You Date Yourself? — 2026-09-16
+
+**Implemented and verified locally; publication pending.** User chose the mirror-profile concept. Use eight questions (four actual habits and four receiving preferences), a profile composed strictly from chosen habits, an explicit date/pass choice, then the self reveal. Compare the four pairs transparently and provide answer-grounded upsides/friction. The final yes/no choice and alignment band produce six shareable outcomes. Preserve existing routes and publish through the established project flow after relevant checks. No long-term site rule or existing game behavior changes.
+
 ## Change rule
 
 When a new Chat specification conflicts with a row above, record the new decision and explicitly mark the prior row as changed or superseded. Do not silently overwrite history.

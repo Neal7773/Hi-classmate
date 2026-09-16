@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-16
-Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). Published to the established GitHub `main` and verified on Cloudflare production: all 21 route/content checks passed.
+Latest local implementation: Would You Date Yourself? (2026-09-16), locally verified and ready for publication. Previous production implementation: Toxic Dating Habit `96a34a9` (state commit `ef31d06`).
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). P
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-one game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-two game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -46,6 +46,7 @@ Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). P
 
 | `/games/villain-era/` | Filipino social personality quiz | 8 four-choice questions, 6 villain-era types, deterministic normalized type match, trigger/excuse/way-back detail, fixed mobile answer zone, back/replay, GA4, and six dedicated result-share cards/pages. |
 | `/games/toxic-dating-habit/` | Dating habit personality quiz | 8 four-choice questions, 6 habits, normalized type match, habit/impact/repair result, back/replay, fixed answer zones, GA4, and six dedicated share cards/pages. |
+| `/games/date-yourself/` | Dating mirror choice game | 8 three-choice questions (4 actions + 4 preferences), answer-derived match profile, explicit date/pass decision, reveal, 0–4 aligned habits, evidence breakdown, 6 static result cards/pages, GA4 and fixed mobile zones. |
 
 ## Important files
 
@@ -63,8 +64,8 @@ Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). P
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 134 static result pages in total.
-- All 134 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 140 static result pages in total.
+- All 140 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -85,7 +86,7 @@ Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). P
 ## AdSense ownership state
 
 - Verified Publisher ID: `ca-pub-5544502803818999`.
-- The Google-provided ownership tag is present exactly once inside `<head>` on all 26 main/search-visible pages: the homepage, all 21 game routes, and About, Contact, Privacy, and Terms.
+- The Google-provided ownership tag is present exactly once inside `<head>` on all 27 main/search-visible pages: the homepage, all 22 game routes, and About, Contact, Privacy, and Terms.
 - Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
 - No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
 
@@ -126,7 +127,19 @@ Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). P
 - Homepage New Games and Personality category, ItemList and sitemap updated. Featured/Trending, analytics property and ad-disabled state preserved.
 - Standard funnel/share/replay/navigation events use `game_id` and `quiz_id` = `toxic_dating_habit`.
 
+## Would You Date Yourself? — 2026-09-16
+
+- User selected the previously proposed mirror concept and requested implementation.
+- `/games/date-yourself/` asks four action/preference pairs covering replies, conflict, closeness and plans. Three choices per question, eight questions total.
+- After the questions, a profile displays exactly the four selected actions. No result or completion event is emitted until the player explicitly chooses date or pass.
+- The reveal states that the profile was the player’s own. Four selected preferences are compared with the action styles; the 0–4 count is a literal within-quiz alignment count, not a population or dating-success statistic.
+- Final decision × alignment band (3–4 / 1–2 / 0) selects six shareable results. Upside and possible friction are tied to selected action records. Expandable evidence shows all four give/want pairs.
+- Main artwork generated by built-in ImageGen; six unique typographic result cards. Homepage New Games, Personality category, ItemList and sitemap updated. Existing game code, Featured/Trending, analytics ID and ad-disabled state preserved.
+- Standard events use `game_id`/`quiz_id` = `date_yourself`, plus `profile_view`, `date_decision`, `evidence_view`.
+
 ## Verification status
+
+- 2026-09-16: Would You Date Yourself passed all 6,561 question combinations and 13,122 yes/no result paths. Profile statements exactly reference the four selected action records; independently recomputed match counts and all six result bands passed. Thirty JavaScript files passed syntax checks; 167 HTML files passed internal-reference and JSON-LD parsing checks; 140 result pages passed noindex/canonical checks. Homepage has 22 unique sequential entries; all 27 local main routes returned HTTP 200 with ownership tags. Seven social images are 1200 × 630. At 390 × 844, 360 × 740 and 1365 × 900, all six result paths, explicit decision-before-completion, exact profile and answer breakdown, fixed answer positions, visible controls, back and replay passed without page errors or horizontal overflow. Keyboard, popup URL/opener isolation, rapid double click, homepage entry and original Classmate completion/replay passed. A scroll-restoration defect after reading expanded evidence was fixed and targeted checks confirmed scroll returns to 0 with the original card footprint restored.
 
 - 2026-09-16: Toxic Dating Habit passed all 65,536 answer combinations, 5,486 tied combinations, and reachability of all six types. All 27 JavaScript files passed syntax checks; 160 HTML files passed internal-reference and JSON-LD checks; 134 static results passed noindex/canonical checks. Homepage has 21 unique sequential game entries; 26 sitemap routes returned local HTTP 200 with ownership tags. Seven new social images are 1200 × 630. All six result paths, score matches, fixed answer positions, no horizontal overflow, visible result actions, back and replay passed at 390 × 844, 360 × 740, and 1365 × 900. Browser page errors: 0. Keyboard, rapid double-click, Facebook popup URL/opener isolation, homepage entry, existing Classmate complete/replay and Villain Era cross-link/start checks passed. Live GA4 and actual Facebook in-app/cache checks remain external.
 

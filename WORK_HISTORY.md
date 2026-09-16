@@ -38,3 +38,11 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Live: https://hiclassmate.com/games/toxic-dating-habit/
 - All 21 production route/content checks passed at 2026-09-16T12:37:24.434Z. Main and six result images matched byte-for-byte. Homepage discovery, sitemap and ads.txt were checked.
 - Earlier local-publication-pending entry is resolved. Actual Facebook cache/in-app and live GA4 receipt remain external follow-ups.
+
+## 2026-09-16 — Would You Date Yourself?
+
+- User selected the proposed dating mirror game and requested implementation.
+- Added eight three-choice action/preference questions, a profile drawn from actual answers, date/pass choice before self reveal, four-pair alignment count and expandable evidence. Six result routes/cards reflect verdict and alignment band.
+- 2026-09-16: Would You Date Yourself passed all 6,561 question combinations and 13,122 yes/no result paths. Profile statements exactly reference the four selected action records; independently recomputed match counts and all six result bands passed. Thirty JavaScript files passed syntax checks; 167 HTML files passed internal-reference and JSON-LD parsing checks; 140 result pages passed noindex/canonical checks. Homepage has 22 unique sequential entries; all 27 local main routes returned HTTP 200 with ownership tags. Seven social images are 1200 × 630. At 390 × 844, 360 × 740 and 1365 × 900, all six result paths, explicit decision-before-completion, exact profile and answer breakdown, fixed answer positions, visible controls, back and replay passed without page errors or horizontal overflow. Keyboard, popup URL/opener isolation, rapid double click, homepage entry and original Classmate completion/replay passed. A scroll-restoration defect after reading expanded evidence was fixed and targeted checks confirmed scroll returns to 0 with the original card footprint restored.
+- New game added to homepage/sitemap; existing game files, Featured/Trending, GA4 ID and ad-disabled state unchanged. PROJECT_SPEC.md unchanged because no long-term rule changed.
+- Publication pending following completed local checks.

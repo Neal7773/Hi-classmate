@@ -31,3 +31,10 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - 2026-09-16: Toxic Dating Habit passed all 65,536 answer combinations, 5,486 tied combinations, and reachability of all six types. All 27 JavaScript files passed syntax checks; 160 HTML files passed internal-reference and JSON-LD checks; 134 static results passed noindex/canonical checks. Homepage has 21 unique sequential game entries; 26 sitemap routes returned local HTTP 200 with ownership tags. Seven new social images are 1200 × 630. All six result paths, score matches, fixed answer positions, no horizontal overflow, visible result actions, back and replay passed at 390 × 844, 360 × 740, and 1365 × 900. Browser page errors: 0. Keyboard, rapid double-click, Facebook popup URL/opener isolation, homepage entry, existing Classmate complete/replay and Villain Era cross-link/start checks passed. Live GA4 and actual Facebook in-app/cache checks remain external.
 - Existing game files, Featured/Trending, analytics ID and ad-disabled state preserved. PROJECT_SPEC.md remains unchanged because no long-term rule changed.
 - Local verification complete; publication and production verification pending.
+
+## 2026-09-16 — Toxic Dating Habit published
+
+- Pushed implementation `96a34a9` to existing GitHub main and verified Cloudflare production.
+- Live: https://hiclassmate.com/games/toxic-dating-habit/
+- All 21 production route/content checks passed at 2026-09-16T12:37:24.434Z. Main and six result images matched byte-for-byte. Homepage discovery, sitemap and ads.txt were checked.
+- Earlier local-publication-pending entry is resolved. Actual Facebook cache/in-app and live GA4 receipt remain external follow-ups.

@@ -9,7 +9,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Implement 8 questions, 6 habits, deterministic type match, fixed mobile zones, back/replay, GA4 and sharing.
 - [x] Add unique main art, six result cards/pages, homepage discovery and sitemap.
 - [x] Pass exhaustive scoring and browser/regression checks.
-- [ ] Publish via the authorized existing GitHub/Cloudflare flow and verify production.
+- [x] Publish via the authorized existing GitHub/Cloudflare flow and verify production: all 21 route/content checks passed.
 - [ ] Confirm actual Facebook previews/in-app behavior and live GA4 receipt.
 
 ## Villain Era release

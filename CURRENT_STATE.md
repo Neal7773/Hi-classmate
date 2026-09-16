@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-16
-Latest local implementation: Toxic Dating Habit (2026-09-16), verified locally and awaiting this release’s GitHub/Cloudflare publication. Previous verified production release: Villain Era (`113cbc9`, state commit `8afeb13`).
+Latest implemented release: Toxic Dating Habit, commit `96a34a9` (2026-09-16). Published to the established GitHub `main` and verified on Cloudflare production: all 21 route/content checks passed.
 
 ## Production and architecture
 
@@ -108,6 +108,13 @@ Latest local implementation: Toxic Dating Habit (2026-09-16), verified locally a
 - New static result pages have unique image/title/description, `noindex,follow`, and canonical links to the main game.
 - Markdown state/history files are excluded from Cloudflare static assets.
 - Actual Facebook in-app-browser behavior, Facebook cache previews and live GA4 receipt remain external checks.
+
+## Toxic Dating Habit deployment — 2026-09-16
+
+- User explicitly requested creation and deployment; commit `96a34a9` was pushed to public `Neal7773/Hi-classmate` `main` through the existing Cloudflare flow.
+- Live route: `https://hiclassmate.com/games/toxic-dating-habit/`.
+- Production checked at 2026-09-16T12:37:24.434Z: all 21 checked routes returned HTTP 200 and matched the local verified files after text line-ending normalization; all JPEGs matched byte-for-byte. Checked homepage, game, three scripts, stylesheet, seven social images, six results, sitemap and ads.txt.
+- New Games entry, Personality category and 21-item structured catalog are live. Sitemap contains 26 main URLs; the full catalog has 134 static result-share pages.
 
 ## Toxic Dating Habit — 2026-09-16
 

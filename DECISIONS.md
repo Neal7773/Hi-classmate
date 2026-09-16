@@ -53,7 +53,7 @@ After automatic approval review rejected the initial push, the user explicitly a
 
 ## Toxic Dating Habit — 2026-09-16
 
-**Implemented and verified locally; publication pending.** User accepted the recommended dating-habit quiz and said “좋아 만들어서 배포해줘”. Build eight four-choice questions and the six proposed habit types, with habit/partner-impact/repair-sentence result details, normalized deterministic type match, fixed mobile zones and game/result sharing. Use the existing `Neal7773/Hi-classmate` main → Cloudflare production flow. No site-wide rule changed and no existing game scoring changed.
+**Implemented, published and verified in production (`96a34a9`, 2026-09-16).** User accepted the recommended dating-habit quiz and said “좋아 만들어서 배포해줘”. Build eight four-choice questions and the six proposed habit types, with habit/partner-impact/repair-sentence result details, normalized deterministic type match, fixed mobile zones and game/result sharing. Use the existing `Neal7773/Hi-classmate` main → Cloudflare production flow. No site-wide rule changed and no existing game scoring changed.
 
 ## Change rule
 

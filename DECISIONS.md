@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-15
+Last reviewed: 2026-09-16
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -50,6 +50,10 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 ## Exact publication authorization — 2026-09-15
 
 After automatic approval review rejected the initial push, the user explicitly answered “승인 — 기존 사이트에 공개 배포” to publishing the completed game and changed documents to the public `Neal7773/Hi-classmate` `main` branch and deploying through the existing Cloudflare flow to `hiclassmate.com`. Do not ask for this same publication approval again. The user subsequently completed GitHub browser authentication; publication and production verification succeeded.
+
+## Toxic Dating Habit — 2026-09-16
+
+**Implemented and verified locally; publication pending.** User accepted the recommended dating-habit quiz and said “좋아 만들어서 배포해줘”. Build eight four-choice questions and the six proposed habit types, with habit/partner-impact/repair-sentence result details, normalized deterministic type match, fixed mobile zones and game/result sharing. Use the existing `Neal7773/Hi-classmate` main → Cloudflare production flow. No site-wide rule changed and no existing game scoring changed.
 
 ## Change rule
 

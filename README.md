@@ -66,3 +66,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 ## Villain Era (2026-09-15)
 
 `/games/villain-era/` adds eight four-choice questions and six results. `data.js` owns content and weights, `engine.js` computes a deterministic normalized type match, and `app.js` handles interaction, sharing, and GA4. All six results have dedicated 1200 × 630 share cards and static pages. Serve the project root to test root-relative navigation.
+
+## Toxic Dating Habit (2026-09-16)
+
+`/games/toxic-dating-habit/` adds eight four-choice questions and six dating-habit results. `data.js` owns content and weights, `engine.js` computes a deterministic normalized type match, and `app.js` handles interaction, sharing, and GA4. All six results have dedicated 1200 × 630 share cards and static pages. Serve the project root to test root-relative navigation.

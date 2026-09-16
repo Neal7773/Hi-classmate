@@ -23,3 +23,11 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Published the approved code/documents to `Neal7773/Hi-classmate` `main` (`1c20fb0` → `2d563c6`).
 - Cloudflare production contains Villain Era and homepage discovery. All 21 checked routes returned HTTP 200 and matched the verified source/artwork (text line-ending normalization only).
 - The earlier approval/authentication blockers are resolved. Facebook cache/in-app-browser tests and live GA4 receipt remain external follow-ups.
+
+## 2026-09-16 — Toxic Dating Habit
+
+- User approved the recommended “What’s Your Most Toxic Dating Habit?” and explicitly requested creation and deployment.
+- Implemented 8 questions, 6 results, normalized deterministic match, habit/impact/repair details, back/replay, sharing, GA4, 7 social images, and homepage/sitemap discovery.
+- 2026-09-16: Toxic Dating Habit passed all 65,536 answer combinations, 5,486 tied combinations, and reachability of all six types. All 27 JavaScript files passed syntax checks; 160 HTML files passed internal-reference and JSON-LD checks; 134 static results passed noindex/canonical checks. Homepage has 21 unique sequential game entries; 26 sitemap routes returned local HTTP 200 with ownership tags. Seven new social images are 1200 × 630. All six result paths, score matches, fixed answer positions, no horizontal overflow, visible result actions, back and replay passed at 390 × 844, 360 × 740, and 1365 × 900. Browser page errors: 0. Keyboard, rapid double-click, Facebook popup URL/opener isolation, homepage entry, existing Classmate complete/replay and Villain Era cross-link/start checks passed. Live GA4 and actual Facebook in-app/cache checks remain external.
+- Existing game files, Featured/Trending, analytics ID and ad-disabled state preserved. PROJECT_SPEC.md remains unchanged because no long-term rule changed.
+- Local verification complete; publication and production verification pending.

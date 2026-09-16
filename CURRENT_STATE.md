@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-15
-Latest implemented release: Villain Era, implementation commit `113cbc9`, published to GitHub `main` and verified on Cloudflare production on 2026-09-15. All local checks and 21 production route/content checks passed. AdSense remains ownership verification only.
+Snapshot date: 2026-09-16
+Latest local implementation: Toxic Dating Habit (2026-09-16), verified locally and awaiting this release’s GitHub/Cloudflare publication. Previous verified production release: Villain Era (`113cbc9`, state commit `8afeb13`).
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest implemented release: Villain Era, implementation commit `113cbc9`, publis
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-one game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -45,6 +45,7 @@ Latest implemented release: Villain Era, implementation commit `113cbc9`, publis
 | `/games/red-flag-green-flag/` | Filipino dating-radar judgment game | 10 fast Red/Green judgments produce a 0–100 radar score and 4 shareable levels, with pre-game/result sharing, restart, Classmate cross-links, GA4 comparison events, SEO, and fixed mobile zones. |
 
 | `/games/villain-era/` | Filipino social personality quiz | 8 four-choice questions, 6 villain-era types, deterministic normalized type match, trigger/excuse/way-back detail, fixed mobile answer zone, back/replay, GA4, and six dedicated result-share cards/pages. |
+| `/games/toxic-dating-habit/` | Dating habit personality quiz | 8 four-choice questions, 6 habits, normalized type match, habit/impact/repair result, back/replay, fixed answer zones, GA4, and six dedicated share cards/pages. |
 
 ## Important files
 
@@ -62,8 +63,8 @@ Latest implemented release: Villain Era, implementation commit `113cbc9`, publis
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 128 static result pages in total.
-- All 128 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 134 static result pages in total.
+- All 134 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -84,7 +85,7 @@ Latest implemented release: Villain Era, implementation commit `113cbc9`, publis
 ## AdSense ownership state
 
 - Verified Publisher ID: `ca-pub-5544502803818999`.
-- The Google-provided ownership tag is present exactly once inside `<head>` on all 25 main/search-visible pages: the homepage, all 20 game routes, and About, Contact, Privacy, and Terms.
+- The Google-provided ownership tag is present exactly once inside `<head>` on all 26 main/search-visible pages: the homepage, all 21 game routes, and About, Contact, Privacy, and Terms.
 - Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
 - No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
 
@@ -108,7 +109,19 @@ Latest implemented release: Villain Era, implementation commit `113cbc9`, publis
 - Markdown state/history files are excluded from Cloudflare static assets.
 - Actual Facebook in-app-browser behavior, Facebook cache previews and live GA4 receipt remain external checks.
 
+## Toxic Dating Habit — 2026-09-16
+
+- User selected the recommended “What’s Your Most Toxic Dating Habit?” and explicitly requested creation and deployment to the existing site.
+- New route: `/games/toxic-dating-habit/`; content, scoring and interaction are separate in `data.js`, `engine.js`, `app.js`. Existing games are unchanged.
+- Results: The Reply Accountant, The Jealousy Director, The Almost Lover, The Silent Punisher, The Exit Planner and The Fixer. Each has a habit, how it can feel to the other person, and a constructive sentence to try.
+- Match is answer-derived points as a percentage of points available for that habit, normalized before ranking. It is not a toxicity score or population percentile. Ties are deterministic.
+- New main artwork uses built-in ImageGen; six result-specific cards use deterministic typography. All social images are 1200 × 630.
+- Homepage New Games and Personality category, ItemList and sitemap updated. Featured/Trending, analytics property and ad-disabled state preserved.
+- Standard funnel/share/replay/navigation events use `game_id` and `quiz_id` = `toxic_dating_habit`.
+
 ## Verification status
+
+- 2026-09-16: Toxic Dating Habit passed all 65,536 answer combinations, 5,486 tied combinations, and reachability of all six types. All 27 JavaScript files passed syntax checks; 160 HTML files passed internal-reference and JSON-LD checks; 134 static results passed noindex/canonical checks. Homepage has 21 unique sequential game entries; 26 sitemap routes returned local HTTP 200 with ownership tags. Seven new social images are 1200 × 630. All six result paths, score matches, fixed answer positions, no horizontal overflow, visible result actions, back and replay passed at 390 × 844, 360 × 740, and 1365 × 900. Browser page errors: 0. Keyboard, rapid double-click, Facebook popup URL/opener isolation, homepage entry, existing Classmate complete/replay and Villain Era cross-link/start checks passed. Live GA4 and actual Facebook in-app/cache checks remain external.
 
 - 2026-09-15: Villain Era passed all 65,536 answer combinations, including 3,346 tied combinations and reachability of all six results. All 24 JavaScript files passed syntax checks; 153 HTML files passed internal-reference and JSON-LD parsing checks; all 128 result pages passed noindex/main-game-canonical checks; the homepage has 20 unique sequential entries and 25 sitemap routes returned local HTTP 200 with ownership tags. Seven social cards are 1200 × 630. Chrome at 390 × 844, 360 × 740 and 1365 × 900 passed all six result paths, expected match scores, fixed answer positions, no horizontal overflow, result visibility, back navigation and replay, with zero page errors. Additional checks passed keyboard operation, rapid double-click protection, isolated Facebook popup and canonical share URL, homepage entry, and the original Classmate complete/replay flow. Facebook in-app-browser/cache previews and GA4 server receipt were not directly tested.
 

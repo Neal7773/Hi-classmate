@@ -88,3 +88,9 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 
 - All 64 answer combinations and 384 answer-to-reading mappings passed; each of four results is reachable from 16 paths. All 36 JavaScript files passed syntax checks, 177 HTML files passed reference/JSON-LD checks, 148 result pages passed noindex/canonical checks, and 29 sitemap pages returned local HTTP 200 with ownership tags. Homepage has 24 unique sequential entries. Five social images are 1200×630. Chrome at 390×844, 360×740 and 1365×900 passed all four results, six exact-choice reveals, fixed answer positions, no horizontal overflow or overlap, back/review/replay, rapid-click guard and keyboard access; page errors: zero. Dedicated event checks passed initial game_view, six answers, six reveals, one completion after reveals, main/result share URLs and popup opener isolation. Existing Date Yourself start smoke passed. Visual review confirmed classic Hi Classmate UI and social cards.
 - Corrected this game’s analytics loading order so initial game_view is captured. The route-navigation test now explicitly waits for the destination start screen. Publication pending; actual Facebook cache/in-app behavior and live GA4 server receipt remain external checks.
+
+## 2026-09-18 — House published
+
+- Implementation `b8b00ba` published through the established GitHub main → Cloudflare destination. Live: https://hiclassmate.com/games/house-in-the-woods/
+- At 2026-09-17T16:30:57.517Z, all 17 production route/content checks passed, including all five JPEGs byte-for-byte. Earlier publication-pending entries are resolved.
+- Actual Facebook cache/in-app behavior and live GA4 server receipt remain external checks.

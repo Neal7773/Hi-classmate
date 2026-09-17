@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-18
-Latest local implementation: The House in the Woods (2026-09-18), locally verified; publication pending. Previous production: The River Within `b023eda`.
+Latest production implementation: The House in the Woods `b8b00ba` (2026-09-18), published and verified. Previous production: The River Within `b023eda`.
 
 ## Production and architecture
 
@@ -65,6 +65,10 @@ Universal personality and symbolic story tests are now an approved direction alo
 All 64 answer combinations and 384 individual answer-to-reading mappings passed; all four portraits occur on 16 paths each. All 33 JavaScript files passed syntax checks, 172 HTML files passed reference/JSON-LD checks, and 144 result pages passed noindex/canonical checks. All 28 sitemap routes returned local HTTP 200 with ownership tags; homepage has 23 unique sequential entries. All five social cards are 1200×630. Chrome at 390×844, 360×740 and 1365×900 passed all four portraits, all six reveals, fixed answer positions, control visibility, back, replay, rapid-click protection and zero page errors/horizontal overflow. Keyboard, share targets, review without duplicate completion, actual 1080×1720 PNG download, homepage discovery and Date Yourself start smoke checks passed.
 
 Actual Facebook cache/in-app behavior and live GA4 server receipt remain external checks.
+
+## The House in the Woods deployment — 2026-09-18
+
+Published `b8b00ba` through existing GitHub main → Cloudflare. Live: https://hiclassmate.com/games/house-in-the-woods/ . At 2026-09-17T16:30:57.517Z, all 17 checked production paths returned HTTP 200 and matched verified local files (text line endings normalized; five JPEGs byte-for-byte).
 
 ## The House in the Woods validation — 2026-09-18
 

@@ -9,7 +9,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Implement six scenes, exact-choice hidden meanings, four personalities, classic Hi Classmate UI and social images.
 - [x] Add four result pages, homepage discovery and sitemap.
 - [x] Finish exhaustive logic, browser, metadata and local analytics/share checks.
-- [ ] Publish to the existing GitHub/Cloudflare destination and verify production.
+- [x] Publish to the existing GitHub/Cloudflare destination and verify production: 17 route/content checks passed.
 - [ ] Confirm actual Facebook previews/in-app behavior and live GA4 server receipt.
 
 ## The River Within release

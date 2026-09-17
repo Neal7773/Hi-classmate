@@ -71,7 +71,7 @@ Six binary scenes: monkey/care, snake/boundaries, puppy/friendship, bird/love, d
 
 ## The House in the Woods — 2026-09-18
 
-**Implemented and locally verified; publication pending.** User accepted the six-scene house concept and explicitly requested publication. Six binary choices reveal six story-defined symbols after play. Three openness questions (door, invitation, gift) and three discovery questions (cups, music, rain) use majority on each axis to produce The Open Door, The Quiet Observer, The Secret-Room Explorer or The Own-Path Traveler. Each reveal shows the exact selected action, its own interpretation and a short reflection. No diagnostic claims or population comparison.
+**Implemented, published and production-verified (`b8b00ba`, 2026-09-18).** User accepted the six-scene house concept and explicitly requested publication. Six binary choices reveal six story-defined symbols after play. Three openness questions (door, invitation, gift) and three discovery questions (cups, music, rain) use majority on each axis to produce The Open Door, The Quiet Observer, The Secret-Room Explorer or The Own-Path Traveler. Each reveal shows the exact selected action, its own interpretation and a short reflection. No diagnostic claims or population comparison.
 
 Apply the content-only reference clarification: original content in the pre-Poomang Hi Classmate visual system, with bold sans-serif type, fixed choice zones, blue/ivory/orange controls and result-first 1200×630 social cards. Preserve all existing games including The River Within. No new long-term rule.
 

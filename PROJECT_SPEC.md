@@ -20,7 +20,7 @@ The production site is `https://hiclassmate.com/`.
 
 ## Long-term product rules
 
-1. Target Filipino teens and young adults, while also allowing universal personality and symbolic story tests (updated 2026-09-17). Future concepts may draw format inspiration from Poomang: animals, colors, everyday objects and relatable situations. Exclude Korean-specific holidays and regional references. Write original questions, illustrations and interpretations in accessible English; Filipino-specific content remains welcome but is no longer mandatory for every game.
+1. Target Filipino teens and young adults, while also allowing universal personality and symbolic story tests (updated 2026-09-17). Poomang is a reference for content and concepts only: animals, colors, everyday objects and relatable situations. Exclude Korean-specific holidays and regional references. Write original questions, illustrations and interpretations in accessible English; Filipino-specific content remains welcome but is no longer mandatory for every game. Do not adopt reference-site interfaces, layouts or social-preview styling.
 2. Games must be simple, fast, and immediately understandable. The interactive game should fit within one screen where practical, especially on mobile and in Facebook's in-app browser.
 3. Every game must be shareable before play so the site owner can publish the game itself. Result sharing must share the user's specific result when the game supports result types.
 4. Results should create comparison value: a funny character/type, score, percentile-style presentation, or another clear way to compare with friends.
@@ -45,6 +45,8 @@ The production site is `https://hiclassmate.com/`.
 - After a completed implementation passes its relevant checks, publish it to the established public GitHub repository `Neal7773/Hi-classmate` on `main` and verify the Cloudflare production result without asking for a separate deployment confirmation each time. This standing authorization applies only to this project and established deployment destination.
 
 ## Symbolic story tests (2026-09-17)
+
+For the next game onward, use the established Hi Classmate game interface and Facebook game/result-card style from before the Poomang reference discussion. Use `games/villain-era/`, `games/toxic-dating-habit/` and `games/date-yourself/` as existing visual baselines, together with rules 12–13 above. Reference tests inform the topic, situations, choices and interpretation concept only. The River Within's storybook appearance is not the new visual template. The user explicitly requested leaving all already-created games, including The River Within, unchanged; do not retrofit this clarification to them.
 
 Use invented story symbols consistently, retain the player’s exact choices in the result, and avoid asserting that animal symbolism establishes objective psychological facts. Reveal meanings after all story choices. The River Within uses six binary scenes, six individual reflections, four overall portraits and an optional locally generated keepsake image.
 

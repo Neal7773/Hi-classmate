@@ -14,6 +14,8 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## Future content direction
 
+- [x] Record the user's content-only reference clarification: future game UI and Facebook game/result previews use the established pre-Poomang Hi Classmate style. Leave existing games unchanged.
+
 - [ ] Consider original universal personality tests inspired by the formats discussed on Poomang: animals, colors, everyday objects and character portraits. Exclude Korean-specific holiday/regional concepts. Select the next specific game in Chat before implementing it.
 
 ## Would You Date Yourself release

@@ -65,6 +65,10 @@ After automatic approval review rejected the initial push, the user explicitly a
 
 Six binary scenes: monkey/care, snake/boundaries, puppy/friendship, bird/love, deer/vulnerability and fox/uncertainty. Meanings stay hidden during the crossing, then reveal the exact chosen action and its reflection. Three closeness choices and three initiative choices produce four overall portraits by majority on each axis; 64 complete paths have no ties. No population percentile or diagnostic inference. A downloadable keepsake contains the six actual choices and their short readings. Keep deployment on the existing GitHub main → Cloudflare flow.
 
+## Content-only references; preserve established visual style — 2026-09-17
+
+**Decision recorded for future games.** After reviewing The River Within, the user clarified that Poomang and other tests should inspire content and concepts only, not interfaces, appearance or Facebook preview design. This supersedes any broader visual interpretation of the earlier "format reference" wording. From the next game onward, use the pre-reference Hi Classmate UI and social-card direction (Villain Era, Toxic Dating Habit and Date Yourself are existing baselines). Leave every already-created game unchanged, including The River Within. Documentation-only update; no game code or artwork changed.
+
 ## Change rule
 
 When a new Chat specification conflicts with a row above, record the new decision and explicitly mark the prior row as changed or superseded. Do not silently overwrite history.

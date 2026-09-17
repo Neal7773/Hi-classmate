@@ -1,5 +1,11 @@
 # WORK HISTORY — Hi Classmate
 
+## 2026-09-17 — Reference scope clarified for future games
+
+- User clarified that reference tests supply content and concepts only. Future interfaces and Facebook game/result cards should use the previous Hi Classmate visual style.
+- The River Within and all other completed games remain unchanged, as explicitly requested. No game code, images or public page content changed.
+- Updated PROJECT_SPEC, DECISIONS, CURRENT_STATE and TODO to preserve this direction for later work.
+
 ## 2026-09-15 — Desktop continuation and Villain Era
 
 Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` through commit `1c20fb0`. The full previous transcript remains in the original transferred project directory. This concise log records new work without replacing that transcript.

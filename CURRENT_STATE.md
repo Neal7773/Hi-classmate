@@ -50,6 +50,8 @@ Latest production implementation: The River Within `b023eda` (2026-09-17), publi
 
 ## Current content direction — 2026-09-17
 
+User clarification after The River Within: reference Poomang's content and concepts only. Starting with the next game, keep the earlier Hi Classmate interface and Facebook game/result-preview styling (Villain Era, Toxic Dating Habit and Date Yourself baselines). The River Within and all other completed games stay unchanged. Its storybook styling is not a template for future releases.
+
 Universal personality and symbolic story tests are now an approved direction alongside existing Filipino games. Poomang is a format reference; Korean-specific seasonal/holiday subjects are excluded. New questions, artwork and results must be original. See PROJECT_SPEC and DECISIONS for the explicit update.
 
 ## The River Within deployment — 2026-09-17

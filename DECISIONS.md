@@ -61,7 +61,7 @@ After automatic approval review rejected the initial push, the user explicitly a
 
 ## Universal tests and The River Within — 2026-09-17
 
-**Implemented and locally verified; publication pending.** User selected the animal river-crossing concept and asked to preserve Poomang as a future format reference, excluding Korean-specific topics such as harvest festivals. Use original content and artwork. This expands the earlier Filipino-only concept preference and allows sequential symbolic interpretations instead of forcing a score into a story result.
+**Implemented, published and production-verified (`b023eda`, 2026-09-17).** User selected the animal river-crossing concept and asked to preserve Poomang as a future format reference, excluding Korean-specific topics such as harvest festivals. Use original content and artwork. This expands the earlier Filipino-only concept preference and allows sequential symbolic interpretations instead of forcing a score into a story result.
 
 Six binary scenes: monkey/care, snake/boundaries, puppy/friendship, bird/love, deer/vulnerability and fox/uncertainty. Meanings stay hidden during the crossing, then reveal the exact chosen action and its reflection. Three closeness choices and three initiative choices produce four overall portraits by majority on each axis; 64 complete paths have no ties. No population percentile or diagnostic inference. A downloadable keepsake contains the six actual choices and their short readings. Keep deployment on the existing GitHub main → Cloudflare flow.
 

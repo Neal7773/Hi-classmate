@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-17
-Latest local implementation: The River Within (2026-09-17), locally verified; publication pending. Previous production implementation: Would You Date Yourself? `027a234` (state commit `52a985e`).
+Latest production implementation: The River Within `b023eda` (2026-09-17), published and verified. Previous release: Would You Date Yourself? `027a234`.
 
 ## Production and architecture
 
@@ -51,6 +51,11 @@ Latest local implementation: The River Within (2026-09-17), locally verified; pu
 ## Current content direction — 2026-09-17
 
 Universal personality and symbolic story tests are now an approved direction alongside existing Filipino games. Poomang is a format reference; Korean-specific seasonal/holiday subjects are excluded. New questions, artwork and results must be original. See PROJECT_SPEC and DECISIONS for the explicit update.
+
+## The River Within deployment — 2026-09-17
+
+- Published `b023eda` to the existing GitHub main → Cloudflare flow. Live: https://hiclassmate.com/games/river-within/
+- At 2026-09-17T09:54:39.053Z, all 18 production paths returned HTTP 200 and matched verified local files (text line endings normalized; six JPEGs byte-for-byte).
 
 ## The River Within validation — 2026-09-17
 

@@ -64,3 +64,9 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 
 - All 64 answer combinations and 384 individual answer-to-reading mappings passed; all four portraits occur on 16 paths each. All 33 JavaScript files passed syntax checks, 172 HTML files passed reference/JSON-LD checks, and 144 result pages passed noindex/canonical checks. All 28 sitemap routes returned local HTTP 200 with ownership tags; homepage has 23 unique sequential entries. All five social cards are 1200×630. Chrome at 390×844, 360×740 and 1365×900 passed all four portraits, all six reveals, fixed answer positions, control visibility, back, replay, rapid-click protection and zero page errors/horizontal overflow. Keyboard, share targets, review without duplicate completion, actual 1080×1720 PNG download, homepage discovery and Date Yourself start smoke checks passed.
 - Generated art, main social card, mobile reveal/result screens and downloaded keepsake visually inspected. Public release pending.
+
+## 2026-09-17 — The River Within published
+
+- Published implementation `b023eda` through existing GitHub main → Cloudflare. Live: https://hiclassmate.com/games/river-within/
+- At 2026-09-17T09:54:39.053Z, all 18 checked production paths returned HTTP 200 and matched local verified files. Six JPEGs matched byte-for-byte.
+- Earlier publication-pending entries are resolved. Facebook cache/in-app behavior and actual GA4 server receipt remain external checks.

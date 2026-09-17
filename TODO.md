@@ -9,7 +9,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Implement six story choices, six answer-grounded reveals and four portraits.
 - [x] Add original artwork, keepsake download, four share pages/cards, homepage and sitemap.
 - [x] Complete exhaustive logic and browser verification, including the downloadable keepsake.
-- [ ] Publish via the existing GitHub/Cloudflare flow and verify production.
+- [x] Publish via the existing GitHub/Cloudflare flow and verify production: 18 route/content checks passed.
 - [ ] Confirm actual Facebook cache/in-app behavior and live GA4 receipt.
 
 ## Future content direction

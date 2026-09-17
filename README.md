@@ -78,3 +78,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 ### The River Within (2026-09-17)
 
 `/games/river-within/`: six binary animal story scenes, answer-specific symbolic reveals, four river portraits and a locally generated keepsake image. `data.js` owns original content, `engine.js` validates choices and aggregates the two three-question axes, and `app.js` handles UI, sharing/downloads and analytics. No package install or build step is required.
+
+### The House in the Woods (2026-09-18)
+
+`/games/house-in-the-woods/`: six binary story scenes, six chosen-answer symbolic interpretations and four personalities. Data, pure scoring and rendering are separated into `data.js`, `engine.js` and `app.js`. Uses the classic Hi Classmate visual style and four dedicated static share pages/cards. No install or build step required.

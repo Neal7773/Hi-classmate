@@ -76,3 +76,15 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Published implementation `b023eda` through existing GitHub main → Cloudflare. Live: https://hiclassmate.com/games/river-within/
 - At 2026-09-17T09:54:39.053Z, all 18 checked production paths returned HTTP 200 and matched local verified files. Six JPEGs matched byte-for-byte.
 - Earlier publication-pending entries are resolved. Facebook cache/in-app behavior and actual GA4 server receipt remain external checks.
+
+## 2026-09-18 — The House in the Woods
+
+- User accepted the house exploration concept and requested creation/publication. Added six original binary scenes, six answer-specific symbolic readings, four deterministic personalities, back/review/replay, keyboard controls and click protection.
+- Applied the clarified pre-Poomang Hi Classmate interface and Facebook card style. Generated one original main social image using built-in ImageGen; composed four distinct result cards with the existing typography-led pattern. No existing game source or images changed.
+- Added homepage New Games/category/24-item ItemList and 29-route sitemap. Added GA4 events; analytics loader runs before the game initializes so the initial game_view event is captured. Existing GA4 ID and ad-disabled state preserved.
+- Validation/publication pending. PROJECT_SPEC is unchanged because this release follows the existing clarified rules.
+
+## 2026-09-18 — House local verification
+
+- All 64 answer combinations and 384 answer-to-reading mappings passed; each of four results is reachable from 16 paths. All 36 JavaScript files passed syntax checks, 177 HTML files passed reference/JSON-LD checks, 148 result pages passed noindex/canonical checks, and 29 sitemap pages returned local HTTP 200 with ownership tags. Homepage has 24 unique sequential entries. Five social images are 1200×630. Chrome at 390×844, 360×740 and 1365×900 passed all four results, six exact-choice reveals, fixed answer positions, no horizontal overflow or overlap, back/review/replay, rapid-click guard and keyboard access; page errors: zero. Dedicated event checks passed initial game_view, six answers, six reveals, one completion after reveals, main/result share URLs and popup opener isolation. Existing Date Yourself start smoke passed. Visual review confirmed classic Hi Classmate UI and social cards.
+- Corrected this game’s analytics loading order so initial game_view is captured. The route-navigation test now explicitly waits for the destination start screen. Publication pending; actual Facebook cache/in-app behavior and live GA4 server receipt remain external checks.

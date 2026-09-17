@@ -1,8 +1,16 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-17
+Last reviewed: 2026-09-18
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## The House in the Woods release
+
+- [x] Implement six scenes, exact-choice hidden meanings, four personalities, classic Hi Classmate UI and social images.
+- [x] Add four result pages, homepage discovery and sitemap.
+- [x] Finish exhaustive logic, browser, metadata and local analytics/share checks.
+- [ ] Publish to the existing GitHub/Cloudflare destination and verify production.
+- [ ] Confirm actual Facebook previews/in-app behavior and live GA4 server receipt.
 
 ## The River Within release
 

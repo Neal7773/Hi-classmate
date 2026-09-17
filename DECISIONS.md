@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-17
+Last reviewed: 2026-09-18
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -68,6 +68,12 @@ Six binary scenes: monkey/care, snake/boundaries, puppy/friendship, bird/love, d
 ## Content-only references; preserve established visual style — 2026-09-17
 
 **Decision recorded for future games.** After reviewing The River Within, the user clarified that Poomang and other tests should inspire content and concepts only, not interfaces, appearance or Facebook preview design. This supersedes any broader visual interpretation of the earlier "format reference" wording. From the next game onward, use the pre-reference Hi Classmate UI and social-card direction (Villain Era, Toxic Dating Habit and Date Yourself are existing baselines). Leave every already-created game unchanged, including The River Within. Documentation-only update; no game code or artwork changed.
+
+## The House in the Woods — 2026-09-18
+
+**Implemented and locally verified; publication pending.** User accepted the six-scene house concept and explicitly requested publication. Six binary choices reveal six story-defined symbols after play. Three openness questions (door, invitation, gift) and three discovery questions (cups, music, rain) use majority on each axis to produce The Open Door, The Quiet Observer, The Secret-Room Explorer or The Own-Path Traveler. Each reveal shows the exact selected action, its own interpretation and a short reflection. No diagnostic claims or population comparison.
+
+Apply the content-only reference clarification: original content in the pre-Poomang Hi Classmate visual system, with bold sans-serif type, fixed choice zones, blue/ivory/orange controls and result-first 1200×630 social cards. Preserve all existing games including The River Within. No new long-term rule.
 
 ## Change rule
 

@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-16
-Latest production implementation: Would You Date Yourself? `027a234` (2026-09-16), published and verified. Previous production implementation: Toxic Dating Habit `96a34a9` (state commit `ef31d06`).
+Snapshot date: 2026-09-17
+Latest local implementation: The River Within (2026-09-17), locally verified; publication pending. Previous production implementation: Would You Date Yourself? `027a234` (state commit `52a985e`).
 
 ## Production and architecture
 
@@ -16,7 +16,7 @@ Latest production implementation: Would You Date Yourself? `027a234` (2026-09-16
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-two game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-three game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -43,10 +43,20 @@ Latest production implementation: Would You Date Yourself? `027a234` (2026-09-16
 | `/games/what-kind-of-overthinker/` | Relatable psychological-style personality test | 10 two-choice chat, waiting, memory, planning, and late-night-thought situations with 11 distinct types, comparisons, sharing, GA4, and fixed mobile zones. |
 | `/games/selos-level/` | Filipino relationship score/personality test | 10 two-choice relationship and social-media situations produce an exact 0–100% selos score and 8 playful types, with sharing, GA4, SEO, and fixed mobile zones. |
 | `/games/red-flag-green-flag/` | Filipino dating-radar judgment game | 10 fast Red/Green judgments produce a 0–100 radar score and 4 shareable levels, with pre-game/result sharing, restart, Classmate cross-links, GA4 comparison events, SEO, and fixed mobile zones. |
-
 | `/games/villain-era/` | Filipino social personality quiz | 8 four-choice questions, 6 villain-era types, deterministic normalized type match, trigger/excuse/way-back detail, fixed mobile answer zone, back/replay, GA4, and six dedicated result-share cards/pages. |
 | `/games/toxic-dating-habit/` | Dating habit personality quiz | 8 four-choice questions, 6 habits, normalized type match, habit/impact/repair result, back/replay, fixed answer zones, GA4, and six dedicated share cards/pages. |
 | `/games/date-yourself/` | Dating mirror choice game | 8 three-choice questions (4 actions + 4 preferences), answer-derived match profile, explicit date/pass decision, reveal, 0–4 aligned habits, evidence breakdown, 6 static result cards/pages, GA4 and fixed mobile zones. |
+| `/games/river-within/` | Symbolic animal story test | 6 binary choices, hidden meanings revealed one at a time, 4 portraits, original woodland art, local keepsake image, sharing, GA4 and fixed question controls. |
+
+## Current content direction — 2026-09-17
+
+Universal personality and symbolic story tests are now an approved direction alongside existing Filipino games. Poomang is a format reference; Korean-specific seasonal/holiday subjects are excluded. New questions, artwork and results must be original. See PROJECT_SPEC and DECISIONS for the explicit update.
+
+## The River Within validation — 2026-09-17
+
+All 64 answer combinations and 384 individual answer-to-reading mappings passed; all four portraits occur on 16 paths each. All 33 JavaScript files passed syntax checks, 172 HTML files passed reference/JSON-LD checks, and 144 result pages passed noindex/canonical checks. All 28 sitemap routes returned local HTTP 200 with ownership tags; homepage has 23 unique sequential entries. All five social cards are 1200×630. Chrome at 390×844, 360×740 and 1365×900 passed all four portraits, all six reveals, fixed answer positions, control visibility, back, replay, rapid-click protection and zero page errors/horizontal overflow. Keyboard, share targets, review without duplicate completion, actual 1080×1720 PNG download, homepage discovery and Date Yourself start smoke checks passed.
+
+Actual Facebook cache/in-app behavior and live GA4 server receipt remain external checks.
 
 ## Important files
 
@@ -64,8 +74,8 @@ Latest production implementation: Would You Date Yourself? `027a234` (2026-09-16
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 140 static result pages in total.
-- All 140 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 144 static result pages in total.
+- All 144 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -86,7 +96,7 @@ Latest production implementation: Would You Date Yourself? `027a234` (2026-09-16
 ## AdSense ownership state
 
 - Verified Publisher ID: `ca-pub-5544502803818999`.
-- The Google-provided ownership tag is present exactly once inside `<head>` on all 27 main/search-visible pages: the homepage, all 22 game routes, and About, Contact, Privacy, and Terms.
+- The Google-provided ownership tag is present exactly once inside `<head>` on all 28 main/search-visible pages: the homepage, all 23 game routes, and About, Contact, Privacy, and Terms.
 - Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
 - No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
 

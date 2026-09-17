@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-16
+Last reviewed: 2026-09-17
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -17,7 +17,7 @@ Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 | 2026-08-31 | Provide an always-available pre-game Facebook share action, and make the post-game action share the player's result. | Partial | Pre-game sharing is implemented across all 19 games, including `/quiz/classmate/`. The original Classmate quiz still lacks result-specific static share pages. |
 | 2026-08-31 | Prefer result-first Facebook cards where the result is the main visual/message. | Partial | Would You Rather and How Pinoy use result-specific image assets; Videoke and Barkada result routes currently reference the main game artwork. |
 | 2026-09-01 | Add GA4 using measurement ID `G-77QM94C66P` and track the Facebook quiz funnel. | Partial | Shared loader is active on the homepage, the original Classmate quiz, and 14 of 18 `/games/` pages. Reaction Speed, Memory Challenge, Would You Rather, and How Pinoy remain uninstrumented. |
-| 2026-09-02 | Prioritize Filipino-specific game concepts, situations, humor, and language rather than generic games. | Implemented | How Pinoy, Videoke Persona, and Barkada Role establish the current direction. |
+| 2026-09-02 | Prioritize Filipino-specific game concepts, situations, humor, and language rather than generic games. | Superseded in part | The 2026-09-17 direction permits universal personality/story tests; audience and existing local games remain unchanged. |
 | 2026-09-02 | Organize the homepage as Featured, Trending, New Games, and category/mood discovery. | Implemented | Featured is Barkada Role; Trending is manually curated pending enough GA4 data. |
 | 2026-09-02 | Treat SEO as part of every new-game publishing workflow. Result variants use `noindex,follow` and canonicalize to the main game. | Implemented | Detailed rules are in `SEO-PUBLISHING-CHECKLIST.md`; all 122 current static result pages follow this policy. |
 | 2026-09-03 | Use this Work thread for implementation/testing and the four root state files as the official Chat↔Work handoff record. | Implemented | State system initialized; future work must synchronize it after changes. |
@@ -59,6 +59,14 @@ After automatic approval review rejected the initial push, the user explicitly a
 
 **Implemented, published and verified in production (`027a234`, 2026-09-16).** User chose the mirror-profile concept. Use eight questions (four actual habits and four receiving preferences), a profile composed strictly from chosen habits, an explicit date/pass choice, then the self reveal. Compare the four pairs transparently and provide answer-grounded upsides/friction. The final yes/no choice and alignment band produce six shareable outcomes. Preserve existing routes and publish through the established project flow after relevant checks. No long-term site rule or existing game behavior changes.
 
+## Universal tests and The River Within — 2026-09-17
+
+**Implemented and locally verified; publication pending.** User selected the animal river-crossing concept and asked to preserve Poomang as a future format reference, excluding Korean-specific topics such as harvest festivals. Use original content and artwork. This expands the earlier Filipino-only concept preference and allows sequential symbolic interpretations instead of forcing a score into a story result.
+
+Six binary scenes: monkey/care, snake/boundaries, puppy/friendship, bird/love, deer/vulnerability and fox/uncertainty. Meanings stay hidden during the crossing, then reveal the exact chosen action and its reflection. Three closeness choices and three initiative choices produce four overall portraits by majority on each axis; 64 complete paths have no ties. No population percentile or diagnostic inference. A downloadable keepsake contains the six actual choices and their short readings. Keep deployment on the existing GitHub main → Cloudflare flow.
+
 ## Change rule
 
 When a new Chat specification conflicts with a row above, record the new decision and explicitly mark the prior row as changed or superseded. Do not silently overwrite history.
+
+Reference links for future concept discussions: https://poomang.com/ and https://poomang.com/t/egg_test?p=1 . The egg test was played through one result for format research; its content and assets were not reused.

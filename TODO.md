@@ -1,8 +1,20 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-16
+Last reviewed: 2026-09-17
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## The River Within release
+
+- [x] Implement six story choices, six answer-grounded reveals and four portraits.
+- [x] Add original artwork, keepsake download, four share pages/cards, homepage and sitemap.
+- [x] Complete exhaustive logic and browser verification, including the downloadable keepsake.
+- [ ] Publish via the existing GitHub/Cloudflare flow and verify production.
+- [ ] Confirm actual Facebook cache/in-app behavior and live GA4 receipt.
+
+## Future content direction
+
+- [ ] Consider original universal personality tests inspired by the formats discussed on Poomang: animals, colors, everyday objects and character portraits. Exclude Korean-specific holiday/regional concepts. Select the next specific game in Chat before implementing it.
 
 ## Would You Date Yourself release
 

@@ -1,6 +1,6 @@
 # PROJECT_SPEC — Hi Classmate
 
-Last reviewed: 2026-09-15
+Last reviewed: 2026-09-17
 
 ## Purpose
 
@@ -20,7 +20,7 @@ The production site is `https://hiclassmate.com/`.
 
 ## Long-term product rules
 
-1. Target Filipino users first. Topics, humor, language, situations, and results should feel culturally recognizable rather than generic.
+1. Target Filipino teens and young adults, while also allowing universal personality and symbolic story tests (updated 2026-09-17). Future concepts may draw format inspiration from Poomang: animals, colors, everyday objects and relatable situations. Exclude Korean-specific holidays and regional references. Write original questions, illustrations and interpretations in accessible English; Filipino-specific content remains welcome but is no longer mandatory for every game.
 2. Games must be simple, fast, and immediately understandable. The interactive game should fit within one screen where practical, especially on mobile and in Facebook's in-app browser.
 3. Every game must be shareable before play so the site owner can publish the game itself. Result sharing must share the user's specific result when the game supports result types.
 4. Results should create comparison value: a funny character/type, score, percentile-style presentation, or another clear way to compare with friends.
@@ -32,7 +32,7 @@ The production site is `https://hiclassmate.com/`.
 10. New releases must follow `SEO-PUBLISHING-CHECKLIST.md`: unique metadata/copy/social image, crawlable internal links, sitemap inclusion, and `noindex,follow` on thin result-share pages.
 11. Homepage editorial roles remain distinct: Featured is the current promotion or strongest game; Trending is curated until reliable GA4 data exists; New Games is reverse chronological; categories aid discovery.
 12. New social thumbnails should read immediately as playable content: prioritize a large question title, visible answer-choice cards, and a strong play/take-the-quiz button or equivalent interaction cue. Characters are optional. Keep essential text inside the 1200 × 630 safe area.
-13. New mobile game screens should prioritize instant scanning: keep the main game-card footprint stable across play states, make the active question large and heavy, and keep the combined answer area around one-quarter to one-third of the viewport instead of stretching the controls. Divide question screens into a stable upper question zone and lower answer zone so answer controls never move when question copy changes length; center the question copy vertically inside its zone. Compress results around one prominent score/percentage plus short keyword chips. Avoid long result paragraphs or footer disclaimers inside the interactive result card; keep necessary context in the supporting page copy.
+13. New mobile game screens should prioritize instant scanning: keep the main game-card footprint stable across play states, make the active question large and heavy, and keep the combined answer area around one-quarter to one-third of the viewport instead of stretching the controls. Divide question screens into a stable upper question zone and lower answer zone so answer controls never move when question copy changes length; center the question copy vertically inside its zone. For score-based games, compress results around one prominent score/percentage plus short keyword chips. Symbolic story tests may instead reveal each answer-specific meaning on a separate compact screen and end with a portrait; do not add a numerical score just to fit the old format. Avoid long result paragraphs or footer disclaimers inside the interactive result card; keep necessary context in the supporting page copy.
 
 ## Technical assumptions and protected items
 
@@ -43,6 +43,10 @@ The production site is `https://hiclassmate.com/`.
 - Keep policy/trust pages (`about`, `contact`, `privacy`, `terms`) accessible from the footer.
 - Do not change the domain, GitHub repository/branch, Cloudflare deployment relationship, analytics ID, legal copy, or canonical URL policy casually.
 - After a completed implementation passes its relevant checks, publish it to the established public GitHub repository `Neal7773/Hi-classmate` on `main` and verify the Cloudflare production result without asking for a separate deployment confirmation each time. This standing authorization applies only to this project and established deployment destination.
+
+## Symbolic story tests (2026-09-17)
+
+Use invented story symbols consistently, retain the player’s exact choices in the result, and avoid asserting that animal symbolism establishes objective psychological facts. Reveal meanings after all story choices. The River Within uses six binary scenes, six individual reflections, four overall portraits and an optional locally generated keepsake image.
 
 ## Villain Era implementation note (2026-09-15)
 

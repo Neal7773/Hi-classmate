@@ -52,3 +52,15 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Published implementation `027a234` to existing GitHub main and Cloudflare. Live: https://hiclassmate.com/games/date-yourself/
 - Production checked at 2026-09-16T13:38:47.599Z: all 21 routes returned HTTP 200 and matched local verified files; seven images matched byte-for-byte.
 - Earlier publication-pending entry is resolved. Actual Facebook cache/in-app and live GA4 receipt remain external follow-ups.
+
+## 2026-09-17 — The River Within implemented
+
+- User requested the animal river-crossing symbolic story test and approved a future direction of universal personality/tendency tests inspired by Poomang formats, excluding Korean-specific topics. Original content and artwork; no source question/result text or illustrations copied.
+- Added six binary scenes, exact answer-specific sequential reveals, four portraits via two majority axes and locally rendered keepsake PNG with all six choices. Includes back/replay/review, click guard, keyboard controls, pre-game/result Facebook sharing and GA4.
+- Original built-in ImageGen woodland art, five 1200×630 main/result cards, four static result routes, homepage New Games/category/23-item ItemList and 28-route sitemap. Existing games, Featured/Trending, analytics ID and ad-disabled state preserved.
+- PROJECT_SPEC updated to reflect the newly approved universal-content direction and symbolic result format. Validation/publication pending.
+
+## 2026-09-17 — The River Within local verification
+
+- All 64 answer combinations and 384 individual answer-to-reading mappings passed; all four portraits occur on 16 paths each. All 33 JavaScript files passed syntax checks, 172 HTML files passed reference/JSON-LD checks, and 144 result pages passed noindex/canonical checks. All 28 sitemap routes returned local HTTP 200 with ownership tags; homepage has 23 unique sequential entries. All five social cards are 1200×630. Chrome at 390×844, 360×740 and 1365×900 passed all four portraits, all six reveals, fixed answer positions, control visibility, back, replay, rapid-click protection and zero page errors/horizontal overflow. Keyboard, share targets, review without duplicate completion, actual 1080×1720 PNG download, homepage discovery and Date Yourself start smoke checks passed.
+- Generated art, main social card, mobile reveal/result screens and downloaded keepsake visually inspected. Public release pending.

@@ -74,3 +74,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 ## Would You Date Yourself? (2026-09-16)
 
 `/games/date-yourself/` contains four action/preference pairs (eight three-choice questions), an answer-derived profile and an explicit yes/no decision before revealing the profile is the player. `data.js` owns copy, `engine.js` owns pure profile/alignment/result logic, and `app.js` owns UI and GA4. Six result routes have dedicated 1200 × 630 cards. Expanded evidence shows the four comparisons.
+
+### The River Within (2026-09-17)
+
+`/games/river-within/`: six binary animal story scenes, answer-specific symbolic reveals, four river portraits and a locally generated keepsake image. `data.js` owns original content, `engine.js` validates choices and aggregates the two three-question axes, and `app.js` handles UI, sharing/downloads and analytics. No package install or build step is required.

@@ -36,6 +36,10 @@ The production site is `https://hiclassmate.com/`.
 
 ## Technical assumptions and protected items
 
+### Start-screen controls — applies to new games after 2026-09-18
+
+Render the pre-game "Share this game" action as a clearly visible button, using the same button family and comparable size as the start action, rather than a small text link. Group both actions beneath the introduction around the middle portion of the game card/screen with comfortable spacing. Do not pin them near the bottom or push them to the top; reduce the excessive empty gap above the controls. Preserve the separate fixed answer-zone rules during questions. This is a forward-only user preference: leave all already-built games, including The House in the Woods, unchanged.
+
 - Production URLs and Facebook sharing URLs use HTTPS and the canonical host `hiclassmate.com`.
 - Facebook sharing uses the user-opened Facebook share dialog. No automated posting or Facebook login/API integration is assumed.
 - Percentage and percentile-style results are entertainment presentation derived from answers. Do not add mood-breaking diagnostic or "just for fun" disclaimers to game cards or supporting copy unless a specific legal or platform requirement is confirmed.

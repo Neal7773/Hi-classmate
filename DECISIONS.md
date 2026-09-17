@@ -75,6 +75,10 @@ Six binary scenes: monkey/care, snake/boundaries, puppy/friendship, bird/love, d
 
 Apply the content-only reference clarification: original content in the pre-Poomang Hi Classmate visual system, with bold sans-serif type, fixed choice zones, blue/ivory/orange controls and result-first 1200×630 social cards. Preserve all existing games including The River Within. No new long-term rule.
 
+## Future start-screen button placement — 2026-09-18
+
+**Decision recorded; applies to future games only.** User requested two changes for new games: (1) make "Share this game" a real, prominent button like the start action; (2) place the start/share pair below the introductory content around the middle of the screen, with balanced spacing instead of bottom anchoring and excessive blank space above. Do not move the controls all the way to the top. Existing games must stay unchanged. This refines start-screen layout only; fixed answer zones during gameplay and the established Hi Classmate visual style remain active.
+
 ## Change rule
 
 When a new Chat specification conflicts with a row above, record the new decision and explicitly mark the prior row as changed or superseded. Do not silently overwrite history.

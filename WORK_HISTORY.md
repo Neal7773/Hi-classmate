@@ -1,5 +1,10 @@
 # WORK HISTORY — Hi Classmate
 
+## 2026-09-18 — Future start/share controls
+
+- User requested future games only: turn the pre-game share text into a prominent button like the start button, and raise both controls from the bottom to around mid-screen beneath the introduction, without crowding the top.
+- Updated specification and state/decision/TODO records. No game code, public page or artwork changed; no runtime tests were needed for this documentation-only preference update.
+
 ## 2026-09-17 — Reference scope clarified for future games
 
 - User clarified that reference tests supply content and concepts only. Future interfaces and Facebook game/result cards should use the previous Hi Classmate visual style.

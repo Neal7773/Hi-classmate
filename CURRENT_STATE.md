@@ -5,6 +5,8 @@ Latest production implementation: The House in the Woods `b8b00ba` (2026-09-18),
 
 ## Production and architecture
 
+Forward-only UI preference recorded on 2026-09-18: new game start screens should show "Share this game" as a prominent button comparable to the start button, with both grouped under the introduction around the middle of the screen. Avoid bottom anchoring or top crowding. All existing game code and assets stay unchanged.
+
 - Production domain: `https://hiclassmate.com/`.
 - Git remote: `https://github.com/Neal7773/Hi-classmate.git`.
 - Static site with no dependency installation or build step.

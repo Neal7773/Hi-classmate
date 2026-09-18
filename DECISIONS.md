@@ -79,6 +79,12 @@ Apply the content-only reference clarification: original content in the pre-Poom
 
 **Decision recorded; applies to future games only.** User requested two changes for new games: (1) make "Share this game" a real, prominent button like the start action; (2) place the start/share pair below the introductory content around the middle of the screen, with balanced spacing instead of bottom anchoring and excessive blank space above. Do not move the controls all the way to the top. Existing games must stay unchanged. This refines start-screen layout only; fixed answer zones during gameplay and the established Hi Classmate visual style remain active.
 
+## What Do You NEED to Know? — 2026-09-18
+
+**Implemented; locally verified; publication pending.** User selected the imaginary all-knowing phone concept and explicitly requested build/deployment. Eight binary dilemmas cover affection, trust, agency and unexplored possibilities. Each theme has four answer opportunities. The most selected theme wins; ties use the latest selected answer among tied themes. Show the literal matching-choice count, not a percentile. Results reveal the player’s recurring search motive, not other people’s real secrets; all eight selected answers can be reviewed.
+
+Apply the new start-screen preference: both start and share are prominent, similarly sized buttons grouped under the introduction and raised toward the middle. Keep classic Hi Classmate UI and social cards, fixed question zones and all existing games unchanged.
+
 ## Change rule
 
 When a new Chat specification conflicts with a row above, record the new decision and explicitly mark the prior row as changed or superseded. Do not silently overwrite history.

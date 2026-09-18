@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-18
-Latest production implementation: The House in the Woods `b8b00ba` (2026-09-18), published and verified. Previous production: The River Within `b023eda`.
+Latest local implementation: What Do You NEED to Know? (2026-09-18), locally verified; publication pending. Previous production: The House in the Woods `b8b00ba`.
 
 ## Production and architecture
 
@@ -18,7 +18,7 @@ Forward-only UI preference recorded on 2026-09-18: new game start screens should
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-four game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-five game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -50,6 +50,7 @@ Forward-only UI preference recorded on 2026-09-18: new game start screens should
 | `/games/date-yourself/` | Dating mirror choice game | 8 three-choice questions (4 actions + 4 preferences), answer-derived match profile, explicit date/pass decision, reveal, 0–4 aligned habits, evidence breakdown, 6 static result cards/pages, GA4 and fixed mobile zones. |
 | `/games/river-within/` | Symbolic animal story test | 6 binary choices, hidden meanings revealed one at a time, 4 portraits, original woodland art, local keepsake image, sharing, GA4 and fixed question controls. |
 | `/games/house-in-the-woods/` | Symbolic house-story personality test | 6 binary scenes, six exact-choice readings and 4 personalities; classic Hi Classmate layout and social cards, sharing, GA4, back/review/replay. |
+| `/games/need-to-know/` | Secret-phone personality test | 8 binary truth dilemmas, charge countdown, pattern reveal, 4 answer-derived needs, exact 8-choice review, prominent raised start/share buttons, GA4 and sharing. |
 
 ## Current content direction — 2026-09-17
 
@@ -92,8 +93,8 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 ## Sharing and SEO state
 
 - Games under `/games/` expose a pre-game Facebook share action and a post-game result share action.
-- The result-enabled games now have 148 static result pages in total.
-- All 148 result pages currently have `noindex,follow` and a canonical link to their main game.
+- The result-enabled games now have 152 static result pages in total.
+- All 152 result pages currently have `noindex,follow` and a canonical link to their main game.
 - The new thumbnail direction uses a large question, visible answer choices, and a play CTA so social cards read as interactive games; characters are optional.
 - How Pinoy and Would You Rather include unique result image files. Videoke and Barkada result pages currently use their main game image while varying title/description.
 - The homepage Trending images are forced to their original horizontal aspect ratio; mobile uses one card per row.
@@ -114,7 +115,7 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 ## AdSense ownership state
 
 - Verified Publisher ID: `ca-pub-5544502803818999`.
-- The Google-provided ownership tag is present exactly once inside `<head>` on all 29 main/search-visible pages: the homepage, all 24 game routes, and About, Contact, Privacy, and Terms.
+- The Google-provided ownership tag is present exactly once inside `<head>` on all 30 main/search-visible pages: the homepage, all 25 game routes, and About, Contact, Privacy, and Terms.
 - Root `ads.txt` is published at `https://hiclassmate.com/ads.txt` with the exact authorized seller line `google.com, pub-5544502803818999, DIRECT, f08c47fec0942fa0`.
 - No AdSense ad-unit, Auto Ads, `adsbygoogle`, or `pagead2.googlesyndication.com` loading code is enabled. This release verifies site ownership only and does not serve ads.
 

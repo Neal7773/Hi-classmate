@@ -82,3 +82,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 ### The House in the Woods (2026-09-18)
 
 `/games/house-in-the-woods/`: six binary story scenes, six chosen-answer symbolic interpretations and four personalities. Data, pure scoring and rendering are separated into `data.js`, `engine.js` and `app.js`. Uses the classic Hi Classmate visual style and four dedicated static share pages/cards. No install or build step required.
+
+### What Do You NEED to Know? (2026-09-18)
+
+`/games/need-to-know/`: eight imaginary secret-phone dilemmas, four answer-derived themes and exact-choice review. `data.js` holds content, `engine.js` counts themes and resolves ties deterministically, `app.js` handles navigation, battery display, analytics and Facebook sharing. Start/share controls implement the raised, equal-prominence preference. No build step required.

@@ -69,7 +69,7 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - User requested the animal river-crossing symbolic story test and approved a future direction of universal personality/tendency tests inspired by Poomang formats, excluding Korean-specific topics. Original content and artwork; no source question/result text or illustrations copied.
 - Added six binary scenes, exact answer-specific sequential reveals, four portraits via two majority axes and locally rendered keepsake PNG with all six choices. Includes back/replay/review, click guard, keyboard controls, pre-game/result Facebook sharing and GA4.
 - Original built-in ImageGen woodland art, five 1200×630 main/result cards, four static result routes, homepage New Games/category/23-item ItemList and 28-route sitemap. Existing games, Featured/Trending, analytics ID and ad-disabled state preserved.
-- PROJECT_SPEC updated to reflect the newly approved universal-content direction and symbolic result format. Validation/publication pending.
+- PROJECT_SPEC updated to reflect the newly approved universal-content direction and symbolic result format. Local verification passed; publication pending.
 
 ## 2026-09-17 — The River Within local verification
 
@@ -87,7 +87,7 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - User accepted the house exploration concept and requested creation/publication. Added six original binary scenes, six answer-specific symbolic readings, four deterministic personalities, back/review/replay, keyboard controls and click protection.
 - Applied the clarified pre-Poomang Hi Classmate interface and Facebook card style. Generated one original main social image using built-in ImageGen; composed four distinct result cards with the existing typography-led pattern. No existing game source or images changed.
 - Added homepage New Games/category/24-item ItemList and 29-route sitemap. Added GA4 events; analytics loader runs before the game initializes so the initial game_view event is captured. Existing GA4 ID and ad-disabled state preserved.
-- Validation/publication pending. PROJECT_SPEC is unchanged because this release follows the existing clarified rules.
+- Local verification passed; publication pending. PROJECT_SPEC is unchanged because this release follows the existing clarified rules.
 
 ## 2026-09-18 — House local verification
 
@@ -99,3 +99,12 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Implementation `b8b00ba` published through the established GitHub main → Cloudflare destination. Live: https://hiclassmate.com/games/house-in-the-woods/
 - At 2026-09-17T16:30:57.517Z, all 17 production route/content checks passed, including all five JPEGs byte-for-byte. Earlier publication-pending entries are resolved.
 - Actual Facebook cache/in-app behavior and live GA4 server receipt remain external checks.
+
+## 2026-09-18 — What Do You NEED to Know?
+
+- User selected the imaginary truth-phone concept and requested creation/deployment. Implemented eight binary dilemmas, an eight-charge counter, deliberate result reveal, four need themes and a review of all selected answers/reflections.
+- Each theme appears in four available answers; maximum count determines the result and latest relevant choice resolves ties. Actual secret access is not claimed or implemented. No personal information input, permissions or external message access.
+- Start/share buttons use comparable prominent styling and sit together under the intro, raised from the old bottom placement. Classic Hi Classmate styling retained. Mobile two-line title height handled explicitly.
+- One original built-in ImageGen main social card, four typography-led result cards/pages, homepage 25-item ItemList/category/New Games and 30-route sitemap. Existing games and protected analytics/ad settings unchanged. PROJECT_SPEC unchanged: this implements the recorded preference. Local verification passed; publication pending.
+
+- Local verification: all 256 answer combinations, 2,048 exact reflections and 80 ties passed. Result distribution: affection 52, trust 76, agency 76, possibility 52 (equal answer opportunities; deterministic tie rule does not imply equal outcome frequencies). All four results, ties, eight-answer review, replay, back/battery restoration, keyboard and sharing/analytics event wiring passed at 390×844, 360×740 and 1365×900. No browser errors. Site checks: 39 JavaScript files, 182 HTML files, 152 result pages, 25 catalog games, 30 main routes and five new social images. Existing House smoke check passed.

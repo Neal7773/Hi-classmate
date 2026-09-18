@@ -8,7 +8,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 - [x] Implement eight dilemmas, battery countdown, four results and exact-choice review.
 - [x] Apply prominent raised start/share buttons; add main/result art, four result routes and discovery.
-- [ ] Complete verification, publish through the existing GitHub/Cloudflare flow and check production.
+- [x] Complete verification, publish through the existing GitHub/Cloudflare flow and check production (implementation `c338686`; 17 exact production checks).
 - [ ] Confirm actual Facebook preview cache/in-app behavior and live GA4 server receipt.
 
 ## The House in the Woods release

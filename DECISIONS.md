@@ -81,7 +81,7 @@ Apply the content-only reference clarification: original content in the pre-Poom
 
 ## What Do You NEED to Know? — 2026-09-18
 
-**Implemented; locally verified; publication pending.** User selected the imaginary all-knowing phone concept and explicitly requested build/deployment. Eight binary dilemmas cover affection, trust, agency and unexplored possibilities. Each theme has four answer opportunities. The most selected theme wins; ties use the latest selected answer among tied themes. Show the literal matching-choice count, not a percentile. Results reveal the player’s recurring search motive, not other people’s real secrets; all eight selected answers can be reviewed.
+**Published and verified, implementation `c338686`.** User selected the imaginary all-knowing phone concept and explicitly requested build/deployment. Eight binary dilemmas cover affection, trust, agency and unexplored possibilities. Each theme has four answer opportunities. The most selected theme wins; ties use the latest selected answer among tied themes. Show the literal matching-choice count, not a percentile. Results reveal the player’s recurring search motive, not other people’s real secrets; all eight selected answers can be reviewed.
 
 Apply the new start-screen preference: both start and share are prominent, similarly sized buttons grouped under the introduction and raised toward the middle. Keep classic Hi Classmate UI and social cards, fixed question zones and all existing games unchanged.
 

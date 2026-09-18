@@ -108,3 +108,9 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - One original built-in ImageGen main social card, four typography-led result cards/pages, homepage 25-item ItemList/category/New Games and 30-route sitemap. Existing games and protected analytics/ad settings unchanged. PROJECT_SPEC unchanged: this implements the recorded preference. Local verification passed; publication pending.
 
 - Local verification: all 256 answer combinations, 2,048 exact reflections and 80 ties passed. Result distribution: affection 52, trust 76, agency 76, possibility 52 (equal answer opportunities; deterministic tie rule does not imply equal outcome frequencies). All four results, ties, eight-answer review, replay, back/battery restoration, keyboard and sharing/analytics event wiring passed at 390×844, 360×740 and 1365×900. No browser errors. Site checks: 39 JavaScript files, 182 HTML files, 152 result pages, 25 catalog games, 30 main routes and five new social images. Existing House smoke check passed.
+
+## 2026-09-18 — Truth phone published
+
+- Implementation `c338686` published through GitHub main → Cloudflare. Live: https://hiclassmate.com/games/need-to-know/
+- At 2026-09-18T12:52:59.970Z, all 17 production checks passed with HTTP 200 and exact deployed content, including all five social JPEGs. Earlier pending entries are resolved.
+- Existing games unchanged. Actual Facebook preview cache/in-app behavior and live GA4 server receipt remain external checks.

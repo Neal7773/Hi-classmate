@@ -29,7 +29,8 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## Future content direction
 
-- [x] Record the next-game-only start-screen rule: prominent start/share buttons grouped beneath the introduction around mid-screen, with comfortable spacing; leave all existing games unchanged.
+- [x] Record revised next-game-only button placement after Need to Know feedback: center the Start/Share group within the current button area plus the blank space below, moving it lower; keep both prominent and leave all existing games unchanged.
+- [ ] Apply the revised lower button-group placement when the next game is selected; check mobile visibility and balanced spacing within the remaining lower region.
 
 - [x] Record the user's content-only reference clarification: future game UI and Facebook game/result previews use the established pre-Poomang Hi Classmate style. Leave existing games unchanged.
 

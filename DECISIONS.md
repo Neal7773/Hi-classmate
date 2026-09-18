@@ -90,3 +90,7 @@ Apply the new start-screen preference: both start and share are prominent, simil
 When a new Chat specification conflicts with a row above, record the new decision and explicitly mark the prior row as changed or superseded. Do not silently overwrite history.
 
 Reference links for future concept discussions: https://poomang.com/ and https://poomang.com/t/egg_test?p=1 . The egg test was played through one result for format research; its content and assets were not reused.
+
+## Future start-screen placement refinement — 2026-09-18
+
+Keep Start and "Share this game" as similarly sized, prominent buttons. For future games, move the pair lower than the current Need to Know placement: center the entire button group vertically within the combined region occupied by the current buttons and the blank space below them down to the game-card bottom. Balance the space above and below the group within that region; do not center against the whole screen or crowd the introduction. Preserve comfortable bottom padding and mobile visibility. This supersedes the earlier generic mid-screen placement wording. Apply only to future games; all existing games, including What Do You NEED to Know?, remain unchanged. Question answer-zone positioning is unaffected.

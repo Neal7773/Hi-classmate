@@ -5,7 +5,7 @@ Latest production implementation: What Do You NEED to Know? `c338686` (2026-09-1
 
 ## Production and architecture
 
-Forward-only UI preference recorded on 2026-09-18: new game start screens should show "Share this game" as a prominent button comparable to the start button, with both grouped under the introduction around the middle of the screen. Avoid bottom anchoring or top crowding. All existing game code and assets stay unchanged.
+Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Keep Start and "Share this game" as similarly sized, prominent buttons. For future games, move the pair lower than the current Need to Know placement: center the entire button group vertically within the combined region occupied by the current buttons and the blank space below them down to the game-card bottom. Balance the space above and below the group within that region; do not center against the whole screen or crowd the introduction. Preserve comfortable bottom padding and mobile visibility. This supersedes the earlier generic mid-screen placement wording. Apply only to future games; all existing games, including What Do You NEED to Know?, remain unchanged. Question answer-zone positioning is unaffected.
 
 - Production domain: `https://hiclassmate.com/`.
 - Git remote: `https://github.com/Neal7773/Hi-classmate.git`.

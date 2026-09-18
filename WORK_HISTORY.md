@@ -114,3 +114,8 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Implementation `c338686` published through GitHub main → Cloudflare. Live: https://hiclassmate.com/games/need-to-know/
 - At 2026-09-18T12:52:59.970Z, all 17 production checks passed with HTTP 200 and exact deployed content, including all five social JPEGs. Earlier pending entries are resolved.
 - Existing games unchanged. Actual Facebook preview cache/in-app behavior and live GA4 server receipt remain external checks.
+
+## 2026-09-18 — Future button placement refined
+
+- User approved the prominent Start/Share button styling but found the Need to Know placement too high. Keep Start and "Share this game" as similarly sized, prominent buttons. For future games, move the pair lower than the current Need to Know placement: center the entire button group vertically within the combined region occupied by the current buttons and the blank space below them down to the game-card bottom. Balance the space above and below the group within that region; do not center against the whole screen or crowd the introduction. Preserve comfortable bottom padding and mobile visibility. This supersedes the earlier generic mid-screen placement wording. Apply only to future games; all existing games, including What Do You NEED to Know?, remain unchanged. Question answer-zone positioning is unaffected.
+- Documentation-only change: PROJECT_SPEC, CURRENT_STATE, DECISIONS and TODO synchronized. No game code, assets or live layout changed.

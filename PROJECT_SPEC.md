@@ -1,6 +1,6 @@
 # PROJECT_SPEC — Hi Classmate
 
-Last reviewed: 2026-09-17
+Last reviewed: 2026-09-18
 
 ## Purpose
 
@@ -38,7 +38,7 @@ The production site is `https://hiclassmate.com/`.
 
 ### Start-screen controls — applies to new games after 2026-09-18
 
-Render the pre-game "Share this game" action as a clearly visible button, using the same button family and comparable size as the start action, rather than a small text link. Group both actions beneath the introduction around the middle portion of the game card/screen with comfortable spacing. Do not pin them near the bottom or push them to the top; reduce the excessive empty gap above the controls. Preserve the separate fixed answer-zone rules during questions. This is a forward-only user preference: leave all already-built games, including The House in the Woods, unchanged.
+Keep Start and "Share this game" as similarly sized, prominent buttons. For future games, move the pair lower than the current Need to Know placement: center the entire button group vertically within the combined region occupied by the current buttons and the blank space below them down to the game-card bottom. Balance the space above and below the group within that region; do not center against the whole screen or crowd the introduction. Preserve comfortable bottom padding and mobile visibility. This supersedes the earlier generic mid-screen placement wording. Apply only to future games; all existing games, including What Do You NEED to Know?, remain unchanged. Question answer-zone positioning is unaffected.
 
 - Production URLs and Facebook sharing URLs use HTTPS and the canonical host `hiclassmate.com`.
 - Facebook sharing uses the user-opened Facebook share dialog. No automated posting or Facebook login/API integration is assumed.

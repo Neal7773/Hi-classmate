@@ -139,3 +139,9 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Classic style and lower start/share group retained. No existing game files changed; no AI image generation. Added main route, five share routes, six 1200×630 JPEGs, newest discovery/category entry, 27-item catalog and 32-route sitemap. Publication pending.
 
 - Verification passed: all 256 combinations and 2,048 exact reflections; all five results reachable; invalid choices rejected. Browser flows at 390×844, 360×740 and 1365×900 passed including all outcomes on mobile, back, keyboard, replay, eight-choice review, share URLs and analytics wiring. No page errors. Checked new metadata/local links, six 1200×630 cards, 27-item discovery list and 32-route sitemap.
+
+## 2026-09-20 — The Memory Auction published
+
+- Implementation `23b0e3e` published to approved GitHub main → Cloudflare. Live: https://hiclassmate.com/games/memory-auction/
+- All 19 public route/content checks passed at 2026-09-20T13:10:42.725Z, including six JPEGs byte-for-byte. Publication-pending notes above are resolved. Existing game files unchanged.
+- External follow-ups: real Facebook cache/in-app behavior, GA4 server receipt and Search Console indexing request were not performed.

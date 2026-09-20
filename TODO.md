@@ -7,7 +7,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 ## The Memory Auction release
 
 - [x] Build eight original memory trades, five results, dual interpretation, review and six template-generated social cards.
-- [ ] Complete focused verification and publish via existing GitHub/Cloudflare flow.
+- [x] Verify and publish to the established GitHub/Cloudflare destination (`23b0e3e`; 19 live content checks passed).
 - [ ] External follow-up: Facebook cache/in-app behavior, GA4 receipt and Search Console indexing request.
 
 ## The Devil’s Offer release

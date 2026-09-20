@@ -86,3 +86,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 ### What Do You NEED to Know? (2026-09-18)
 
 `/games/need-to-know/`: eight imaginary secret-phone dilemmas, four answer-derived themes and exact-choice review. `data.js` holds content, `engine.js` counts themes and resolves ties deterministically, `app.js` handles navigation, battery display, analytics and Facebook sharing. Start/share controls implement the raised, equal-prominence preference. No build step required.
+
+### The Devil’s Offer (2026-09-20)
+
+`/games/devils-offer/`: eight fictional bargains; accepted rewards and refused costs are scored independently. Four temptation results plus Not for Sale, five static share pages and eight-choice review. Reuses the established UI with lower start/share placement. No build step.

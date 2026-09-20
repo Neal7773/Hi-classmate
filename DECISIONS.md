@@ -94,3 +94,9 @@ Reference links for future concept discussions: https://poomang.com/ and https:/
 ## Future start-screen placement refinement — 2026-09-18
 
 Keep Start and "Share this game" as similarly sized, prominent buttons. For future games, move the pair lower than the current Need to Know placement: center the entire button group vertically within the combined region occupied by the current buttons and the blank space below them down to the game-card bottom. Balance the space above and below the group within that region; do not center against the whole screen or crowd the introduction. Preserve comfortable bottom padding and mobile visibility. This supersedes the earlier generic mid-screen placement wording. Apply only to future games; all existing games, including What Do You NEED to Know?, remain unchanged. Question answer-zone positioning is unaffected.
+
+## The Devil’s Offer — 2026-09-20
+
+User approved eight offers and publication, requesting lower Codex usage. Reuse the existing game interface, navigation, analytics, social-card renderer and deployment checker. No AI image generation or new shared-game framework. Existing games unchanged. Start/share group centered within the lower remaining region (58% introduction / 42% action zone), applying the latest placement refinement.
+
+Accepted offers score love, recognition, rewriting life or power; refusals independently score authenticity, bonds, freedom or identity. Each axis appears twice. Ties use the latest relevant choice. All refused returns Not for Sale; all accepted explicitly reports that no offered price stopped the player. Five static headline share pages; the personalized protected value is shown in the game and not represented as encoded in a shared headline card. Review retains all eight actual decisions.

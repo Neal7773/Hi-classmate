@@ -1,8 +1,15 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-18
+Last reviewed: 2026-09-20
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## The Devil’s Offer release
+
+- [x] Implement eight deals, temptation/protected-value scoring, five headline results, review and six template-rendered social cards.
+- [x] Apply lower start/share placement using existing UI; leave older games unchanged.
+- [ ] Verify and publish to the established GitHub/Cloudflare destination.
+- [ ] External follow-up: actual Facebook cache/in-app behavior, GA4 receipt and Search Console indexing request.
 
 ## What Do You NEED to Know? release
 
@@ -30,7 +37,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 ## Future content direction
 
 - [x] Record revised next-game-only button placement after Need to Know feedback: center the Start/Share group within the current button area plus the blank space below, moving it lower; keep both prominent and leave all existing games unchanged.
-- [ ] Apply the revised lower button-group placement when the next game is selected; check mobile visibility and balanced spacing within the remaining lower region.
+- [x] Apply the revised lower button-group placement in The Devil’s Offer; check mobile visibility and balanced spacing within the remaining lower region.
 
 - [x] Record the user's content-only reference clarification: future game UI and Facebook game/result previews use the established pre-Poomang Hi Classmate style. Leave existing games unchanged.
 

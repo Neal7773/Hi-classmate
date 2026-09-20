@@ -119,3 +119,10 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 
 - User approved the prominent Start/Share button styling but found the Need to Know placement too high. Keep Start and "Share this game" as similarly sized, prominent buttons. For future games, move the pair lower than the current Need to Know placement: center the entire button group vertically within the combined region occupied by the current buttons and the blank space below them down to the game-card bottom. Balance the space above and below the group within that region; do not center against the whole screen or crowd the introduction. Preserve comfortable bottom padding and mobile visibility. This supersedes the earlier generic mid-screen placement wording. Apply only to future games; all existing games, including What Do You NEED to Know?, remain unchanged. Question answer-zone positioning is unaffected.
 - Documentation-only change: PROJECT_SPEC, CURRENT_STATE, DECISIONS and TODO synchronized. No game code, assets or live layout changed.
+
+## 2026-09-20 — The Devil’s Offer
+
+- Built the approved eight-deal test with independent temptation and protected-value interpretation, five shareable headlines including all-refused fallback, and exact-answer review. Reused Need to Know code locally in the new folder; no existing game files changed.
+- Reduced repeated work: template-generated JPEG cards instead of AI image generation; reused interface and release tools; limited browser/metadata checks to the new game and changed discovery. Start/share group now centered in the lower remaining space. Publication pending.
+
+- Verification passed: all 256 combinations and 2,048 exact reflections; all five results reachable; invalid choices rejected. Browser flows at 390×844, 360×740 and 1365×900 passed including all outcomes on mobile, back, keyboard, replay, eight-choice review, share URLs and analytics wiring. No page errors. Checked new metadata/local links, six 1200×630 cards, 26-item discovery list and 31-route sitemap.

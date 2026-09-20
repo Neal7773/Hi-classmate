@@ -8,7 +8,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 - [x] Implement eight deals, temptation/protected-value scoring, five headline results, review and six template-rendered social cards.
 - [x] Apply lower start/share placement using existing UI; leave older games unchanged.
-- [ ] Verify and publish to the established GitHub/Cloudflare destination.
+- [x] Verify and publish to the established GitHub/Cloudflare destination (`8361865`; 19 live content checks passed).
 - [ ] External follow-up: actual Facebook cache/in-app behavior, GA4 receipt and Search Console indexing request.
 
 ## What Do You NEED to Know? release

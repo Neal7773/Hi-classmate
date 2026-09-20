@@ -126,3 +126,9 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 - Reduced repeated work: template-generated JPEG cards instead of AI image generation; reused interface and release tools; limited browser/metadata checks to the new game and changed discovery. Start/share group now centered in the lower remaining space. Publication pending.
 
 - Verification passed: all 256 combinations and 2,048 exact reflections; all five results reachable; invalid choices rejected. Browser flows at 390×844, 360×740 and 1365×900 passed including all outcomes on mobile, back, keyboard, replay, eight-choice review, share URLs and analytics wiring. No page errors. Checked new metadata/local links, six 1200×630 cards, 26-item discovery list and 31-route sitemap.
+
+## 2026-09-20 — The Devil’s Offer published
+
+- Implementation `8361865` published to approved GitHub main → Cloudflare. Live: https://hiclassmate.com/games/devils-offer/
+- All 19 public route/content checks passed at 2026-09-20T11:33:02.620Z, including six JPEGs byte-for-byte. Publication-pending notes above are resolved. Existing game files unchanged.
+- External follow-ups: real Facebook cache/in-app behavior, GA4 server receipt and Search Console indexing request were not performed.

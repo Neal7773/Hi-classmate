@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-20
-Latest local implementation: The Devil’s Offer (2026-09-20); publication pending. Previous live game: What Do You NEED to Know? `c338686`.
+Latest production implementation: The Devil’s Offer `8361865` (2026-09-20). All 19 production content checks passed.
 
 ## Production and architecture
 

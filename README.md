@@ -90,3 +90,7 @@ The rendering and scoring engine appears below `QUIZ_DATA`, so future quizzes ca
 ### The Devil’s Offer (2026-09-20)
 
 `/games/devils-offer/`: eight fictional bargains; accepted rewards and refused costs are scored independently. Four temptation results plus Not for Sale, five static share pages and eight-choice review. Reuses the established UI with lower start/share placement. No build step.
+
+### The Memory Auction (2026-09-20)
+
+`/games/memory-auction/`: eight independent fictional memory trades, five future-oriented results and an independently scored protected-memory theme. Reuses the previous game interface and scoring structure; original content and template-rendered images. No build step.

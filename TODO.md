@@ -4,6 +4,12 @@ Last reviewed: 2026-09-20
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
 
+## The Memory Auction release
+
+- [x] Build eight original memory trades, five results, dual interpretation, review and six template-generated social cards.
+- [ ] Complete focused verification and publish via existing GitHub/Cloudflare flow.
+- [ ] External follow-up: Facebook cache/in-app behavior, GA4 receipt and Search Console indexing request.
+
 ## The Devil’s Offer release
 
 - [x] Implement eight deals, temptation/protected-value scoring, five headline results, review and six template-rendered social cards.

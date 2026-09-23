@@ -1,6 +1,6 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-20
+Snapshot date: 2026-09-23
 Latest production implementation: The Memory Auction `23b0e3e` (2026-09-20). All 19 production content checks passed.
 
 ## Production and architecture
@@ -236,3 +236,11 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 - The Privacy Policy is prepared for AdSense advertising cookies, but live AdSense code remains disabled. A Google-certified CMP/privacy message must still be configured where required before serving personalized ads in the EEA, UK, or Switzerland.
 - `http://hiclassmate.com/` currently returns the site with HTTP 200 instead of redirecting to HTTPS. All canonical, Open Graph, sitemap, and internal URLs use HTTPS, so this is a non-blocking hardening item rather than an AdSense application blocker.
 - The `www.hiclassmate.com` hostname currently has no DNS record. The site consistently uses the non-www canonical host, so this is not an AdSense application blocker; add and redirect `www` only if that hostname will be promoted.
+
+## Supplied game guides — 2026-09-23
+
+- Added the user’s final English manuscripts verbatim to the 19 explicitly listed main game routes, after existing game/info/share/related content and before the footer, inside a visible `hc-game-guide` section within main. Shared scoped `game-guide.css`; no new JavaScript, fonts, images or dependencies.
+- Actual current catalog remains 27 games, 162 result pages and 32 sitemap routes. The specification’s 19/122/24 totals describe an older snapshot; its named 19 pages define this change. Eight later games, all results and sitemap remain unchanged. Family GC uses the complete second attachment rather than the truncated first copy.
+- Verified all 19 question/round/result counts against live local game data. Static checks prove existing HTML is unchanged after removing only the added guide and stylesheet link. All existing non-document files outside the 19 targets are byte-identical. Canonical, OG, JSON-LD, GA4, ownership tags, ads.txt and all game JavaScript preserved.
+- Local verification: 45 JavaScript syntax checks, 194 HTML files, 1,073 local references, 162 result-page policy checks and 32 ownership-tag checks. All 19 pages at 390×844, 360×740 and 1365×900 preserve original game geometry within animation rounding, show exact manuscript text, scroll normally and have no horizontal overflow or footer overlap. Seven required representative games completed start/play/result/share/replay at each viewport; zero page errors.
+- Production publication/verification pending. AdSense review is ongoing according to the user; this work does not establish approval and enables no ad-serving code.

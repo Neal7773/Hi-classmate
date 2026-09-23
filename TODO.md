@@ -1,8 +1,15 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-20
+Last reviewed: 2026-09-23
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## Supplied main-game guides
+
+- [x] Apply the 19 approved manuscripts verbatim below existing content; retain all current game assets and metadata.
+- [x] Complete static, three-viewport and seven-game local regression checks.
+- [ ] Publish and verify exact production content, ownership/ads.txt and representative live gameplay.
+- [ ] Monitor Google AdSense review outcome and ads.txt status; reassess content only if review feedback requires it.
 
 ## The Memory Auction release
 
@@ -78,8 +85,8 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 - [x] Confirm Publisher ID `ca-pub-5544502803818999` and publish the exact Google ownership meta tag across all main/search-visible pages.
 - [x] Publish the exact Google-authorized seller line at `/ads.txt` and verify the live plain-text response.
-- [ ] In AdSense, check “HTML `<meta>` tag를 삽입했습니다” and click **확인**.
-- [ ] After ownership verification succeeds, submit `hiclassmate.com` for site review.
+- [x] Ownership setup precedes the ongoing AdSense review reported by the user; no fresh account-side verification performed here.
+- [x] Site review is ongoing according to the current user specification; approval remains unconfirmed.
 - [ ] After AdSense approval, separately plan and implement actual ad placement; do not enable Auto Ads or ad units as part of ownership verification.
 - [ ] Before serving ads where required, configure and publish the appropriate AdSense Privacy & messaging flow, including a Google-certified CMP for EEA, UK, and Switzerland traffic.
 
@@ -112,6 +119,6 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## Pending external confirmation
 
-- [ ] Confirm AdSense ownership verification, review submission, and eventual approval status before enabling any advertising code or space.
+- [ ] Confirm the eventual AdSense review decision before enabling any advertising code or space; review is currently ongoing per user.
 - [ ] After CMP setup, verify that users can manage or revoke consent where required.
 - [ ] Confirm Cloudflare production deployment health when deployment behavior changes; repository history indicates automatic deployment, but external settings are not versioned here.

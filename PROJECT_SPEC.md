@@ -1,6 +1,6 @@
 # PROJECT_SPEC — Hi Classmate
 
-Last reviewed: 2026-09-18
+Last reviewed: 2026-09-23
 
 ## Purpose
 
@@ -57,6 +57,10 @@ Use invented story symbols consistently, retain the player’s exact choices in 
 ## Villain Era implementation note (2026-09-15)
 
 The selected Villain Era quiz uses eight four-choice questions and six result archetypes. Its displayed type match is calculated from answers, not a percentile against other players. Keep content, scoring and display separate and preserve deterministic results for identical answers. This game adds no new site-wide deployment, analytics or advertising policy.
+
+## Main-game explanatory content (2026-09-23)
+
+Provide original, useful, game-specific explanatory text below the game and existing share/related content, before the footer. Keep it visible, readable and separate from game controls with scoped styling. The user-approved 19 guide manuscripts are used verbatim, including their entertainment context; this is a specific exception to the older supporting-copy disclaimer preference. Do not automatically remove this content after AdSense review; any later reduction is a separate decision.
 
 ## Documentation workflow
 

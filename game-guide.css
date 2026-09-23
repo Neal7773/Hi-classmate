@@ -1,0 +1,7 @@
+/* Visible game-specific reading, scoped so the existing game layout stays intact. */
+.hc-game-guide{box-sizing:border-box;display:block;position:static;clear:both;width:calc(100% - 32px);max-width:860px;margin:48px auto;padding:28px 24px;border:1px solid #dbe1ec;border-radius:16px;background:#fffdf8;color:#24324a;text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.75;overflow-wrap:anywhere}
+.hc-game-guide h2{margin:28px 0 12px;color:#182c50;font-size:24px;font-weight:750;line-height:1.3;letter-spacing:-.02em;text-transform:none}
+.hc-game-guide h2:first-child{margin-top:0}
+.hc-game-guide p{margin:0 0 14px;color:#34445c;font-size:16px;line-height:1.75;letter-spacing:normal;max-width:none}
+.hc-game-guide p:last-child{margin-bottom:0}
+@media(max-width:600px){.hc-game-guide{width:calc(100% - 24px);margin:32px auto;padding:22px 18px}.hc-game-guide h2{font-size:22px}}

@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-18
+Last reviewed: 2026-09-23
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -104,3 +104,9 @@ Accepted offers score love, recognition, rewriting life or power; refusals indep
 ## The Memory Auction — 2026-09-20
 
 User selected the recommended memory-auction concept and requested creation, following the offer to build and publish. Reuse Devil’s Offer interface, dual scoring, review, lower start/share placement and social-card generation; no changes to existing games and no AI image generation. Eight independent fictional lots. Sales score belonging, achievement, fresh start or freedom; kept memories score growth, bonds, earlier dreams or quiet comfort. Each axis appears twice; latest relevant choice breaks ties. Keep all returns The Memory Keeper; sell all explicitly reports no protected boundary in this playthrough. Five headline-only shared results; personalized memory theme stays in the game.
+
+## Main-game explanatory content — 2026-09-23
+
+Main game pages should provide visible, game-specific explanations below the interactive game and existing related/share content. Use the approved manuscripts without filler, hidden text or repetitive links. Scoped HTML/CSS must preserve the game layout and metadata. Treat this as permanent useful content, not material automatically deleted after AdSense review; future reductions require a separate UX/policy decision.
+
+For these 19 supplied manuscripts, the user explicitly requests entertainment/context statements in supporting copy. This supersedes the older no-disclaimer preference only where these approved manuscripts include such statements; gameplay/result screens remain unchanged. The actual 27-game/162-result/32-route catalog takes precedence over old counts, while implementation is limited to the 19 named main routes.

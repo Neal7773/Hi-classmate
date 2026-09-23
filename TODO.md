@@ -8,7 +8,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 - [x] Apply the 19 approved manuscripts verbatim below existing content; retain all current game assets and metadata.
 - [x] Complete static, three-viewport and seven-game local regression checks.
-- [ ] Publish and verify exact production content, ownership/ads.txt and representative live gameplay.
+- [x] Published `d302f91`: 35 production route/file checks and 38 page/viewport checks including 14 full live game flows passed.
 - [ ] Monitor Google AdSense review outcome and ads.txt status; reassess content only if review feedback requires it.
 
 ## The Memory Auction release

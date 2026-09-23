@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-23
-Latest production implementation: The Memory Auction `23b0e3e` (2026-09-20). All 19 production content checks passed.
+Latest production implementation: supplied explanatory guides on 19 main game pages `d302f91` (2026-09-23).
 
 ## Production and architecture
 
@@ -243,4 +243,4 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 - Actual current catalog remains 27 games, 162 result pages and 32 sitemap routes. The specification’s 19/122/24 totals describe an older snapshot; its named 19 pages define this change. Eight later games, all results and sitemap remain unchanged. Family GC uses the complete second attachment rather than the truncated first copy.
 - Verified all 19 question/round/result counts against live local game data. Static checks prove existing HTML is unchanged after removing only the added guide and stylesheet link. All existing non-document files outside the 19 targets are byte-identical. Canonical, OG, JSON-LD, GA4, ownership tags, ads.txt and all game JavaScript preserved.
 - Local verification: 45 JavaScript syntax checks, 194 HTML files, 1,073 local references, 162 result-page policy checks and 32 ownership-tag checks. All 19 pages at 390×844, 360×740 and 1365×900 preserve original game geometry within animation rounding, show exact manuscript text, scroll normally and have no horizontal overflow or footer overlap. Seven required representative games completed start/play/result/share/replay at each viewport; zero page errors.
-- Production publication/verification pending. AdSense review is ongoing according to the user; this work does not establish approval and enables no ad-serving code.
+- Production release `d302f91` verified at 2026-09-23T02:43:49.307Z: all 32 main routes HTTP 200 with exact local content and exactly one ownership tag; all 19 guides, shared CSS, ads.txt and sitemap verified. Seven representative live games passed complete play/share/replay on mobile 390×844 and desktop 1365×900; all 19 live pages passed content/layout checks at both sizes. AdSense review remains ongoing per user; approval is not established and no ads enabled.

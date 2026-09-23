@@ -149,3 +149,8 @@ Continues the original exported `페이스북퀴즈게임-WORK_HISTORY.md` throu
 ## 2026-09-23 — Supplied explanatory guides
 
 Implemented exactly the 19 provided English manuscripts in scoped visible sections below existing main content. Complete second-file Family GC text takes precedence over the truncated first-file fragment. Actual catalog remains 27 games/162 results/32 main URLs. Original game code, metadata, assets, sitemap and ads.txt preserved. Local static and 57 page/viewport checks plus 21 full representative play/share/replay flows passed. Deployment pending; AdSense approval is not claimed.
+
+## 2026-09-23 — Guide content published
+
+- Implementation `d302f91` pushed through existing GitHub main → Cloudflare. At 2026-09-23T02:43:49.307Z, 32 main routes plus CSS, ads.txt and sitemap matched the checked files. Nineteen guide bodies are live; all 32 pages retain exactly one ownership tag.
+- Live Chrome checks: 19 pages × mobile 390×844 / desktop 1365×900, with seven representative complete play/result/share/replay flows at each size. Zero page errors. No new P0/P1/P2 defect was found in the tested scope. Existing analytics gaps, real Facebook in-app/cache tests, AdSense review and account-side ads.txt status remain external/follow-up work. No ad code enabled.

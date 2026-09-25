@@ -168,3 +168,11 @@ Implemented exactly the 19 provided English manuscripts in scoped visible sectio
 - Validation: 48 JS syntax checks, 201 HTML files, 1,124 internal references, 168 result policies, 33 sitemap routes; 390×844, 360×740 and 1365×900 each reached all six results and checked exact content, fixed controls, Back/replacement, rapid-click guard, keyboard, shares, replay, scrolling and next game. Zero page errors/overflow. Six specified existing games passed load/start/assets smoke tests.
 - Publication pending: local implementation and tests complete; production verification will be recorded after the authorized GitHub main → Cloudflare release.
 - Latest user-provided specification reports an AdSense Low Value Content rejection and planned content improvements. No account-side status was checked; earlier “ongoing review” notes are historical. This game does not activate ads or begin the separate site redesign.
+
+## Inner Weather production verified — 2026-09-25
+
+- Implementation ed03aba published to Neal7773/Hi-classmate main; Cloudflare’s build spent about five minutes initializing before deploying. No build/deployment setting was changed.
+- Production verified at 2026-09-25T15:49:23.467Z: all 54 route/file checks returned HTTP 200 and matched local content (normalized text line endings; JPEG bytes exact). Includes all 33 sitemap routes, six new share pages, seven JPEGs, new runtime assets, guide CSS, sitemap, robots.txt and ads.txt.
+- Main metadata, Quiz structured data, guide and exactly one ownership tag present. Six result pages preserve unique title/description/image, noindex,follow and main canonical. ads.txt is text/plain with the exact authorized publisher line; no advertising code added.
+- Live mobile Chrome completed play, Clear Sky result, five Deep Dive sections, two Chemistry cards, main/result Facebook target capture and replay. Zero page errors/horizontal overflow. Production-pending notes above are resolved.
+- External checks remain: actual Facebook in-app rendering/Sharing Debugger cache, live GA4 server receipt and Search Console indexing. Account-side AdSense state was not inspected. Existing 27 games and 162 result pages remain unchanged.

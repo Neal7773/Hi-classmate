@@ -8,7 +8,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 - [x] Check all 66 supplied sections; implement the exact questions/results, richer result structure, guide, sharing and discovery.
 - [x] Complete exhaustive scoring, all six outcomes at three viewports, static checks and the six required existing-game smoke tests.
-- [ ] Publish the checked game through GitHub main → Cloudflare and verify production.
+- [x] Published ed03aba via GitHub main → Cloudflare; 54 exact production checks and live mobile play/share/replay passed.
 - [ ] External: real Facebook in-app previews, Sharing Debugger cache and live GA4 server receipt; request Search Console indexing as appropriate.
 - [ ] Separate selected future task: overall site organization/content work following the Low Value Content rejection reported in the latest specification. No actual AdSense account status checked here.
 

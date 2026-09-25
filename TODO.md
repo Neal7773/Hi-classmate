@@ -8,7 +8,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 - [x] Check 64 sections; implement eight questions, six rich results, travel cards, guide, sharing and discovery.
 - [x] Complete lightweight scoring and targeted browser/static/smoke QA. No exhaustive sweep.
-- [ ] Publish to GitHub main → Cloudflare and verify production core routes.
+- [x] Published f72142e via GitHub main → Cloudflare; all 21 production core URL/file checks passed.
 - [ ] External: Facebook in-app preview, Sharing Debugger cache, live GA4 receipt and optional Search Console indexing.
 - [ ] After this game, select the separate site-organization/content-improvement task; do not begin it as part of this release.
 

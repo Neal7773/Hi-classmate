@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-09-26
-Latest production implementation: Inner Weather ed03aba; Perfect Escape locally validated, publication pending.
+Latest production implementation: Perfect Escape f72142e, published and production-verified (2026-09-26).
 
 ## Production and architecture
 
@@ -278,3 +278,10 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 - Homepage New Games, existing Personality category, ItemList and main-only sitemap entry added. Current actual catalog: 29 games, 174 result pages, 34 sitemap routes. Existing games/168 result pages and shared code unchanged; Featured/Trending unchanged.
 - Lightweight QA passed: 2054 sampled/preset answer sequences including 106 top ties, two example paths per result, determinism, invalid/incomplete rejection, Back/recalculation. No exhaustive combination sweep. New 3 JS/7 HTML and 49 local references checked; metadata, JSON-LD, sitemap and seven image dimensions checked. 390×844 completed all six results/share/replay; 360×740 and 1365×900 one representative each; zero page errors/overflow. Inner Weather and Classmate load/start/assets smoke checks passed. One contact sheet used for image review.
 - Publication pending after local validation. Existing GitHub main → Cloudflare deployment authorization applies. External Facebook in-app/cache and live GA4 receipt remain follow-ups; site redesign is a separate later task.
+
+## Perfect Escape production verified — 2026-09-26
+
+- Implementation f72142e published to the authorized Neal7773/Hi-classmate main → Cloudflare flow. Live: https://hiclassmate.com/games/perfect-escape/
+- Production core checks at 2026-09-25T16:21:53.884Z: 21 URLs/files HTTP 200. Homepage discovery and sitemap entry present; main/six result HTML and four runtime files match the checked release. Seven social images return image content; ads.txt remains HTTP 200, text/plain with the exact authorized line. Production-pending note above is resolved.
+- Local targeted QA remains the release evidence: 2,054 representative/preset scoring paths, 106 ties, all six outcomes, three viewports with only one full six-result mobile pass, two existing-game smoke tests. No exhaustive sweep, no full-repository production comparison, no shared-code changes.
+- Actual catalog is 29 games / 174 static result pages / 34 sitemap URLs. External-only TODO: Facebook in-app previews/cache, GA4 live receipt and optional Search Console indexing. Site redesign remains a separate next task.

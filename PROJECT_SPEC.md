@@ -1,6 +1,6 @@
 # PROJECT_SPEC — Hi Classmate
 
-Last reviewed: 2026-09-23
+Last reviewed: 2026-09-25
 
 ## Purpose
 
@@ -75,3 +75,7 @@ Every completed implementation response must end with a self-contained `[CHAT_HA
 - matters Chat should discuss or decide next.
 
 Do not describe planned work as implemented, and explicitly distinguish untested or externally unverified items. This handoff is required even when the user does not ask for it separately.
+
+## Richer personality results — 2026-09-25
+
+Inner Weather trials full hero/summary, five Deep Dive sections and two playful Chemistry comparisons. Allow natural page scrolling for this approved longer result content; preserve prominent accessible sharing/replay and fixed question zones. This supersedes the earlier short-result-only preference for Inner Weather; consider the richer format for future personality tests without changing older games. Keep supplied non-diagnostic guide context and avoid invented population percentages or scientific compatibility claims.

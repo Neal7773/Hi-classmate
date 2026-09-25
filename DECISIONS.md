@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-23
+Last reviewed: 2026-09-25
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -110,3 +110,7 @@ User selected the recommended memory-auction concept and requested creation, fol
 Main game pages should provide visible, game-specific explanations below the interactive game and existing related/share content. Use the approved manuscripts without filler, hidden text or repetitive links. Scoped HTML/CSS must preserve the game layout and metadata. Treat this as permanent useful content, not material automatically deleted after AdSense review; future reductions require a separate UX/policy decision.
 
 For these 19 supplied manuscripts, the user explicitly requests entertainment/context statements in supporting copy. This supersedes the older no-disclaimer preference only where these approved manuscripts include such statements; gameplay/result screens remain unchanged. The actual 27-game/162-result/32-route catalog takes precedence over old counts, while implementation is limited to the 19 named main routes.
+
+## Inner Weather and richer results — 2026-09-25
+
+Implement the supplied 66-section Inner Weather specification only. Preserve its exact eight questions, six full Deep Dive/Chemistry results and explanatory guide. For this game, the older compact-result preference is superseded by naturally scrolling readable result sections, while start/question screens retain the established classic UI and latest lower button placement. Future personality tests should consider richer, worthwhile result reading rather than only a one-line outcome; do not retrofit existing games. Internal normalized scores are not shown as population statistics. The approved guide’s entertainment context overrides the older no-disclaimer preference for this manuscript. Original template-rendered weather cards avoid AI image-generation cost. Separate site redesign and advertising activation remain out of scope.

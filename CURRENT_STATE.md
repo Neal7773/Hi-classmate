@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-23
-Latest production implementation: supplied explanatory guides on 19 main game pages `d302f91` (2026-09-23).
+Snapshot date: 2026-09-25
+Latest production implementation: supplied explanatory guides `d302f91`; Inner Weather locally complete, publication pending (2026-09-25).
 
 ## Production and architecture
 
@@ -18,7 +18,7 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-seven game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-eight game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -53,6 +53,8 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 | `/games/need-to-know/` | Secret-phone personality test | 8 binary truth dilemmas, charge countdown, pattern reveal, 4 answer-derived needs, exact 8-choice review, prominent raised start/share buttons, GA4 and sharing. |
 | `/games/devils-offer/` | Temptation personality test | 8 accept/refuse deals, 4 temptation types plus Not for Sale, answer-derived protected value, review, classic sharing and lower start/share placement. |
 | `/games/memory-auction/` | Memory-trading personality test | Eight sell/keep decisions; desired future plus protected memories, five results, review and lower start/share controls. |
+
+| `/games/inner-weather/` | Universal weather personality test | 8 four-choice questions, 6 normalized deterministic types, full Deep Dive/Chemistry, six result cards/pages, guide, GA4 and sharing. |
 
 ## Current content direction — 2026-09-17
 
@@ -244,3 +246,17 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 - Verified all 19 question/round/result counts against live local game data. Static checks prove existing HTML is unchanged after removing only the added guide and stylesheet link. All existing non-document files outside the 19 targets are byte-identical. Canonical, OG, JSON-LD, GA4, ownership tags, ads.txt and all game JavaScript preserved.
 - Local verification: 45 JavaScript syntax checks, 194 HTML files, 1,073 local references, 162 result-page policy checks and 32 ownership-tag checks. All 19 pages at 390×844, 360×740 and 1365×900 preserve original game geometry within animation rounding, show exact manuscript text, scroll normally and have no horizontal overflow or footer overlap. Seven required representative games completed start/play/result/share/replay at each viewport; zero page errors.
 - Production release `d302f91` verified at 2026-09-23T02:43:49.307Z: all 32 main routes HTTP 200 with exact local content and exactly one ownership tag; all 19 guides, shared CSS, ads.txt and sitemap verified. Seven representative live games passed complete play/share/replay on mobile 390×844 and desktop 1365×900; all 19 live pages passed content/layout checks at both sizes. AdSense review remains ongoing per user; approval is not established and no ads enabled.
+
+## Inner Weather — 2026-09-25
+
+- Added /games/inner-weather/, What’s Your Inner Weather?: a universal entertainment personality metaphor, distinct from the existing Filipino rainy-day quiz. All 66 supplied specification sections and both attachment joins were checked; no missing section found.
+- Eight approved four-choice questions, six results (Clear Sky, Sunshower, Morning Fog, Thunderstorm, Quiet Night, After the Rain). Every supplied hero, summary, five Deep Dive sections and two Chemistry descriptions retained. No population score is displayed.
+- Each answer contributes primary +2 / secondary +1 semantic weights. Per-type maxima normalize unequal opportunities (15,16,15,11,12,11). Highest normalized ratio wins; exact ties compare latest relevant answer weights, then stable result order. Recalculation uses the final answer array; Back preserves selected-choice indication without stale accumulated scores.
+- Local exhaustive verification: all 65,536 sequences deterministic, 2,523 top ties resolved consistently, all six outcomes reachable. Synthetic counts: Clear Sky 7,817; Sunshower 8,288; Morning Fog 9,720; Thunderstorm 11,464; Quiet Night 15,883; After the Rain 12,364. These are exhaustive engine checks, not user population statistics.
+- Latest classic UI and lower Start/Share placement reused. Four fixed answer rows; long results scroll naturally, with a jump to share/replay and a next-game link. No shared runtime or existing game changes. Approved guide uses existing hc-game-guide/game-guide.css.
+- Main and six result-specific JPEG cards are 1200×630, template-rendered with original weather symbols. Six static result pages use unique metadata/images, noindex,follow and main-game canonical. Result-page ownership policy remains unchanged (no ownership tag on thin shares).
+- GA4 shared property retained. game_view, game_start, question_answer, game_complete, result_view, share_game, share_result, replay, next_game_click and question_back use inner_weather IDs; result events include result_id/result_name, answers include question_id/answer_id.
+- New Games, existing Personality category and ItemList updated; Featured/Trending unchanged. Current catalog: 28 games, 168 static result pages, 33 sitemap routes (only new main route added). AdSense ownership is exactly once on all main routes; ads.txt, robots.txt and live-ad-disabled state preserved.
+- Validation: 48 JS syntax checks, 201 HTML files, 1,124 internal references, 168 result policies, 33 sitemap routes; 390×844, 360×740 and 1365×900 each reached all six results and checked exact content, fixed controls, Back/replacement, rapid-click guard, keyboard, shares, replay, scrolling and next game. Zero page errors/overflow. Six specified existing games passed load/start/assets smoke tests.
+- Publication pending: local implementation and tests complete; production verification will be recorded after the authorized GitHub main → Cloudflare release.
+- Latest user-provided specification reports an AdSense Low Value Content rejection and planned content improvements. No account-side status was checked; earlier “ongoing review” notes are historical. This game does not activate ads or begin the separate site redesign.

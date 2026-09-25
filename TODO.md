@@ -1,8 +1,16 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-23
+Last reviewed: 2026-09-25
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## Inner Weather release — 2026-09-25
+
+- [x] Check all 66 supplied sections; implement the exact questions/results, richer result structure, guide, sharing and discovery.
+- [x] Complete exhaustive scoring, all six outcomes at three viewports, static checks and the six required existing-game smoke tests.
+- [ ] Publish the checked game through GitHub main → Cloudflare and verify production.
+- [ ] External: real Facebook in-app previews, Sharing Debugger cache and live GA4 server receipt; request Search Console indexing as appropriate.
+- [ ] Separate selected future task: overall site organization/content work following the Low Value Content rejection reported in the latest specification. No actual AdSense account status checked here.
 
 ## Supplied main-game guides
 

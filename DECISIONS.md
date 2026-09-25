@@ -1,6 +1,6 @@
 # DECISIONS — Hi Classmate
 
-Last reviewed: 2026-09-25
+Last reviewed: 2026-09-26
 
 Statuses: **Implemented**, **Partial**, **Superseded**, or **Decision only**.
 
@@ -114,3 +114,7 @@ For these 19 supplied manuscripts, the user explicitly requests entertainment/co
 ## Inner Weather and richer results — 2026-09-25
 
 Implement the supplied 66-section Inner Weather specification only. Preserve its exact eight questions, six full Deep Dive/Chemistry results and explanatory guide. For this game, the older compact-result preference is superseded by naturally scrolling readable result sections, while start/question screens retain the established classic UI and latest lower button placement. Future personality tests should consider richer, worthwhile result reading rather than only a one-line outcome; do not retrofit existing games. Internal normalized scores are not shown as population statistics. The approved guide’s entertainment context overrides the older no-disclaimer preference for this manuscript. Original template-rendered weather cards avoid AI image-generation cost. Separate site redesign and advertising activation remain out of scope.
+
+## Perfect Escape / lightweight QA — 2026-09-26
+
+Implement only the approved Perfect Escape game using copied, verified Inner Weather patterns and original travel identity. Preserve exact supplied questions/results/guide/sharing copy. New-game QA does not require exhaustive combinations: prioritize all-result reachability, representative and mixed paths, deterministic ties, invalid-state handling, Back, mobile core flow and sharing. Exhaustive testing is optional only when existing tools make it nearly free. Focus static checks on new/changed files and smoke-test two existing games when shared code is unchanged. Do not repeat every result at every viewport or compare the entire live repository byte-for-byte. Fix P0/P1 issues; avoid delaying for low-impact polish. Next site redesign remains separately scoped.

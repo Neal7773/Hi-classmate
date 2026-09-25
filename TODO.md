@@ -1,8 +1,16 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-25
+Last reviewed: 2026-09-26
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
+
+## Perfect Escape release — 2026-09-26
+
+- [x] Check 64 sections; implement eight questions, six rich results, travel cards, guide, sharing and discovery.
+- [x] Complete lightweight scoring and targeted browser/static/smoke QA. No exhaustive sweep.
+- [ ] Publish to GitHub main → Cloudflare and verify production core routes.
+- [ ] External: Facebook in-app preview, Sharing Debugger cache, live GA4 receipt and optional Search Console indexing.
+- [ ] After this game, select the separate site-organization/content-improvement task; do not begin it as part of this release.
 
 ## Inner Weather release — 2026-09-25
 

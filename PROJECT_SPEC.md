@@ -1,6 +1,6 @@
 # PROJECT_SPEC — Hi Classmate
 
-Last reviewed: 2026-09-25
+Last reviewed: 2026-09-26
 
 ## Purpose
 
@@ -79,3 +79,7 @@ Do not describe planned work as implemented, and explicitly distinguish untested
 ## Richer personality results — 2026-09-25
 
 Inner Weather trials full hero/summary, five Deep Dive sections and two playful Chemistry comparisons. Allow natural page scrolling for this approved longer result content; preserve prominent accessible sharing/replay and fixed question zones. This supersedes the earlier short-result-only preference for Inner Weather; consider the richer format for future personality tests without changing older games. Keep supplied non-diagnostic guide context and avoid invented population percentages or scientific compatibility claims.
+
+## Lightweight release QA — 2026-09-26
+
+For new games, use representative paths for every result, mixed choices, deterministic ties, invalid-state protection, Back/replay/share and mobile core play. Exhaustive combinations are optional only when nearly free using existing checks. Inspect new/changed metadata, references and images; smoke-test two existing games if shared code is unchanged. Use 390×844 for full play and 360×740/1365×900 representative layout checks, without repeating all outcomes across all sizes. Verify production core paths and meaningful content rather than comparing every repository file.

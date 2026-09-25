@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-25
-Latest production implementation: Inner Weather `ed03aba`, published and production-verified (2026-09-25).
+Snapshot date: 2026-09-26
+Latest production implementation: Inner Weather ed03aba; Perfect Escape locally validated, publication pending.
 
 ## Production and architecture
 
@@ -18,7 +18,7 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 
 - Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-eight game/quiz routes, and four trust pages.
+- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-nine game/quiz routes, and four trust pages.
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -54,6 +54,7 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 | `/games/devils-offer/` | Temptation personality test | 8 accept/refuse deals, 4 temptation types plus Not for Sale, answer-derived protected value, review, classic sharing and lower start/share placement. |
 | `/games/memory-auction/` | Memory-trading personality test | Eight sell/keep decisions; desired future plus protected memories, five results, review and lower start/share controls. |
 | `/games/inner-weather/` | Universal weather personality test | 8 four-choice questions, 6 normalized deterministic types, full Deep Dive/Chemistry, six result cards/pages, guide, GA4 and sharing. |
+| `/games/perfect-escape/` | Travel/lifestyle personality test | 8 four-choice questions, 6 normalized deterministic escapes, full Escape Style/Travel Chemistry, guide, six share pages/cards, GA4 and sharing. |
 
 ## Current content direction — 2026-09-17
 
@@ -267,3 +268,13 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 - Main metadata, Quiz structured data, guide and exactly one ownership tag present. Six result pages preserve unique title/description/image, noindex,follow and main canonical. ads.txt is text/plain with the exact authorized publisher line; no advertising code added.
 - Live mobile Chrome completed play, Clear Sky result, five Deep Dive sections, two Chemistry cards, main/result Facebook target capture and replay. Zero page errors/horizontal overflow. Production-pending notes above are resolved.
 - External checks remain: actual Facebook in-app rendering/Sharing Debugger cache, live GA4 server receipt and Search Console indexing. Account-side AdSense state was not inspected. Existing 27 games and 162 result pages remain unchanged.
+
+## Perfect Escape — 2026-09-26
+
+- Implemented /games/perfect-escape/, What’s Your Perfect Escape? (travel/lifestyle personality metaphor). All 64 specification sections present; section 21 continuation and section 45 handoff-list continuation reconciled. Eight approved four-choice questions, six results: The Hidden Island, The City at Midnight, The Mountain Cabin, The Coastal Road, The Quiet Hometown, The Chaotic Getaway.
+- Retained full approved hero/summary, five Your Escape Style sections, Easy/Chaotic Travel Buddy copy, sharing captions and main guide. Reused Inner Weather’s locally copied engine/UI/share/analytics structure; original travel symbols and result colors. Start/share controls follow latest lower placement. Scrolling results keep a visible jump to actions.
+- Semantic primary +2/secondary +1 scoring normalized to each type’s available maximum; deterministic latest-relevant-answer tie-break then stable order. No population numbers displayed. Back retains prior selection and replaces answers before full recalculation.
+- Six static share pages with unique title/description/image, noindex,follow and main canonical. Seven 1200×630 template-rendered cards. Shared GA4 unchanged, perfect_escape IDs and all 10 requested events. Approved guide reuses hc-game-guide. Ownership meta exactly once; ads.txt/robots/live-ad-disabled policy unchanged.
+- Homepage New Games, existing Personality category, ItemList and main-only sitemap entry added. Current actual catalog: 29 games, 174 result pages, 34 sitemap routes. Existing games/168 result pages and shared code unchanged; Featured/Trending unchanged.
+- Lightweight QA passed: 2054 sampled/preset answer sequences including 106 top ties, two example paths per result, determinism, invalid/incomplete rejection, Back/recalculation. No exhaustive combination sweep. New 3 JS/7 HTML and 49 local references checked; metadata, JSON-LD, sitemap and seven image dimensions checked. 390×844 completed all six results/share/replay; 360×740 and 1365×900 one representative each; zero page errors/overflow. Inner Weather and Classmate load/start/assets smoke checks passed. One contact sheet used for image review.
+- Publication pending after local validation. Existing GitHub main → Cloudflare deployment authorization applies. External Facebook in-app/cache and live GA4 receipt remain follow-ups; site redesign is a separate later task.

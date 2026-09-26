@@ -315,3 +315,9 @@ Local-only; production remains the verified Perfect Escape release until final Q
 Eight missing game-specific guides added from existing game data and flow; 21 existing guides preserved.
 
 Local-only; production remains the verified Perfect Escape release until final QA.
+
+## Site restructure — Phase 6 completed (2026-09-27)
+
+Four missing GA4 page-view loaders connected; trust OG gaps and About updated; sitemap has 40 routes and publishing checklist updated.
+
+Local-only; production remains the verified Perfect Escape release until final QA.

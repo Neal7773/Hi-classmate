@@ -288,3 +288,22 @@ Production safe: Yes, unchanged
 Exact next step: Begin Phase 6; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
 Do not repeat: Completed phases 1–5
 [/RESUME_CHECKPOINT]
+
+## Site restructure — Phase 6 completed (2026-09-27)
+
+Four missing GA4 page-view loaders connected; trust OG gaps and About updated; sitemap has 40 routes and publishing checklist updated.
+
+Local-only; production remains the verified Perfect Escape release until final QA.
+
+[RESUME_CHECKPOINT]
+Last fully completed phase: 6
+Current phase: 7
+Completed: Four missing GA4 page-view loaders connected; trust OG gaps and About updated; sitemap has 40 routes and publishing checklist updated.
+NOT completed: Phases 7–7, publication and production verification
+Files changed: See phase commit
+Last commit: This phase commit
+Deployed: No
+Production safe: Yes, unchanged
+Exact next step: Begin Phase 7; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
+Do not repeat: Completed phases 1–6
+[/RESUME_CHECKPOINT]

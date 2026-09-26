@@ -118,3 +118,7 @@ Implement the supplied 66-section Inner Weather specification only. Preserve its
 ## Perfect Escape / lightweight QA — 2026-09-26
 
 Implement only the approved Perfect Escape game using copied, verified Inner Weather patterns and original travel identity. Preserve exact supplied questions/results/guide/sharing copy. New-game QA does not require exhaustive combinations: prioritize all-result reachability, representative and mixed paths, deterministic ties, invalid-state handling, Back, mobile core flow and sharing. Exhaustive testing is optional only when existing tools make it nearly free. Focus static checks on new/changed files and smoke-test two existing games when shared code is unchanged. Do not repeat every result at every viewport or compare the entire live repository byte-for-byte. Fix P0/P1 issues; avoid delaying for low-impact polish. Next site redesign remains separately scoped.
+
+## Site restructure — 2026-09-27
+
+User authorized the complete supplied seven-phase restructure. Shared navigation, homepage curation, six category pages, main-game category links and missing guides may change across existing games. Preserve game controls, questions, scoring, result URLs and social assets. This explicitly supersedes the old fixed Featured/homepage organization only for this scope. Category assignments are recorded in RESTRUCTURE_INVENTORY.json. No live ads or AdSense review submission.

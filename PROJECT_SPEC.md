@@ -83,3 +83,7 @@ Inner Weather trials full hero/summary, five Deep Dive sections and two playful 
 ## Lightweight release QA — 2026-09-26
 
 For new games, use representative paths for every result, mixed choices, deterministic ties, invalid-state protection, Back/replay/share and mobile core play. Exhaustive combinations are optional only when nearly free using existing checks. Inspect new/changed metadata, references and images; smoke-test two existing games if shared code is unchanged. Use 390×844 for full play and 360×740/1365×900 representative layout checks, without repeating all outcomes across all sizes. Verify production core paths and meaningful content rather than comparing every repository file.
+
+## Categorized discovery — 2026-09-27
+
+Six primary categories: Love & Dating, Friends & Social, Pinoy Life, Personality, Story & Choices, Challenges. Homepage uses hero, editorial Trending, latest six New Games, six category sections, Browse All Games and About. Each new game must update its category page, category back-link, guide, related games and existing publication assets/checklist. Gameplay and static result policy remain unchanged.

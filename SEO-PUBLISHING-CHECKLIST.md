@@ -25,7 +25,7 @@ Use this checklist for every new game before publishing.
 ## Homepage and discovery
 
 - Add every release at the beginning of the **New games** list.
-- Add it to the correct **Browse by mood** category.
+- Assign one of the six primary categories, link the game from its category page, and link back from the game. Keep New Games limited to the latest six; retain all releases in Browse All Games.
 - Change **Featured** only for the current promotion or strongest game.
 - Change **Trending** based on GA4 completed plays and shares once enough traffic exists; until then curate it manually.
 - Use descriptive link text, not generic text such as “click here.”
@@ -39,3 +39,7 @@ Use this checklist for every new game before publishing.
 - Confirm metadata, heading, copy, and image are unique to this game.
 - Confirm the game works in Facebook's in-app browser and with keyboard/touch input.
 - Request indexing for the main game in Google Search Console after deployment.
+
+## Required release bundle after site restructure
+
+Main game; primary category; homepage New Games; category page; sitemap; homepage structured data; social card; result pages/cards when supported; GA4; unique main guide; same-category related games. Do not add thin result pages to the sitemap.

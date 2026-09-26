@@ -326,3 +326,22 @@ Production safe: Yes, old release remains live
 Exact next step: Push main to existing GitHub remote; verify production 40 routes and new navigation/content
 Do not repeat: Inventory, phases 1–6, completed local QA
 [/RESUME_CHECKPOINT]
+
+## Site restructure production verified — 2026-09-27
+
+Published implementation b63ca5e via existing GitHub main → Cloudflare. Production QA at 2026-09-26T17:09:42.216Z: 40 main/search-visible routes HTTP 200 with correct ownership/metadata; sitemap/robots/ads/favicon/CSS confirmed. 13 layout checks and Perfect Escape full flow/share/replay passed; zero page errors. All 174 result policies/references checked locally; representative live result checked. Previous local-only/pending notes are historical and resolved. All 21 pre-existing guide bodies preserved. Four GA4 page_view IDs confirmed locally.
+
+Current: 29 games / 174 results / six categories / 40 sitemap URLs. No P0/P1 found. P2 HTTP→HTTPS deferred because Cloudflare requires login; HTTP root remains 200. No live ads or AdSense review request. Full report: SITE_RESTRUCTURE_CHAT_HANDOFF.md.
+
+[RESUME_CHECKPOINT]
+Last fully completed phase: 7, published and production-verified
+Current phase: Complete
+Completed: All seven phases, b63ca5e deployment, production QA
+NOT completed: Optional HTTPS setting requiring Cloudflare login; external account checks
+Files changed: See phase commits and SITE_RESTRUCTURE_CHAT_HANDOFF.md
+Last commit: b63ca5e implementation; follow-up verification documentation commit
+Deployed: Yes
+Production safe: Yes, checked
+Exact next step: No implementation remains. If requested, log in to Cloudflare and enable HTTP→HTTPS; user handles AdSense Review Request
+Do not repeat: Inventory, implementation phases, completed local/production QA
+[/RESUME_CHECKPOINT]

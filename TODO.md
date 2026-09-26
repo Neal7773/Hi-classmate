@@ -135,7 +135,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 
 ## Pending external confirmation
 
-- [ ] Confirm the eventual AdSense review decision before enabling any advertising code or space; review is currently ongoing per user.
+- [ ] Confirm current AdSense account feedback before enabling advertising; user reported Low Value Content rejection before this restructure. No account-side status was checked during this release.
 - [ ] After CMP setup, verify that users can manage or revoke consent where required.
 - [ ] Confirm Cloudflare production deployment health when deployment behavior changes; repository history indicates automatic deployment, but external settings are not versioned here.
 
@@ -178,6 +178,12 @@ Local-only; production remains the verified Perfect Escape release until final Q
 ## Site restructure — 2026-09-27
 
 - [x] Phases 1–7 implementation and local lightweight QA.
-- [ ] Push approved main release and verify production.
+- [x] Published b63ca5e to approved main and verified production.
 - [ ] P2: enable HTTP→HTTPS safely after Cloudflare login; www DNS remains out of scope.
 - [ ] External: inspect live GA4 receipt, Facebook previews and AdSense account feedback. Review Request is a user action, not performed by Work.
+
+## Site restructure production verified — 2026-09-27
+
+Published implementation b63ca5e via existing GitHub main → Cloudflare. Production QA at 2026-09-26T17:09:42.216Z: 40 main/search-visible routes HTTP 200 with correct ownership/metadata; sitemap/robots/ads/favicon/CSS confirmed. 13 layout checks and Perfect Escape full flow/share/replay passed; zero page errors. All 174 result policies/references checked locally; representative live result checked. Previous local-only/pending notes are historical and resolved. All 21 pre-existing guide bodies preserved. Four GA4 page_view IDs confirmed locally.
+
+Current: 29 games / 174 results / six categories / 40 sitemap URLs. No P0/P1 found. P2 HTTP→HTTPS deferred because Cloudflare requires login; HTTP root remains 200. No live ads or AdSense review request. Full report: SITE_RESTRUCTURE_CHAT_HANDOFF.md.

@@ -1,0 +1,491 @@
+{
+  "date": "2026-09-27",
+  "categories": [
+    {
+      "id": "love",
+      "name": "Love & Dating",
+      "short": "Love",
+      "title": "Love & Dating Quizzes",
+      "slugs": [
+        "hidden-love-language",
+        "how-delulu-are-you",
+        "selos-level",
+        "red-flag-green-flag",
+        "toxic-dating-habit",
+        "date-yourself"
+      ],
+      "intro": [
+        "Crushes, chats, mixed signals, kilig and dating habits can turn even a simple message into a whole story.",
+        "Explore Hi Classmate’s Love & Dating quizzes to discover how you react to attraction, jealousy, communication, red flags and the little situations that make relationships interesting.",
+        "These games are made for fun and self-reflection, not professional relationship advice. Play a quiz, compare your result with your friends and see how differently everyone handles the same situations."
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Friends & Social",
+      "short": "Friends",
+      "title": "Friends & Social Quizzes",
+      "slugs": [
+        "classmate",
+        "barkada-role",
+        "family-gc-role",
+        "how-marites-are-you",
+        "villain-era"
+      ],
+      "intro": [
+        "Every friend group has its planner, comedian, observer, storyteller and person who somehow knows everything before everyone else.",
+        "Friends & Social quizzes explore the small roles people naturally take in classrooms, barkadas, family chats and everyday social situations.",
+        "Find your role, share the result with your group and see whether your friends agree with the personality the quiz gives you."
+      ]
+    },
+    {
+      "id": "pinoy",
+      "name": "Pinoy Life",
+      "short": "Pinoy",
+      "title": "Pinoy Life Quizzes",
+      "slugs": [
+        "how-pinoy-are-you",
+        "videoke-persona",
+        "pinoy-merienda",
+        "pinoy-commute-persona",
+        "pinoy-rainy-day-persona",
+        "pinoy-fiesta-persona"
+      ],
+      "intro": [
+        "Videoke nights, merienda decisions, rainy commutes, fiestas, family moments and everyday habits can say a surprising amount about the way we live.",
+        "Pinoy Life brings together Hi Classmate games inspired by familiar Filipino situations and culture.",
+        "These quizzes are playful rather than serious measures of identity. They are designed to turn everyday Pinoy experiences into something you can play, compare and share."
+      ]
+    },
+    {
+      "id": "personality",
+      "name": "Personality",
+      "short": "Personality",
+      "title": "Personality Tests",
+      "slugs": [
+        "would-you-rather",
+        "what-kind-of-overthinker",
+        "need-to-know",
+        "devils-offer",
+        "memory-auction",
+        "inner-weather",
+        "perfect-escape"
+      ],
+      "intro": [
+        "Sometimes the easiest way to understand a personality is through an unexpected question.",
+        "Would you keep the memory? Take the offer? Escape to a quiet island? Talk about what you feel or wait until the fog clears?",
+        "Hi Classmate personality tests use everyday decisions, imaginative situations and playful metaphors to turn your choices into a result worth reading and sharing."
+      ]
+    },
+    {
+      "id": "stories",
+      "name": "Story & Choices",
+      "short": "Stories",
+      "title": "Story & Choice Tests",
+      "slugs": [
+        "river-within",
+        "house-in-the-woods"
+      ],
+      "intro": [
+        "Step into a story and let your choices reveal where it leads.",
+        "These tests use symbolic scenes, imagined places and small decisions to create a personality result at the end of the journey.",
+        "There are no correct paths. Choose what feels natural, follow the story and see which ending or portrait your decisions create."
+      ]
+    },
+    {
+      "id": "challenges",
+      "name": "Challenges",
+      "short": "Challenges",
+      "title": "Quick Challenges",
+      "slugs": [
+        "reaction-speed",
+        "memory-challenge",
+        "pinoy-emoji-challenge"
+      ],
+      "intro": [
+        "Not every Hi Classmate game is a personality test.",
+        "Quick Challenges test reaction speed, memory, observation and knowledge through short games you can finish in just a few minutes.",
+        "Try to beat your own score, challenge a friend and see whether your second attempt is actually better than your first."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "slug": "perfect-escape",
+      "route": "/games/perfect-escape/",
+      "title": "What’s Your Perfect Escape?",
+      "category": "personality",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 6,
+      "homepage": true,
+      "description": "Discover your Perfect Escape through 8 travel choices. Are you a Hidden Island, City at Midnight, Mountain Cabin, Coastal Road, Quiet Hometown or Chaotic Getaway?",
+      "image": "/games/perfect-escape/og-perfect-escape.jpg"
+    },
+    {
+      "slug": "inner-weather",
+      "route": "/games/inner-weather/",
+      "title": "What’s Your Inner Weather?",
+      "category": "personality",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 6,
+      "homepage": true,
+      "description": "Discover your Inner Weather through 8 everyday choices. Are you Clear Sky, Sunshower, Morning Fog, Thunderstorm, Quiet Night or After the Rain?",
+      "image": "/games/inner-weather/og-inner-weather.jpg"
+    },
+    {
+      "slug": "memory-auction",
+      "route": "/games/memory-auction/",
+      "title": "The Memory Auction",
+      "category": "personality",
+      "type": "Personality",
+      "guide": false,
+      "ga4": true,
+      "results": 5,
+      "homepage": true,
+      "description": "Would you sell your first confession for a chance at true connection? Trade eight imagined memories and discover the future you want and the past you protect.",
+      "image": "/games/memory-auction/og-memory-auction.jpg"
+    },
+    {
+      "slug": "devils-offer",
+      "route": "/games/devils-offer/",
+      "title": "The Devil’s Offer",
+      "category": "personality",
+      "type": "Personality",
+      "guide": false,
+      "ga4": true,
+      "results": 5,
+      "homepage": true,
+      "description": "Would you sign a deal for love, fame, a second chance or power? Eight devilish offers reveal your temptation and what you refuse to trade.",
+      "image": "/games/devils-offer/og-devils-offer.jpg"
+    },
+    {
+      "slug": "need-to-know",
+      "route": "/games/need-to-know/",
+      "title": "What Do You NEED to Know?",
+      "category": "personality",
+      "type": "Personality",
+      "guide": false,
+      "ga4": true,
+      "results": 4,
+      "homepage": true,
+      "description": "An imaginary phone knows every secret. Choose between hidden feelings, deleted messages and the future. Eight choices reveal what you most want to know.",
+      "image": "/games/need-to-know/og-need-to-know.jpg"
+    },
+    {
+      "slug": "house-in-the-woods",
+      "route": "/games/house-in-the-woods/",
+      "title": "The House in the Woods",
+      "category": "stories",
+      "type": "Story",
+      "guide": false,
+      "ga4": true,
+      "results": 4,
+      "homepage": true,
+      "description": "Discover a house in the woods, make six choices and uncover their hidden meanings. What do your choices say about connection, curiosity and your private world?",
+      "image": "/games/house-in-the-woods/og-house-in-the-woods.jpg"
+    },
+    {
+      "slug": "river-within",
+      "route": "/games/river-within/",
+      "title": "The River Within",
+      "category": "stories",
+      "type": "Story",
+      "guide": false,
+      "ga4": true,
+      "results": 4,
+      "homepage": true,
+      "description": "Six animals. One river. Choose how to cross together, then uncover what each animal represents in your story. Discover your river personality and save your keepsake.",
+      "image": "/games/river-within/og-river-within.jpg"
+    },
+    {
+      "slug": "date-yourself",
+      "route": "/games/date-yourself/",
+      "title": "Would You Date Yourself?",
+      "category": "love",
+      "type": "Personality",
+      "guide": false,
+      "ga4": true,
+      "results": 6,
+      "homepage": true,
+      "description": "Eight choices about dating, one match to meet, and one honest yes or no. Discover whether the love you give matches the love you want.",
+      "image": "/games/date-yourself/og-date-yourself.jpg"
+    },
+    {
+      "slug": "toxic-dating-habit",
+      "route": "/games/toxic-dating-habit/",
+      "title": "What's Your Most Toxic Dating Habit?",
+      "category": "love",
+      "type": "Personality",
+      "guide": false,
+      "ga4": true,
+      "results": 6,
+      "homepage": true,
+      "description": "Late replies, mixed signals, or trying to fix them? Answer 8 honest questions to reveal your toxic dating habit, how it feels to them, and what to say instead.",
+      "image": "/games/toxic-dating-habit/og-toxic-dating-habit.jpg"
+    },
+    {
+      "slug": "villain-era",
+      "route": "/games/villain-era/",
+      "title": "What Would Trigger Your Villain Era?",
+      "category": "social",
+      "type": "Personality",
+      "guide": false,
+      "ga4": true,
+      "results": 6,
+      "homepage": true,
+      "description": "Betrayal, being replaced, or never getting credit? Answer 8 revealing questions to uncover your villain-era type, secret excuse, and the line that could stop you.",
+      "image": "/games/villain-era/og-villain-era.jpg"
+    },
+    {
+      "slug": "red-flag-green-flag",
+      "route": "/games/red-flag-green-flag/",
+      "title": "Red Flag or Green Flag?",
+      "category": "love",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 4,
+      "homepage": true,
+      "description": "Judge 10 quick dating situations and discover how sharp your Red Flag or Green Flag radar really is.",
+      "image": "/games/red-flag-green-flag/og-red-flag-green-flag.png"
+    },
+    {
+      "slug": "selos-level",
+      "route": "/games/selos-level/",
+      "title": "What's Your Selos Level?",
+      "category": "love",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Take 10 quick Pinoy relationship choices, reveal your selos percentage, and discover your funny jealousy type.",
+      "image": "/games/selos-level/og-selos-level.png"
+    },
+    {
+      "slug": "what-kind-of-overthinker",
+      "route": "/games/what-kind-of-overthinker/",
+      "title": "What Kind of Overthinker Are You?",
+      "category": "personality",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 11,
+      "homepage": true,
+      "description": "Take 10 quick relatable overthinking choices and discover your funny overthinker type.",
+      "image": "/games/what-kind-of-overthinker/og-overthinker.png"
+    },
+    {
+      "slug": "how-marites-are-you",
+      "route": "/games/how-marites-are-you/",
+      "title": "How Marites Are You?",
+      "category": "social",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Take 8 quick playful Filipino chika choices and discover your funny Marites level.",
+      "image": "/games/how-marites-are-you/og-how-marites.png"
+    },
+    {
+      "slug": "pinoy-fiesta-persona",
+      "route": "/games/pinoy-fiesta-persona/",
+      "title": "Pinoy Fiesta Persona",
+      "category": "pinoy",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Take 8 quick Filipino fiesta choices and discover your funny fiesta persona.",
+      "image": "/games/pinoy-fiesta-persona/og-pinoy-fiesta-persona.png"
+    },
+    {
+      "slug": "pinoy-rainy-day-persona",
+      "route": "/games/pinoy-rainy-day-persona/",
+      "title": "Pinoy Rainy-Day Persona",
+      "category": "pinoy",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Take 8 quick Filipino rainy-day choices and discover your funny rainy-day persona.",
+      "image": "/games/pinoy-rainy-day-persona/og-pinoy-rainy-day-persona.png"
+    },
+    {
+      "slug": "family-gc-role",
+      "route": "/games/family-gc-role/",
+      "title": "Family GC Role",
+      "category": "social",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Take 8 quick Filipino family chat choices and discover your funny Family GC role.",
+      "image": "/games/family-gc-role/og-family-gc-role.png"
+    },
+    {
+      "slug": "pinoy-commute-persona",
+      "route": "/games/pinoy-commute-persona/",
+      "title": "What's Your Pinoy Commute Persona?",
+      "category": "pinoy",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Take 8 quick Filipino commute choices and discover your funny Pinoy commute persona—from Window-Seat Dreamer to Barkada Ride Captain.",
+      "image": "/games/pinoy-commute-persona/og-pinoy-commute-persona.png"
+    },
+    {
+      "slug": "how-delulu-are-you",
+      "route": "/games/how-delulu-are-you/",
+      "title": "How Delulu Are You?",
+      "category": "love",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 6,
+      "homepage": true,
+      "description": "Pick 8 funny Pinoy crush and social-media situations to discover how delulu you really are.",
+      "image": "/games/how-delulu-are-you/og-how-delulu.jpg"
+    },
+    {
+      "slug": "hidden-love-language",
+      "route": "/games/hidden-love-language/",
+      "title": "What's Your Hidden Love Language?",
+      "category": "love",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Pick 8 Filipino kilig and caring moments to reveal your hidden love language in this playful relationship personality quiz.",
+      "image": "/games/hidden-love-language/og-hidden-love-language.jpg"
+    },
+    {
+      "slug": "pinoy-emoji-challenge",
+      "route": "/games/pinoy-emoji-challenge/",
+      "title": "Pinoy Emoji Challenge",
+      "category": "challenges",
+      "type": "Challenge",
+      "guide": true,
+      "ga4": true,
+      "results": 5,
+      "homepage": true,
+      "description": "Decode 10 Filipino emoji clues, race the clock, and discover how sharp your Pinoy radar really is.",
+      "image": "/games/pinoy-emoji-challenge/og-pinoy-emoji.jpg"
+    },
+    {
+      "slug": "pinoy-merienda",
+      "route": "/games/pinoy-merienda/",
+      "title": "What's Your Pinoy Merienda?",
+      "category": "pinoy",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Pick 8 Filipino merienda moments and discover which Pinoy snack matches your personality—from taho to halo-halo.",
+      "image": "/games/pinoy-merienda/og-pinoy-merienda.jpg"
+    },
+    {
+      "slug": "barkada-role",
+      "route": "/games/barkada-role/",
+      "title": "What's Your Role in the Barkada?",
+      "category": "social",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Make 8 quick choices and discover the hilarious role you really play in your Filipino barkada.",
+      "image": "/games/barkada-role/og-barkada-role.png"
+    },
+    {
+      "slug": "videoke-persona",
+      "route": "/games/videoke-persona/",
+      "title": "What's Your Videoke Persona?",
+      "category": "pinoy",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 8,
+      "homepage": true,
+      "description": "Make 8 quick Filipino videoke choices and discover your hilarious barkada singing persona.",
+      "image": "/games/videoke-persona/og-videoke-persona.png"
+    },
+    {
+      "slug": "how-pinoy-are-you",
+      "route": "/games/how-pinoy-are-you/",
+      "title": "How Pinoy Are You?",
+      "category": "pinoy",
+      "type": "Personality",
+      "guide": true,
+      "ga4": false,
+      "results": 8,
+      "homepage": true,
+      "description": "Make 10 everyday Filipino choices and discover which of 8 very Pinoy personalities matches you.",
+      "image": "/games/how-pinoy-are-you/og-how-pinoy.jpg"
+    },
+    {
+      "slug": "classmate",
+      "route": "/quiz/classmate/",
+      "title": "What Type of Classmate Are You?",
+      "category": "social",
+      "type": "Personality",
+      "guide": true,
+      "ga4": true,
+      "results": 0,
+      "homepage": true,
+      "description": "Take this quick quiz and discover what type of classmate you are.",
+      "image": "/og-classmate-quiz.jpg"
+    },
+    {
+      "slug": "reaction-speed",
+      "route": "/games/reaction-speed/",
+      "title": "Reaction Speed Test",
+      "category": "challenges",
+      "type": "Challenge",
+      "guide": true,
+      "ga4": false,
+      "results": 0,
+      "homepage": true,
+      "description": "Test your classroom reflexes in five quick rounds and discover your reaction-speed type.",
+      "image": "/games/reaction-speed/og-reaction-speed.jpg"
+    },
+    {
+      "slug": "memory-challenge",
+      "route": "/games/memory-challenge/",
+      "title": "Memory Challenge",
+      "category": "challenges",
+      "type": "Challenge",
+      "guide": true,
+      "ga4": false,
+      "results": 0,
+      "homepage": true,
+      "description": "Watch the classroom objects, remember every detail, and test your memory across six quick rounds.",
+      "image": "/games/memory-challenge/og-memory-challenge.jpg"
+    },
+    {
+      "slug": "would-you-rather",
+      "route": "/games/would-you-rather/",
+      "title": "Would You Rather? Classroom Edition",
+      "category": "personality",
+      "type": "Personality",
+      "guide": true,
+      "ga4": false,
+      "results": 8,
+      "homepage": true,
+      "description": "Make ten impossible classroom choices and discover your surprising classmate type.",
+      "image": "/games/would-you-rather/og-would-you-rather.jpg"
+    }
+  ]
+}

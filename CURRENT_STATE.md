@@ -285,3 +285,9 @@ All 64 answer combinations and 384 answer-to-reading mappings passed; each of fo
 - Production core checks at 2026-09-25T16:21:53.884Z: 21 URLs/files HTTP 200. Homepage discovery and sitemap entry present; main/six result HTML and four runtime files match the checked release. Seven social images return image content; ads.txt remains HTTP 200, text/plain with the exact authorized line. Production-pending note above is resolved.
 - Local targeted QA remains the release evidence: 2,054 representative/preset scoring paths, 106 ties, all six outcomes, three viewports with only one full six-result mobile pass, two existing-game smoke tests. No exhaustive sweep, no full-repository production comparison, no shared-code changes.
 - Actual catalog is 29 games / 174 static result pages / 34 sitemap URLs. External-only TODO: Facebook in-app previews/cache, GA4 live receipt and optional Search Console indexing. Site redesign remains a separate next task.
+
+## Site restructure — Phase 1 completed (2026-09-27)
+
+Inventory verified: 29 games, 174 results, six categories, eight missing guides and four missing GA4 loaders.
+
+Local-only; production remains the verified Perfect Escape release until final QA.

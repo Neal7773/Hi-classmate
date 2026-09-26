@@ -138,3 +138,9 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [ ] Confirm the eventual AdSense review decision before enabling any advertising code or space; review is currently ongoing per user.
 - [ ] After CMP setup, verify that users can manage or revoke consent where required.
 - [ ] Confirm Cloudflare production deployment health when deployment behavior changes; repository history indicates automatic deployment, but external settings are not versioned here.
+
+## Site restructure — Phase 1 completed (2026-09-27)
+
+Inventory verified: 29 games, 174 results, six categories, eight missing guides and four missing GA4 loaders.
+
+Local-only; production remains the verified Perfect Escape release until final QA.

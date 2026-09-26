@@ -307,3 +307,22 @@ Production safe: Yes, unchanged
 Exact next step: Begin Phase 7; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
 Do not repeat: Completed phases 1–6
 [/RESUME_CHECKPOINT]
+
+## Site restructure — Phase 7 completed locally
+
+29 main games / 174 unchanged static results / 6 categories / 40 sitemap routes. HC favicon; scoped responsive header/footer; all games have primary-category and related links, guides and GA4 loaders. Categories: Love 6, Social 5, Pinoy 6, Personality 7, Stories 2, Challenges 3. Eight new guides; four GA4 page-view gaps fixed without event-taxonomy changes. About updated; existing trust copy preserved. No live ads or AdSense review submission.
+
+QA: 40 route HTTP/metadata, 1,700 internal references, 174 result policies/references, eight representative start/play/result/share/replay flows, 13 layout checks. Test harness corrected for existing popup.location.replace and 280ms anti-double-click guards; no game code changed. P0=0, P1=0. P2=HTTP→HTTPS deferred because Cloudflare session requires login. Publication pending.
+
+[RESUME_CHECKPOINT]
+Last fully completed phase: 7 (local implementation and QA)
+Current phase: Publication
+Completed: All seven local phases, representative validation
+NOT completed: Push and production verification
+Files changed: See phase commits
+Last commit: Phase 7 commit
+Deployed: No
+Production safe: Yes, old release remains live
+Exact next step: Push main to existing GitHub remote; verify production 40 routes and new navigation/content
+Do not repeat: Inventory, phases 1–6, completed local QA
+[/RESUME_CHECKPOINT]

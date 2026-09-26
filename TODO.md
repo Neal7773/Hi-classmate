@@ -1,6 +1,6 @@
 # TODO — Hi Classmate
 
-Last reviewed: 2026-09-26
+Last reviewed: 2026-09-27
 
 Only implement these items after they are selected or confirmed in Chat, unless they are direct acceptance criteria of a newly delivered specification.
 
@@ -10,7 +10,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Complete lightweight scoring and targeted browser/static/smoke QA. No exhaustive sweep.
 - [x] Published f72142e via GitHub main → Cloudflare; all 21 production core URL/file checks passed.
 - [ ] External: Facebook in-app preview, Sharing Debugger cache, live GA4 receipt and optional Search Console indexing.
-- [ ] After this game, select the separate site-organization/content-improvement task; do not begin it as part of this release.
+- [x] Separate site-organization task selected and implemented on 2026-09-27.
 
 ## Inner Weather release — 2026-09-25
 
@@ -18,7 +18,7 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 - [x] Complete exhaustive scoring, all six outcomes at three viewports, static checks and the six required existing-game smoke tests.
 - [x] Published ed03aba via GitHub main → Cloudflare; 54 exact production checks and live mobile play/share/replay passed.
 - [ ] External: real Facebook in-app previews, Sharing Debugger cache and live GA4 server receipt; request Search Console indexing as appropriate.
-- [ ] Separate selected future task: overall site organization/content work following the Low Value Content rejection reported in the latest specification. No actual AdSense account status checked here.
+- [x] Site organization/content task implemented separately on 2026-09-27. Actual account-side AdSense status remains unverified.
 
 ## Supplied main-game guides
 
@@ -174,3 +174,10 @@ Local-only; production remains the verified Perfect Escape release until final Q
 Four missing GA4 page-view loaders connected; trust OG gaps and About updated; sitemap has 40 routes and publishing checklist updated.
 
 Local-only; production remains the verified Perfect Escape release until final QA.
+
+## Site restructure — 2026-09-27
+
+- [x] Phases 1–7 implementation and local lightweight QA.
+- [ ] Push approved main release and verify production.
+- [ ] P2: enable HTTP→HTTPS safely after Cloudflare login; www DNS remains out of scope.
+- [ ] External: inspect live GA4 receipt, Facebook previews and AdSense account feedback. Review Request is a user action, not performed by Work.

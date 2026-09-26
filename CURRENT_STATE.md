@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-26
-Latest production implementation: Perfect Escape f72142e, published and production-verified (2026-09-26).
+Snapshot date: 2026-09-27
+Latest local implementation: complete seven-phase site restructure; deployment pending. Current production: Perfect Escape f72142e until verification below.
 
 ## Production and architecture
 
@@ -16,9 +16,9 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 
 ## Implemented site areas
 
-- Homepage with Barkada Role as Featured, three manually curated Trending cards, reverse-chronological New Games, two mood categories, SEO copy, canonical/Open Graph metadata, and WebSite/ItemList structured data.
+- Homepage: branded hero, editorial Trending, latest six New Games, six category sections, Browse All Games and About; WebSite/29-game ItemList.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: `robots.txt` and `sitemap.xml`, covering the homepage, twenty-nine game/quiz routes, and four trust pages.
+- Search files: robots Allow policy retained; sitemap covers homepage, 29 main games, six categories and four trust pages (40 routes).
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -321,3 +321,11 @@ Local-only; production remains the verified Perfect Escape release until final Q
 Four missing GA4 page-view loaders connected; trust OG gaps and About updated; sitemap has 40 routes and publishing checklist updated.
 
 Local-only; production remains the verified Perfect Escape release until final QA.
+
+## Site restructure — Phase 7 local QA (2026-09-27)
+
+29 main games / 174 unchanged static results / 6 categories / 40 sitemap routes. HC favicon; scoped responsive header/footer; all games have primary-category and related links, guides and GA4 loaders. Categories: Love 6, Social 5, Pinoy 6, Personality 7, Stories 2, Challenges 3. Eight new guides; four GA4 page-view gaps fixed without event-taxonomy changes. About updated; existing trust copy preserved. No live ads or AdSense review submission.
+
+Passed 40 route HTTP/metadata checks, 1,700 main-page references, 174 result noindex/canonical/reference checks, eight representative complete flows, seven discovery pages at 390px plus representative 360px/1365px screens. Zero page errors, horizontal overflow or new P0/P1. Existing gameplay JS, game CSS, static results and social assets unchanged.
+
+HTTP→HTTPS remains a P2 TODO: Cloudflare dashboard requires login; no account setting changed. External GA4 receipt, Facebook cache/in-app rendering and AdSense evaluation remain outside this local verification.

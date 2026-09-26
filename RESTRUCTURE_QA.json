@@ -1,0 +1,233 @@
+{
+  "base": "http://127.0.0.1:8094",
+  "at": "2026-09-26T17:07:06.224Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/quiz/classmate/",
+      "status": 200
+    },
+    {
+      "route": "/games/reaction-speed/",
+      "status": 200
+    },
+    {
+      "route": "/games/memory-challenge/",
+      "status": 200
+    },
+    {
+      "route": "/games/would-you-rather/",
+      "status": 200
+    },
+    {
+      "route": "/games/how-pinoy-are-you/",
+      "status": 200
+    },
+    {
+      "route": "/games/videoke-persona/",
+      "status": 200
+    },
+    {
+      "route": "/games/barkada-role/",
+      "status": 200
+    },
+    {
+      "route": "/games/pinoy-merienda/",
+      "status": 200
+    },
+    {
+      "route": "/games/pinoy-emoji-challenge/",
+      "status": 200
+    },
+    {
+      "route": "/games/hidden-love-language/",
+      "status": 200
+    },
+    {
+      "route": "/games/how-delulu-are-you/",
+      "status": 200
+    },
+    {
+      "route": "/games/pinoy-commute-persona/",
+      "status": 200
+    },
+    {
+      "route": "/games/family-gc-role/",
+      "status": 200
+    },
+    {
+      "route": "/games/pinoy-rainy-day-persona/",
+      "status": 200
+    },
+    {
+      "route": "/games/pinoy-fiesta-persona/",
+      "status": 200
+    },
+    {
+      "route": "/games/how-marites-are-you/",
+      "status": 200
+    },
+    {
+      "route": "/games/what-kind-of-overthinker/",
+      "status": 200
+    },
+    {
+      "route": "/games/selos-level/",
+      "status": 200
+    },
+    {
+      "route": "/games/red-flag-green-flag/",
+      "status": 200
+    },
+    {
+      "route": "/about/",
+      "status": 200
+    },
+    {
+      "route": "/contact/",
+      "status": 200
+    },
+    {
+      "route": "/privacy/",
+      "status": 200
+    },
+    {
+      "route": "/terms/",
+      "status": 200
+    },
+    {
+      "route": "/games/villain-era/",
+      "status": 200
+    },
+    {
+      "route": "/games/toxic-dating-habit/",
+      "status": 200
+    },
+    {
+      "route": "/games/date-yourself/",
+      "status": 200
+    },
+    {
+      "route": "/games/river-within/",
+      "status": 200
+    },
+    {
+      "route": "/games/house-in-the-woods/",
+      "status": 200
+    },
+    {
+      "route": "/games/need-to-know/",
+      "status": 200
+    },
+    {
+      "route": "/games/devils-offer/",
+      "status": 200
+    },
+    {
+      "route": "/games/memory-auction/",
+      "status": 200
+    },
+    {
+      "route": "/games/inner-weather/",
+      "status": 200
+    },
+    {
+      "route": "/games/perfect-escape/",
+      "status": 200
+    },
+    {
+      "route": "/categories/love/",
+      "status": 200
+    },
+    {
+      "route": "/categories/social/",
+      "status": 200
+    },
+    {
+      "route": "/categories/pinoy/",
+      "status": 200
+    },
+    {
+      "route": "/categories/personality/",
+      "status": 200
+    },
+    {
+      "route": "/categories/stories/",
+      "status": 200
+    },
+    {
+      "route": "/categories/challenges/",
+      "status": 200
+    }
+  ],
+  "results": 174,
+  "references": 1700,
+  "flows": [
+    "/quiz/classmate/",
+    "/games/reaction-speed/",
+    "/games/pinoy-emoji-challenge/",
+    "/games/red-flag-green-flag/",
+    "/games/villain-era/",
+    "/games/river-within/",
+    "/games/inner-weather/",
+    "/games/perfect-escape/"
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 390
+    },
+    {
+      "route": "/categories/love/",
+      "width": 390
+    },
+    {
+      "route": "/categories/social/",
+      "width": 390
+    },
+    {
+      "route": "/categories/pinoy/",
+      "width": 390
+    },
+    {
+      "route": "/categories/personality/",
+      "width": 390
+    },
+    {
+      "route": "/categories/stories/",
+      "width": 390
+    },
+    {
+      "route": "/categories/challenges/",
+      "width": 390
+    },
+    {
+      "route": "/",
+      "width": 360
+    },
+    {
+      "route": "/categories/personality/",
+      "width": 360
+    },
+    {
+      "route": "/games/perfect-escape/",
+      "width": 360
+    },
+    {
+      "route": "/",
+      "width": 1365
+    },
+    {
+      "route": "/categories/personality/",
+      "width": 1365
+    },
+    {
+      "route": "/games/perfect-escape/",
+      "width": 1365
+    }
+  ],
+  "errors": []
+}

@@ -297,3 +297,9 @@ Local-only; production remains the verified Perfect Escape release until final Q
 HC favicon, compact responsive navigation, footer and six indexable category pages built; 390px menu and overflow checks passed.
 
 Local-only; production remains the verified Perfect Escape release until final QA.
+
+## Site restructure — Phase 3 completed (2026-09-27)
+
+Homepage rebuilt with hero, curated Trending, latest six, six category sections, all 29 games and About.
+
+Local-only; production remains the verified Perfect Escape release until final QA.

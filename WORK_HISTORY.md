@@ -250,3 +250,22 @@ Production safe: Yes, unchanged
 Exact next step: Begin Phase 4; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
 Do not repeat: Completed phases 1–3
 [/RESUME_CHECKPOINT]
+
+## Site restructure — Phase 4 completed (2026-09-27)
+
+All 29 main games connected to their primary category and same-category related games; all are discoverable.
+
+Local-only; production remains the verified Perfect Escape release until final QA.
+
+[RESUME_CHECKPOINT]
+Last fully completed phase: 4
+Current phase: 5
+Completed: All 29 main games connected to their primary category and same-category related games; all are discoverable.
+NOT completed: Phases 5–7, publication and production verification
+Files changed: See phase commit
+Last commit: This phase commit
+Deployed: No
+Production safe: Yes, unchanged
+Exact next step: Begin Phase 5; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
+Do not repeat: Completed phases 1–4
+[/RESUME_CHECKPOINT]

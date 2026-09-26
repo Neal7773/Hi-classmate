@@ -269,3 +269,22 @@ Production safe: Yes, unchanged
 Exact next step: Begin Phase 5; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
 Do not repeat: Completed phases 1–4
 [/RESUME_CHECKPOINT]
+
+## Site restructure — Phase 5 completed (2026-09-27)
+
+Eight missing game-specific guides added from existing game data and flow; 21 existing guides preserved.
+
+Local-only; production remains the verified Perfect Escape release until final QA.
+
+[RESUME_CHECKPOINT]
+Last fully completed phase: 5
+Current phase: 6
+Completed: Eight missing game-specific guides added from existing game data and flow; 21 existing guides preserved.
+NOT completed: Phases 6–7, publication and production verification
+Files changed: See phase commit
+Last commit: This phase commit
+Deployed: No
+Production safe: Yes, unchanged
+Exact next step: Begin Phase 6; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
+Do not repeat: Completed phases 1–5
+[/RESUME_CHECKPOINT]

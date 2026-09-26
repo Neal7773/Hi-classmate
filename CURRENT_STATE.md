@@ -309,3 +309,9 @@ Local-only; production remains the verified Perfect Escape release until final Q
 All 29 main games connected to their primary category and same-category related games; all are discoverable.
 
 Local-only; production remains the verified Perfect Escape release until final QA.
+
+## Site restructure — Phase 5 completed (2026-09-27)
+
+Eight missing game-specific guides added from existing game data and flow; 21 existing guides preserved.
+
+Local-only; production remains the verified Perfect Escape release until final QA.

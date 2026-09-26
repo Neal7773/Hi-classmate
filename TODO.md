@@ -144,3 +144,9 @@ Only implement these items after they are selected or confirmed in Chat, unless 
 Inventory verified: 29 games, 174 results, six categories, eight missing guides and four missing GA4 loaders.
 
 Local-only; production remains the verified Perfect Escape release until final QA.
+
+## Site restructure — Phase 2 completed (2026-09-27)
+
+HC favicon, compact responsive navigation, footer and six indexable category pages built; 390px menu and overflow checks passed.
+
+Local-only; production remains the verified Perfect Escape release until final QA.

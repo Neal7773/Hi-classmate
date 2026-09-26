@@ -212,3 +212,22 @@ Production safe: Yes, unchanged
 Exact next step: Begin Phase 2; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
 Do not repeat: Completed phases 1–1
 [/RESUME_CHECKPOINT]
+
+## Site restructure — Phase 2 completed (2026-09-27)
+
+HC favicon, compact responsive navigation, footer and six indexable category pages built; 390px menu and overflow checks passed.
+
+Local-only; production remains the verified Perfect Escape release until final QA.
+
+[RESUME_CHECKPOINT]
+Last fully completed phase: 2
+Current phase: 3
+Completed: HC favicon, compact responsive navigation, footer and six indexable category pages built; 390px menu and overflow checks passed.
+NOT completed: Phases 3–7, publication and production verification
+Files changed: See phase commit
+Last commit: This phase commit
+Deployed: No
+Production safe: Yes, unchanged
+Exact next step: Begin Phase 3; use RESTRUCTURE_INVENTORY.json, do not repeat inventory
+Do not repeat: Completed phases 1–2
+[/RESUME_CHECKPOINT]

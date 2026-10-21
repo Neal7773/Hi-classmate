@@ -345,3 +345,18 @@ Production safe: Yes, checked
 Exact next step: No implementation remains. If requested, log in to Cloudflare and enable HTTP→HTTPS; user handles AdSense Review Request
 Do not repeat: Inventory, implementation phases, completed local/production QA
 [/RESUME_CHECKPOINT]
+
+## Build Your Dream Room — 2026-10-22
+
+Build Your Dream Room at /games/dream-room/ is game 30, in Personality. Eight exact decorating steps with four choices each update an original layered SVG room. Six original identities use current choices, primary +2/secondary +1 scoring and latest-relevant-weight tie breaking. Results retain the actual room and show three feature-specific observations. User-initiated PNG export preserves all choices (1200×840); Facebook shares one of six static room-type cards, clearly distinguished in the UI. Existing navigation, footer, analytics, guide and metadata conventions reused. Seven 1200×630 room social cards, six noindex/main-canonical result pages, new-game/category/catalog/sitemap entries; latest six homepage list retained. No existing game logic, result assets, shared runtime, ads.txt or ad state changed.
+
+Lightweight QA: 22 representative/mixed paths with three top-score ties; six outcomes reachable; incomplete/invalid inputs rejected. All 32 option scenes rasterize differently within each step. 390px six-result flows plus Back/edit/replay/keyboard/share checks; 360px and desktop representative screens. Mobile/desktop PNG downloads exactly match browser-rendered selected scenes. Unsupported export fallback checked. Seven new page references and images verified. Inner Weather and Perfect Escape start smoke passed. Zero browser errors or major overflow. No exhaustive 65,536-sequence testing. Production not yet verified.
+
+[RESUME_CHECKPOINT]
+Completed: Implementation and lightweight local QA, 30 games/180 results/41 sitemap routes
+Remaining work: Push and production verification
+Last commit: This implementation commit
+Local/deployed status: Local only; production unchanged
+Exact next step: Push main via existing authorized GitHub remote; run verify-room-production.cjs
+Do not repeat: Implementation, 22-path QA, six-result local flows or image generation
+[/RESUME_CHECKPOINT]

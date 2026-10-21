@@ -1,6 +1,6 @@
 # CURRENT STATE — Hi Classmate
 
-Snapshot date: 2026-09-27
+Snapshot date: 2026-10-22
 Latest production implementation: site restructure b63ca5e, published and verified 2026-09-27. See final report below; earlier dated sections are historical.
 
 ## Production and architecture
@@ -335,3 +335,11 @@ HTTP→HTTPS remains a P2 TODO: Cloudflare dashboard requires login; no account 
 Published implementation b63ca5e via existing GitHub main → Cloudflare. Production QA at 2026-09-26T17:09:42.216Z: 40 main/search-visible routes HTTP 200 with correct ownership/metadata; sitemap/robots/ads/favicon/CSS confirmed. 13 layout checks and Perfect Escape full flow/share/replay passed; zero page errors. All 174 result policies/references checked locally; representative live result checked. Previous local-only/pending notes are historical and resolved. All 21 pre-existing guide bodies preserved. Four GA4 page_view IDs confirmed locally.
 
 Current: 29 games / 174 results / six categories / 40 sitemap URLs. No P0/P1 found. P2 HTTP→HTTPS deferred because Cloudflare requires login; HTTP root remains 200. No live ads or AdSense review request. Full report: SITE_RESTRUCTURE_CHAT_HANDOFF.md.
+
+## Build Your Dream Room — 2026-10-22 (local, deployment pending)
+
+Build Your Dream Room at /games/dream-room/ is game 30, in Personality. Eight exact decorating steps with four choices each update an original layered SVG room. Six original identities use current choices, primary +2/secondary +1 scoring and latest-relevant-weight tie breaking. Results retain the actual room and show three feature-specific observations. User-initiated PNG export preserves all choices (1200×840); Facebook shares one of six static room-type cards, clearly distinguished in the UI. Existing navigation, footer, analytics, guide and metadata conventions reused. Seven 1200×630 room social cards, six noindex/main-canonical result pages, new-game/category/catalog/sitemap entries; latest six homepage list retained. No existing game logic, result assets, shared runtime, ads.txt or ad state changed.
+
+Lightweight QA: 22 representative/mixed paths with three top-score ties; six outcomes reachable; incomplete/invalid inputs rejected. All 32 option scenes rasterize differently within each step. 390px six-result flows plus Back/edit/replay/keyboard/share checks; 360px and desktop representative screens. Mobile/desktop PNG downloads exactly match browser-rendered selected scenes. Unsupported export fallback checked. Seven new page references and images verified. Inner Weather and Perfect Escape start smoke passed. Zero browser errors or major overflow. No exhaustive 65,536-sequence testing. Production not yet verified.
+
+Actual local inventory: 30 games / 180 result pages / 6 categories / 41 sitemap routes.

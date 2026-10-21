@@ -122,3 +122,7 @@ Implement only the approved Perfect Escape game using copied, verified Inner Wea
 ## Site restructure — 2026-09-27
 
 User authorized the complete supplied seven-phase restructure. Shared navigation, homepage curation, six category pages, main-game category links and missing guides may change across existing games. Preserve game controls, questions, scoring, result URLs and social assets. This explicitly supersedes the old fixed Featured/homepage organization only for this scope. Category assignments are recorded in RESTRUCTURE_INVENTORY.json. No live ads or AdSense review submission.
+
+## Build Your Dream Room — 2026-10-22
+
+Implement only the supplied visual room-decorating specification. The persistent room preview with eight visual choices replaces the ordinary quiz-card pattern for this game only. Original self-contained SVG layers are reused for preview, exported PNG and type cards; no external images, AI bitmap generation, backend or global engine refactor. Current-answer raw weighted scores (not normalized ratios) follow the supplied spec. Facebook is a headline/type card; the actual personalized room is downloaded locally. Existing games and site design remain unchanged.

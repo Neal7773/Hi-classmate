@@ -187,3 +187,10 @@ Local-only; production remains the verified Perfect Escape release until final Q
 Published implementation b63ca5e via existing GitHub main → Cloudflare. Production QA at 2026-09-26T17:09:42.216Z: 40 main/search-visible routes HTTP 200 with correct ownership/metadata; sitemap/robots/ads/favicon/CSS confirmed. 13 layout checks and Perfect Escape full flow/share/replay passed; zero page errors. All 174 result policies/references checked locally; representative live result checked. Previous local-only/pending notes are historical and resolved. All 21 pre-existing guide bodies preserved. Four GA4 page_view IDs confirmed locally.
 
 Current: 29 games / 174 results / six categories / 40 sitemap URLs. No P0/P1 found. P2 HTTP→HTTPS deferred because Cloudflare requires login; HTTP root remains 200. No live ads or AdSense review request. Full report: SITE_RESTRUCTURE_CHAT_HANDOFF.md.
+
+## Build Your Dream Room — 2026-10-22
+
+- [x] Eight-step visual designer, six identities, PNG export, static sharing, guide, GA4 and discovery integration.
+- [x] Representative logic, all 32 layers, mobile/desktop export, Back/edit/replay and two existing-game smoke tests.
+- [ ] Publish using existing GitHub → Cloudflare and verify production.
+- [ ] External: actual Facebook in-app download/preview behavior, Sharing Debugger cache and live GA4 receipt.

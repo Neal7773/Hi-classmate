@@ -1,7 +1,7 @@
 # CURRENT STATE — Hi Classmate
 
 Snapshot date: 2026-10-22
-Latest production implementation: site restructure b63ca5e, published and verified 2026-09-27. See final report below; earlier dated sections are historical.
+Latest production implementation: Build Your Dream Room e5859dd, published and verified 2026-10-22. Current counts: 30 games / 180 results / 41 sitemap routes. Earlier dated release sections are historical.
 
 ## Production and architecture
 
@@ -16,9 +16,9 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 
 ## Implemented site areas
 
-- Homepage: branded hero, editorial Trending, latest six New Games, six category sections, Browse All Games and About; WebSite/29-game ItemList.
+- Homepage: branded hero, editorial Trending, latest six New Games, six category sections, Browse All Games and About; WebSite/30-game ItemList.
 - Trust pages: About, Contact, Privacy, and Terms.
-- Search files: robots Allow policy retained; sitemap covers homepage, 29 main games, six categories and four trust pages (40 routes).
+- Search files: robots Allow policy retained; sitemap covers homepage, 30 main games, six categories and four trust pages (41 routes).
 - Shared GA4 loader in `analytics.js`; it detects referral/UTM/Facebook traffic and adds `quiz_id` plus `traffic_source` to tracked events.
 - Shared footer links and shared pre-game share-button styling for games.
 
@@ -55,6 +55,8 @@ Forward-only UI preference refined on 2026-09-18 after Need to Know feedback: Ke
 | `/games/memory-auction/` | Memory-trading personality test | Eight sell/keep decisions; desired future plus protected memories, five results, review and lower start/share controls. |
 | `/games/inner-weather/` | Universal weather personality test | 8 four-choice questions, 6 normalized deterministic types, full Deep Dive/Chemistry, six result cards/pages, guide, GA4 and sharing. |
 | `/games/perfect-escape/` | Travel/lifestyle personality test | 8 four-choice questions, 6 normalized deterministic escapes, full Escape Style/Travel Chemistry, guide, six share pages/cards, GA4 and sharing. |
+
+| `/games/dream-room/` | Visual room designer | Eight decorating choices, 32 SVG layer alternatives, six room identities, feature-based observations, exact PNG export and type-card Facebook sharing. |
 
 ## Current content direction — 2026-09-17
 
@@ -343,3 +345,9 @@ Build Your Dream Room at /games/dream-room/ is game 30, in Personality. Eight ex
 Lightweight QA: 22 representative/mixed paths with three top-score ties; six outcomes reachable; incomplete/invalid inputs rejected. All 32 option scenes rasterize differently within each step. 390px six-result flows plus Back/edit/replay/keyboard/share checks; 360px and desktop representative screens. Mobile/desktop PNG downloads exactly match browser-rendered selected scenes. Unsupported export fallback checked. Seven new page references and images verified. Inner Weather and Perfect Escape start smoke passed. Zero browser errors or major overflow. No exhaustive 65,536-sequence testing. Production not yet verified.
 
 Actual local inventory: 30 games / 180 result pages / 6 categories / 41 sitemap routes.
+
+## Build Your Dream Room production verified — 2026-10-22
+
+Implementation e5859dd published to Neal7773/Hi-classmate main via the existing Cloudflare flow. Production validation at 2026-10-21T18:36:30.160Z: all 26 requested main/result/runtime/image/discovery/technical/smoke URLs returned HTTP 200; new HTML/runtime matched the verified release. Live 390px completed Minimal Zen, main/result Facebook target capture, actual PNG download, analytics event wiring and replay with zero page errors/overflow. GA4 server receipt and real Facebook in-app/cache behavior remain external checks.
+
+Current inventory: 30 main games / 180 result pages / 6 categories / 41 sitemap routes. Only the new game, homepage New Games/all-game ItemList/catalog, Personality category, sitemap and state documents changed. Existing 29 game implementations, 174 result pages and social assets unchanged. ads.txt unchanged; no live ads or review request. No P0/P1 or new P2 found in tested scope. Prior local/pending notes for this release are resolved.

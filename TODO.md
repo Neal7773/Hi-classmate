@@ -192,5 +192,11 @@ Current: 29 games / 174 results / six categories / 40 sitemap URLs. No P0/P1 fou
 
 - [x] Eight-step visual designer, six identities, PNG export, static sharing, guide, GA4 and discovery integration.
 - [x] Representative logic, all 32 layers, mobile/desktop export, Back/edit/replay and two existing-game smoke tests.
-- [ ] Publish using existing GitHub → Cloudflare and verify production.
+- [x] Published e5859dd via existing GitHub → Cloudflare; 26 live URL checks and mobile play/share/PNG/replay passed.
 - [ ] External: actual Facebook in-app download/preview behavior, Sharing Debugger cache and live GA4 receipt.
+
+## Build Your Dream Room production verified — 2026-10-22
+
+Implementation e5859dd published to Neal7773/Hi-classmate main via the existing Cloudflare flow. Production validation at 2026-10-21T18:36:30.160Z: all 26 requested main/result/runtime/image/discovery/technical/smoke URLs returned HTTP 200; new HTML/runtime matched the verified release. Live 390px completed Minimal Zen, main/result Facebook target capture, actual PNG download, analytics event wiring and replay with zero page errors/overflow. GA4 server receipt and real Facebook in-app/cache behavior remain external checks.
+
+Current inventory: 30 main games / 180 result pages / 6 categories / 41 sitemap routes. Only the new game, homepage New Games/all-game ItemList/catalog, Personality category, sitemap and state documents changed. Existing 29 game implementations, 174 result pages and social assets unchanged. ads.txt unchanged; no live ads or review request. No P0/P1 or new P2 found in tested scope. Prior local/pending notes for this release are resolved.
